@@ -1,0 +1,2130 @@
+[
+  {
+    "qid": "Q10",
+    "type": "Series",
+    "label": "Special Report: Global Warming of 1.5°C",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157940",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157957",
+        "status": "added"
+      },
+      {
+        "prop": "Licence URL (DOI)",
+        "pid": "P32",
+        "value": "https://www.cambridge.org/core/terms",
+        "status": "added"
+      },
+      {
+        "prop": "Abstract (DOI)",
+        "pid": "P33",
+        "value": "The Intergovernmental Panel on Climate Change (IPCC) is the leading internationa",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q35",
+    "type": "Series",
+    "label": "Special Report: Climate Change and Land",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157988",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009158015",
+        "status": "added"
+      },
+      {
+        "prop": "Licence URL (DOI)",
+        "pid": "P32",
+        "value": "https://www.cambridge.org/core/terms",
+        "status": "added"
+      },
+      {
+        "prop": "Abstract (DOI)",
+        "pid": "P33",
+        "value": "The Intergovernmental Panel on Climate Change (IPCC) is the leading internationa",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q57",
+    "type": "Series",
+    "label": "Special Report: The Ocean and Cryosphere in a Changing Climate",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157964",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157971",
+        "status": "added"
+      },
+      {
+        "prop": "Licence URL (DOI)",
+        "pid": "P32",
+        "value": "https://www.cambridge.org/core/terms",
+        "status": "added"
+      },
+      {
+        "prop": "Abstract (DOI)",
+        "pid": "P33",
+        "value": "The Intergovernmental Panel on Climate Change (IPCC) is the leading internationa",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q77",
+    "type": "Series",
+    "label": "Working Group I: Climate Change 2021 – The Physical Science Basis",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157896",
+        "status": "added"
+      },
+      {
+        "prop": "Licence URL (DOI)",
+        "pid": "P32",
+        "value": "https://www.cambridge.org/core/terms",
+        "status": "added"
+      },
+      {
+        "prop": "Abstract (DOI)",
+        "pid": "P33",
+        "value": "The Working Group I contribution to the Sixth Assessment Report of the Intergove",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q106",
+    "type": "Series",
+    "label": "Working Group II: Climate Change 2022 – Impacts, Adaptation and Vulnerability",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      },
+      {
+        "prop": "Licence URL (DOI)",
+        "pid": "P32",
+        "value": "https://www.cambridge.org/core/terms",
+        "status": "added"
+      },
+      {
+        "prop": "Abstract (DOI)",
+        "pid": "P33",
+        "value": "The Working Group II contribution to the Sixth Assessment Report of the Intergov",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q150",
+    "type": "Series",
+    "label": "Working Group III: Climate Change 2022 – Mitigation of Climate Change",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      },
+      {
+        "prop": "Licence URL (DOI)",
+        "pid": "P32",
+        "value": "https://www.cambridge.org/core/terms",
+        "status": "added"
+      },
+      {
+        "prop": "Abstract (DOI)",
+        "pid": "P33",
+        "value": "This Working Group III contribution to the IPCC Sixth Assessment Report provides",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q189",
+    "type": "Series",
+    "label": "Climate Change 2023: Synthesis Report. Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Intergovernmental Panel on Climate Change (IPCC)",
+        "status": "added"
+      },
+      {
+        "prop": "Abstract (DOI)",
+        "pid": "P33",
+        "value": "The Synthesis Report (SYR) is a stand-alone synthesis of the most policy-relevan",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q14",
+    "type": "Chapter",
+    "label": "Summary for Policymakers",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157940",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157957",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q17",
+    "type": "Chapter",
+    "label": "Technical Summary",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157940",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157957",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q21",
+    "type": "Chapter",
+    "label": "Framing and Context",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157940",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157957",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q24",
+    "type": "Chapter",
+    "label": "Mitigation Pathways Compatible with 1.5°C in the Context of Sustainable Development",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157940",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157957",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q26",
+    "type": "Chapter",
+    "label": "Impacts of 1.5°C Global Warming on Natural and Human Systems",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157940",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157957",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q30",
+    "type": "Chapter",
+    "label": "Strengthening and Implementing the Global Response",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157940",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157957",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q33",
+    "type": "Chapter",
+    "label": "Sustainable Development, Poverty Eradication and Reducing Inequalities",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157940",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157957",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q38",
+    "type": "Chapter",
+    "label": "Summary for Policymakers",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157988",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009158015",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q41",
+    "type": "Chapter",
+    "label": "Technical Summary",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157988",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009158015",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q44",
+    "type": "Chapter",
+    "label": "Framing and context",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157988",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009158015",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q45",
+    "type": "Chapter",
+    "label": "Land–climate interactions",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157988",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009158015",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q48",
+    "type": "Chapter",
+    "label": "Desertification",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157988",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009158015",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q50",
+    "type": "Chapter",
+    "label": "Land degradation",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157988",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009158015",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q53",
+    "type": "Chapter",
+    "label": "Food security",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157988",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009158015",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q54",
+    "type": "Chapter",
+    "label": "Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes: Synergies, trade-offs and integrated response options",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157988",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009158015",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q55",
+    "type": "Chapter",
+    "label": "Risk management and decision-making in relation to sustainable development",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157988",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009158015",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q60",
+    "type": "Chapter",
+    "label": "Summary for Policymakers",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157964",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157971",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q61",
+    "type": "Chapter",
+    "label": "Technical Summary",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157964",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157971",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q64",
+    "type": "Chapter",
+    "label": "Framing and Context of the Report",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157964",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157971",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q67",
+    "type": "Chapter",
+    "label": "High Mountain Areas",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157964",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157971",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q69",
+    "type": "Chapter",
+    "label": "Polar Regions",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157964",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157971",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q71",
+    "type": "Chapter",
+    "label": "Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157964",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157971",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q72",
+    "type": "Chapter",
+    "label": "Changing Ocean, Marine Ecosystems, and Dependent Communities",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157964",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157971",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q74",
+    "type": "Chapter",
+    "label": "Extremes, Abrupt Changes and Managing Risks",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157964",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157971",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q76",
+    "type": "Chapter",
+    "label": "Integrative Cross-Chapter Box on Low-lying Islands and Coasts",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157964",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Print (DOI)",
+        "pid": "P31",
+        "value": "9781009157971",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q79",
+    "type": "Chapter",
+    "label": "Summary for Policymakers",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157896",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q80",
+    "type": "Chapter",
+    "label": "Technical Summary",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157896",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q83",
+    "type": "Chapter",
+    "label": "Framing, Context, and Methods",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157896",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q85",
+    "type": "Chapter",
+    "label": "Changing State of the Climate System",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157896",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q87",
+    "type": "Chapter",
+    "label": "Human Influence on the Climate System",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157896",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q88",
+    "type": "Chapter",
+    "label": "Future Global Climate: Scenario-based Projections and Near-term Information",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157896",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q90",
+    "type": "Chapter",
+    "label": "Global Carbon and Other Biogeochemical Cycles and Feedbacks",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157896",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q93",
+    "type": "Chapter",
+    "label": "Short-lived Climate Forcers",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157896",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q95",
+    "type": "Chapter",
+    "label": "The Earth’s Energy Budget, Climate Feedbacks and Climate Sensitivity",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157896",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q96",
+    "type": "Chapter",
+    "label": "Water Cycle Changes",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157896",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q98",
+    "type": "Chapter",
+    "label": "Ocean, Cryosphere and Sea Level Change",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157896",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q100",
+    "type": "Chapter",
+    "label": "Linking Global to Regional Climate Change",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157896",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q101",
+    "type": "Chapter",
+    "label": "Weather and Climate Extreme Events in a Changing Climate",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157896",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q103",
+    "type": "Chapter",
+    "label": "Climate Change Information for Regional Impact and for Risk Assessment",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157896",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q104",
+    "type": "Chapter",
+    "label": "Atlas",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157896",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q107",
+    "type": "Chapter",
+    "label": "Summary for Policymakers",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q109",
+    "type": "Chapter",
+    "label": "Technical Summary",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q111",
+    "type": "Chapter",
+    "label": "Point of Departure and Key Concepts",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q112",
+    "type": "Chapter",
+    "label": "Terrestrial and Freshwater Ecosystems and Their Services",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q114",
+    "type": "Chapter",
+    "label": "Oceans and Coastal Ecosystems and Their Services",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q116",
+    "type": "Chapter",
+    "label": "Water",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q117",
+    "type": "Chapter",
+    "label": "Food, Fibre and Other Ecosystem Products",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q120",
+    "type": "Chapter",
+    "label": "Cities, Settlements and Key Infrastructure",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q123",
+    "type": "Chapter",
+    "label": "Health, Wellbeing and the Changing Structure of Communities",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q125",
+    "type": "Chapter",
+    "label": "Poverty, Livelihoods and Sustainable Development",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q126",
+    "type": "Chapter",
+    "label": "Africa",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q127",
+    "type": "Chapter",
+    "label": "Asia",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q128",
+    "type": "Chapter",
+    "label": "Australasia",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q129",
+    "type": "Chapter",
+    "label": "Central and South America",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q130",
+    "type": "Chapter",
+    "label": "Europe",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q131",
+    "type": "Chapter",
+    "label": "North America",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q132",
+    "type": "Chapter",
+    "label": "Small Islands",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q133",
+    "type": "Chapter",
+    "label": "Key Risks across Sectors and Regions",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q135",
+    "type": "Chapter",
+    "label": "Decision-Making Options for Managing Risk",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q136",
+    "type": "Chapter",
+    "label": "Climate Resilient Development Pathways",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q140",
+    "type": "Chapter",
+    "label": "Biodiversity Hotspots",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q141",
+    "type": "Chapter",
+    "label": "Cities and Settlements by the Sea",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q142",
+    "type": "Chapter",
+    "label": "Deserts, Semiarid Areas and Desertification",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q143",
+    "type": "Chapter",
+    "label": "Mediterranean Region",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q145",
+    "type": "Chapter",
+    "label": "Mountains",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q146",
+    "type": "Chapter",
+    "label": "Polar Regions",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q149",
+    "type": "Chapter",
+    "label": "Tropical Forests",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009325844",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q151",
+    "type": "Chapter",
+    "label": "Summary for Policymakers",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q152",
+    "type": "Chapter",
+    "label": "Technical Summary",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q154",
+    "type": "Chapter",
+    "label": "Introduction and Framing",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q157",
+    "type": "Chapter",
+    "label": "Emissions Trends and Drivers",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q158",
+    "type": "Chapter",
+    "label": "Mitigation Pathways Compatible with Long-term Goals",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q160",
+    "type": "Chapter",
+    "label": "Mitigation and Development Pathways in the Near to Mid-term",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q164",
+    "type": "Chapter",
+    "label": "Demand, Services and Social Aspects of Mitigation",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q168",
+    "type": "Chapter",
+    "label": "Energy Systems",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q170",
+    "type": "Chapter",
+    "label": "Agriculture, Forestry and Other Land Uses (AFOLU)",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q172",
+    "type": "Chapter",
+    "label": "Urban Systems and Other Settlements",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q174",
+    "type": "Chapter",
+    "label": "Buildings",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q176",
+    "type": "Chapter",
+    "label": "Transport",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q178",
+    "type": "Chapter",
+    "label": "Industry",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q179",
+    "type": "Chapter",
+    "label": "Cross-sectoral Perspectives",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q181",
+    "type": "Chapter",
+    "label": "National and Sub-national Policies and Institutions",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q183",
+    "type": "Chapter",
+    "label": "International Cooperation",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q184",
+    "type": "Chapter",
+    "label": "Investment and Finance",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q186",
+    "type": "Chapter",
+    "label": "Innovation, Technology Development and Transfer",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q188",
+    "type": "Chapter",
+    "label": "Accelerating the Transition in the Context of Sustainable Development",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Cambridge University Press",
+        "status": "added"
+      },
+      {
+        "prop": "ISBN Electronic (DOI)",
+        "pid": "P30",
+        "value": "9781009157926",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q190",
+    "type": "Chapter",
+    "label": "Summary for Policymakers",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Intergovernmental Panel on Climate Change (IPCC)",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "qid": "Q192",
+    "type": "Chapter",
+    "label": "Longer Report",
+    "statements": [
+      {
+        "prop": "Publisher (DOI)",
+        "pid": "P29",
+        "value": "Intergovernmental Panel on Climate Change (IPCC)",
+        "status": "added"
+      }
+    ],
+    "status": "ok"
+  }
+]

@@ -1,0 +1,76 @@
+Chapter_QID_URL,Chapter_Label,Report,Chapter
+http://localhost:8080/entity/Q21 ,Framing and Context,SR1.5,Chapter 1: Framing and Context
+http://localhost:8080/entity/Q24 ,Mitigation Pathways Compatible with 1.5°C in the Context of Sustainable Development,SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development
+http://localhost:8080/entity/Q26 ,Impacts of 1.5°C Global Warming on Natural and Human Systems,SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems
+http://localhost:8080/entity/Q30 ,Strengthening and Implementing the Global Response,SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change
+http://localhost:8080/entity/Q33 ,"Sustainable Development, Poverty Eradication and Reducing Inequalities",SR1.5,"Chapter 5: Sustainable development, poverty eradication, and reducing inequalities"
+http://localhost:8080/entity/Q44 ,Framing and context,SRCCL,Chapter 1: Framing and Context
+http://localhost:8080/entity/Q45 ,Land–climate interactions,SRCCL,Chapter 2: Land-Climate Interactions
+http://localhost:8080/entity/Q48 ,Desertification,SRCCL,Chapter 3: Desertification
+http://localhost:8080/entity/Q50 ,Land degradation,SRCCL,Chapter 4: Land Degradation
+http://localhost:8080/entity/Q53 ,Food security,SRCCL,Chapter 5: Food Security
+http://localhost:8080/entity/Q54 ,"Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes: Synergies, trade-offs and integrated response options",SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options"
+http://localhost:8080/entity/Q55 ,Risk management and decision-making in relation to sustainable development,SRCCL,Chapter 7: Risk management and decision making in relation to sustainable development
+http://localhost:8080/entity/Q64 ,Framing and Context of the Report,SROCC,Chapter 1: Framing and Context of the Report
+http://localhost:8080/entity/Q67 ,High Mountain Areas,SROCC,Chapter 2: High Mountain Areas
+http://localhost:8080/entity/Q69 ,Polar Regions,SROCC,Chapter 3: Polar Regions
+http://localhost:8080/entity/Q71 ,"Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities",SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities"
+http://localhost:8080/entity/Q72 ,"Changing Ocean, Marine Ecosystems, and Dependent Communities",SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities"
+http://localhost:8080/entity/Q74 ,"Extremes, Abrupt Changes and Managing Risks",SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks"
+http://localhost:8080/entity/Q192 ,Longer Report,SYR,LR
+http://localhost:8080/entity/Q190 ,Summary for Policymakers,SYR,SPM
+http://localhost:8080/entity/Q104  ,Atlas,WGI,ATLAS
+http://localhost:8080/entity/Q100  ,Linking Global to Regional Climate Change,WGI,Chapter 10: Linking global to regional climate change
+http://localhost:8080/entity/Q101  ,Weather and Climate Extreme Events in a Changing Climate,WGI,Chapter 11: Weather and climate extreme events in a changing climate
+http://localhost:8080/entity/Q103  ,Climate Change Information for Regional Impact and for Risk Assessment,WGI,Chapter 12: Climate change information for regional impact and for risk assessment
+http://localhost:8080/entity/Q83  ,"Framing, Context, and Methods",WGI,"Chapter 1: Framing, context, methods"
+http://localhost:8080/entity/Q85  ,Changing State of the Climate System,WGI,Chapter 2: Changing state of the climate system
+http://localhost:8080/entity/Q87  ,Human Influence on the Climate System,WGI,Chapter 3: Human influence on the climate system
+http://localhost:8080/entity/Q88  ,Future Global Climate: Scenario-based Projections and Near-term Information,WGI,Chapter 4: Future global climate: scenario-based projections and near-term information
+http://localhost:8080/entity/Q90  ,Global Carbon and Other Biogeochemical Cycles and Feedbacks,WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks
+http://localhost:8080/entity/Q93  ,Short-lived Climate Forcers,WGI,Chapter 6: Short-lived climate forcers
+http://localhost:8080/entity/Q95  ,"The Earth’s Energy Budget, Climate Feedbacks and Climate Sensitivity",WGI,"Chapter 7: The Earth's energy budget, climate feedbacks, and climate sensitivity"
+http://localhost:8080/entity/Q96  ,Water Cycle Changes,WGI,Chapter 8: Water cycle changes
+http://localhost:8080/entity/Q98  ,"Ocean, Cryosphere and Sea Level Change",WGI,"Chapter 9: Ocean, cryosphere, and sea level change"
+http://localhost:8080/entity/Q127,Asia,WGII,Chapter 10: Asia
+http://localhost:8080/entity/Q128,Australasia,WGII,Chapter 11: Australasia
+http://localhost:8080/entity/Q129,Central and South America,WGII,Chapter 12: Central and South America
+http://localhost:8080/entity/Q130,Europe,WGII,Chapter 13: Europe
+http://localhost:8080/entity/Q131,North America,WGII,Chapter 14: North America
+http://localhost:8080/entity/Q132,Small Islands,WGII,Chapter 15: Small Islands
+http://localhost:8080/entity/Q133,Key Risks across Sectors and Regions,WGII,Chapter 16: Key risks across sectors and regions
+http://localhost:8080/entity/Q135,Decision-Making Options for Managing Risk,WGII,Chapter 17: Decision-making options for managing risk
+http://localhost:8080/entity/Q136,Climate Resilient Development Pathways,WGII,Chapter 18: Climate resilient development pathways
+http://localhost:8080/entity/Q111,Point of Departure and Key Concepts,WGII,Chapter 1: Point of departure and key concepts
+http://localhost:8080/entity/Q112,Terrestrial and Freshwater Ecosystems and Their Services,WGII,Chapter 2: Terrestrial and freshwater ecosystems and their services
+http://localhost:8080/entity/Q114,Oceans and Coastal Ecosystems and Their Services,WGII,Chapter 3: Ocean and coastal ecosystems and their services
+http://localhost:8080/entity/Q116,Water,WGII,Chapter 4: Water
+http://localhost:8080/entity/Q117,"Food, Fibre and Other Ecosystem Products",WGII,"Chapter 5: Food, fibre, and other ecosystem products"
+http://localhost:8080/entity/Q120,"Cities, Settlements and Key Infrastructure",WGII,"Chapter 6: Cities, settlements and key infrastructure"
+http://localhost:8080/entity/Q123,"Health, Wellbeing and the Changing Structure of Communities",WGII,"Chapter 7: Health, wellbeing and the changing structure of communities"
+http://localhost:8080/entity/Q125,"Poverty, Livelihoods and Sustainable Development",WGII,"Chapter 8: Poverty, livelihoods and sustainable development"
+http://localhost:8080/entity/Q126,Africa,WGII,Chapter 9: Africa
+http://localhost:8080/entity/Q140,Biodiversity Hotspots,WGII,Cross-Chapter Paper: Biodiversity Hotspots
+http://localhost:8080/entity/Q141,Cities and Settlements by the Sea,WGII,Cross-Chapter Paper: Cities and Settlements by the Sea
+http://localhost:8080/entity/Q142,"Deserts, Semiarid Areas and Desertification",WGII,"Cross-Chapter Paper: Deserts, Semi-arid Areas, and Desertification"
+http://localhost:8080/entity/Q143,Mediterranean Region,WGII,Cross-Chapter Paper: Mediterranean Region
+http://localhost:8080/entity/Q145,Mountains,WGII,Cross-Chapter Paper: Mountains
+http://localhost:8080/entity/Q146,Polar Regions,WGII,Cross-Chapter Paper: Polar Regions
+http://localhost:8080/entity/Q149,Tropical Forests,WGII,Cross-Chapter Paper: Tropical Forests
+http://localhost:8080/entity/Q176,Transport,WGIII,Chapter 10: Transport
+http://localhost:8080/entity/Q178,Industry,WGIII,Chapter 11: Industry
+http://localhost:8080/entity/Q179,Cross-sectoral Perspectives,WGIII,Chapter 12: Cross sectoral perspectives
+http://localhost:8080/entity/Q181,National and Sub-national Policies and Institutions,WGIII,Chapter 13: National and sub-national policies and institutions
+http://localhost:8080/entity/Q183,International Cooperation,WGIII,Chapter 14: International cooperation
+http://localhost:8080/entity/Q184,Investment and Finance,WGIII,Chapter 15: Investment and finance
+http://localhost:8080/entity/Q186,"Innovation, Technology Development and Transfer",WGIII,"Chapter 16: Innovation, technology development and transfer"
+http://localhost:8080/entity/Q188,Accelerating the Transition in the Context of Sustainable Development,WGIII,Chapter 17: Accelerating the transition in the context of sustainable development
+http://localhost:8080/entity/Q154,Introduction and Framing,WGIII,Chapter 1: Introduction and Framing
+http://localhost:8080/entity/Q157,Emissions Trends and Drivers,WGIII,Chapter 2: Emissions trends and drivers
+http://localhost:8080/entity/Q158,Mitigation Pathways Compatible with Long-term Goals,WGIII,Chapter 3: Mitigation pathways compatible with long-term goals
+http://localhost:8080/entity/Q160,Mitigation and Development Pathways in the Near to Mid-term,WGIII,Chapter 4: Mitigation and development pathways in the near-to mid-term
+http://localhost:8080/entity/Q164,"Demand, Services and Social Aspects of Mitigation",WGIII,"Chapter 5: Demand, services and social aspects of mitigation"
+http://localhost:8080/entity/Q168,Energy Systems,WGIII,Chapter 6: Energy systems
+http://localhost:8080/entity/Q170,"Agriculture, Forestry and Other Land Uses (AFOLU)",WGIII,"Chapter 7: Agriculture, Forestry, and Other Land Uses (AFOLU)"
+http://localhost:8080/entity/Q172,Urban Systems and Other Settlements,WGIII,Chapter 8: Urban systems and other settlements
+http://localhost:8080/entity/Q174,Buildings,WGIII,Chapter 9: Buildings

@@ -1,0 +1,3000 @@
+Report,CountIfs,Acronym,Description
+SR1.5,1,μatm,Microatmospheres
+SR1.5,1,1.5DS,1.5 Degree Scenario
+SR1.5,1,2DS,2 Degree Scenario
+SR1.5,2,ACCESS,Australian Community Climate and Earth-System Simulator
+SR1.5,2,ACCMIP,Atmospheric Chemistry and Climate Model Intercomparison Project
+SR1.5,1,ACCRN,The Asian Cities Climate Change Resilience Network
+SR1.5,1,ACOLA,Australian Council of Learned Academies
+SR1.5,1,ACs,Air Conditioners
+SR1.5,3,ADB,Asian Development Bank
+SR1.5,1,ADVANCE,Advanced Model Development and Validation for the Improved Analysis of Costs and Impacts of Mitigation Policies
+SR1.5,1,AEZ,Agro-Ecological Zone
+SR1.5,2,AfDB,African Development Bank
+SR1.5,6,AFOLU,"Agriculture, Forestry and Other Land-Use"
+SR1.5,2,AGCM,Atmospheric General Circulation Model
+SR1.5,4,AI,Artificial Intelligence
+SR1.5,1,AIM,Asia-Pacific Integrated Model
+SR1.5,1,ALA,Alaska/Northwest Canada
+SR1.5,1,AMAP,Arctic Monitoring and Assessment Programme
+SR1.5,4,AMOC,Atlantic Meridional Overturning Circulation
+SR1.5,1,AMP,Adjusting Mitigation Pathway
+SR1.5,1,AMZ,Amazon
+SR1.5,1,ANT,Antarctica
+SR1.5,1,APEX,Air Pollutants Exposure Model
+SR1.5,4,AR,Afforestation and Reforestation
+SR1.5,5,AR4,IPCC Fourth Assessment Report
+SR1.5,7,AR5,IPCC Fifth Assessment Report
+SR1.5,6,AR6,IPCC Sixth Assessment Report
+SR1.5,3,ARC,Arctic
+SR1.5,2,ASEAN,Association of Southeast Asian Nations
+SR1.5,1,ASIA,Non-OECD Asia
+SR1.5,1,AUD,Australian Dollar
+SR1.5,1,B2DS,Beyond 2 Degrees Scenario
+SR1.5,2,BASIC,"Brazil, South Africa, India, China"
+SR1.5,6,BC,Black Carbon
+SR1.5,1,BCC-CSM,Beijing Climate Center Climate System Model
+SR1.5,1,BCM,Bergen Climate Model
+SR1.5,7,BECCS,Bioenergy with Carbon dioxide Capture and Storage
+SR1.5,1,BET,"Basic Energy systems, Economy, Environment, and End-use Technology Model"
+SR1.5,2,BEV,Battery Electric Vehicle
+SR1.5,1,BNEF,Bloomberg New Energy Finance
+SR1.5,1,BNU,Beijing Normal University
+SR1.5,2,BRT,Bus Rapid Transit
+SR1.5,2,cm,Centimetres
+SR1.5,2,C,Carbon
+SR1.5,4,CA,Conservation Agriculture
+SR1.5,2,CAF,Corporacion Andina de Fomento (Development Bank of Latin America)
+SR1.5,3,CAM,Central America/Mexico or Community Atmosphere Model
+SR1.5,1,CAMx,Comprehensive Air Quality Model with Extensions
+SR1.5,1,CanESM,Canadian Earth System Model
+SR1.5,1,CanRCM,Canadian Regional Climate Model
+SR1.5,3,CAR,Small Islands Regions Caribbean
+SR1.5,1,CAS,Central Asia
+SR1.5,1,Cat-HM,Catchment-scale Hydrological Models
+SR1.5,6,CbA,Community-based Adaptation
+SR1.5,6,CBA,Cost-Benefit Analysis
+SR1.5,5,CBD,Convention on Biological Diversity
+SR1.5,1,CBDR-RC,Common But Differentiated Responsibilities and Respective Capabilities
+SR1.5,1,CBS & GNH,Centre for Bhutan Studies and Gross National Happiness Research
+SR1.5,2,CC,Carbon Capture
+SR1.5,1,CCAM,Conformal Cubic Atmospheric Model
+SR1.5,2,CCC,Constant Composition Commitment
+SR1.5,1,CCCma,Canadian Centre for Climate Modelling and Analysis
+SR1.5,4,CCRIF,Caribbean Catastrophe Risk Insurance Facility
+SR1.5,6,CCS,Carbon dioxide Capture and Storage
+SR1.5,1,CCSM,Community Climate System Model
+SR1.5,4,CCT,Cirrus Cloud Thinning
+SR1.5,5,CCU,Carbon dioxide Capture and Utilisation
+SR1.5,2,CCUS,"Carbon dioxide Capture, Utilisation and Storage"
+SR1.5,4,CDD,Consecutive Dry Days
+SR1.5,1,CD-LINKS,Linking Climate and Development Policies – Leveraging International Networks and Knowledge Sharing
+SR1.5,4,CDM,Clean Development Mechanism
+SR1.5,2,CDP,Carbon Disclosure Project
+SR1.5,7,CDR,Carbon Dioxide Removal
+SR1.5,3,CEA,Cost-Effectiveness Analysis
+SR1.5,2,CEC,Clean Energy Council
+SR1.5,3,CEDS,Community Emissions Data System
+SR1.5,1,CEMICS,"Contextualizing Climate Engineering and Mitigation: Illusion, Complement or Substitute?"
+SR1.5,2,CES,Constant Elasticity of Substitution
+SR1.5,2,CESM,Community Earth System Model
+SR1.5,1,CEU,Central Europe
+SR1.5,3,CFCs,Chlorofluorocarbons
+SR1.5,1,CGCM,Coupled Global Climate Model
+SR1.5,3,CGE,Computable General Equilibrium
+SR1.5,1,CGI,Canada/Greenland/Iceland
+SR1.5,2,CGIAR,Consultative Group on International Agricultural Research
+SR1.5,5,CH4,Methane
+SR1.5,3,CHP,Combined Heat and Power
+SR1.5,2,CI,Confidence Interval
+SR1.5,1,CIRED,Centre International de Recherche sur l'Environnement et le Développement
+SR1.5,1,CISL,Cambridge Institute for Sustainability Leadership
+SR1.5,1,CLM,Climate Limited-area Modelling
+SR1.5,1,CMAQ,Community Multiscale Air Quality Modeling System
+SR1.5,4,CMIP3,Coupled Model Intercomparison Project Phase 3
+SR1.5,6,CMIP5,Coupled Model Intercomparison Project Phase 5
+SR1.5,7,CMIP6,Coupled Model Intercomparison Project Phase 6
+SR1.5,2,CNA,Central North America
+SR1.5,2,CNRM,Centre National de Recherches Météorologiques
+SR1.5,4,CO,Carbon monoxide
+SR1.5,5,CO2,Carbon dioxide
+SR1.5,2,CO2e,Carbon dioxide equivalent
+SR1.5,2,CO2eq,Carbon dioxide equivalent
+SR1.5,1,CoM,Covenant of Mayors
+SR1.5,6,COP,Conference of the Parties
+SR1.5,1,COPPE-COFFEE,Programa de Planejamento Energético – COmputable Framework For Energy and the Environment
+SR1.5,3,CORDEX,Coordinated Regional Climate Downscaling Experiment
+SR1.5,2,COSMO,Consortium for Small-scale Modeling
+SR1.5,2,CRCM,Canadian Regional Climate Model
+SR1.5,1,CRDPs,Climate-Resilient Development Pathways
+SR1.5,1,CRIEPI,Institut Central de Recherche des Industries Électriques
+SR1.5,2,CRISPR,Clustered Regularly Interspaced Short Palindromic Repeats
+SR1.5,1,C-ROADS,Climate Rapid Overview And Decision-support Simulator
+SR1.5,3,CRU,Climatic Research Unit
+SR1.5,3,CSA,Climate-Smart Agriculture
+SR1.5,2,CSC,Climate Service Center Germany
+SR1.5,1,CSDI,Cold Spell Duration Index
+SR1.5,3,CSIRO,Commonwealth Scientific and Industrial Research Organisation
+SR1.5,2,CSP,Concentrated Solar Power
+SR1.5,3,CSR,Corporate Social Responsibility
+SR1.5,1,CTC,Covenant Territorial Coordinator
+SR1.5,1,CWD,Consecutive Wet Days
+SR1.5,5,DACCS,Direct Air Carbon dioxide Capture and Storage
+SR1.5,1,DACS,Direct Air Capture and Storage
+SR1.5,4,DALY,Disability Adjusted Life Year
+SR1.5,1,DICE,Dynamic Integrated Climate-Economy model
+SR1.5,4,DJF,"December, January, February"
+SR1.5,1,DM8H,Daily Maximum 8-Hour exposure
+SR1.5,1,DNE21+,Dynamic New Earth 21 model
+SR1.5,1,DOE,Department of Energy (USA)
+SR1.5,2,DRI,Direct Reduced Iron
+SR1.5,5,DRM,Disaster Risk Management
+SR1.5,1,DTU,Technical University of Denmark
+SR1.5,2,E,"Equilibrium, Evaporation or Evapotranspiration"
+SR1.5,2,EAF,East Africa
+SR1.5,4,EAIS,East Antarctic Ice Sheet
+SR1.5,2,EAS,East Asia
+SR1.5,5,EbA,Ecosystems-based Adaptation
+SR1.5,3,EC,European Commission
+SR1.5,1,ECF,European Climate Foundation
+SR1.5,3,ECMWF,European Centre for Medium-Range Weather Forecasts
+SR1.5,4,ECS,Equilibrium Climate Sensitivity
+SR1.5,3,EDGAR,Emission Database for Global Atmospheric Research
+SR1.5,4,EEA,European Environment Agency
+SR1.5,1,EGMAM,ECHO-G Middle Atmosphere Model
+SR1.5,1,E-HYPE,European Hydrological Predictions for the Environment
+SR1.5,2,EJ,Exajoules
+SR1.5,1,EMEP,European Monitoring and Evaluation Programme
+SR1.5,1,EMF,Energy Modeling Forum
+SR1.5,2,EMIC,Earth-system Model of Intermediate Complexity
+SR1.5,2,ENA,East North America
+SR1.5,5,ENSO,El Niño-Southern Oscillation
+SR1.5,1,EOR,Enhanced Oil Recovery
+SR1.5,3,EPA,Environmental Protection Agency (USA)
+SR1.5,1,EPIs,Energy-Intensive Processing Industries
+SR1.5,1,ERA,ECMWF ReAnalysis
+SR1.5,3,ERF,Effective Radiative Forcing
+SR1.5,2,ERFaci,Effective Radiative Forcing from aerosol-cloud interactions
+SR1.5,2,ERFari,Effective Radiative Forcing from aerosol-radiation interactions
+SR1.5,1,ESCOs,Energy Service Companies
+SR1.5,5,ESL,Extreme Sea Level
+SR1.5,6,ESM,Earth System Model
+SR1.5,1,ESR,Empirical Scaling Relationship
+SR1.5,1,ESRB ASC,European Systemic Risk Board Advisory Scientific Committee
+SR1.5,2,ESRL,NOAA Earth System Research Laboratory
+SR1.5,1,Eta-CPTEC,Eta Centro de Previsão do Tempo e Estudos Climáticos
+SR1.5,2,ETP,Pacific Islands region [3] or Energy Technology Perspectives model
+SR1.5,3,ETS,Emission Trading Scheme
+SR1.5,5,EU,European Union
+SR1.5,1,EU-FP6,European Union Sixth Framework Programme
+SR1.5,1,EUG4,"France, Germany, Italy, United Kingdom"
+SR1.5,1,EURO-CORDEX,European branch of the Coordinated Regional Climate Downscaling Experiment
+SR1.5,4,EV,Electric Vehicle
+SR1.5,3,EW,Enhanced Weathering
+SR1.5,5,FAIR,Finite Amplitude Impulse Response model
+SR1.5,5,FAO,Food and Agriculture Organization of the United Nations
+SR1.5,2,FAOSTAT,Database Collection of the Food and Agriculture Organization of the United Nations
+SR1.5,4,FAQ,Frequently Asked Questions
+SR1.5,1,FARM,Future Agricultural Resources Model
+SR1.5,3,Fe,Iron
+SR1.5,3,FE,Final Energy
+SR1.5,2,FEMA,Federal Emergency Management Agency (USA)
+SR1.5,2,FF,Fossil Fuel
+SR1.5,1,FF&I,Fossil-Fuel combustion and Industrial processes
+SR1.5,2,F-gas,Fluorinated gases
+SR1.5,1,FGOALS,Flexible Global Ocean-Atmosphere-Land System model
+SR1.5,1,FIO,First Institute of Oceanography
+SR1.5,1,FMNR,Farmer Managed Natural Regeneration
+SR1.5,1,FUND,"Climate Framework for Uncertainty, Negotiation, and Distribution model"
+SR1.5,1,FUSSR,Former Union of Soviet Socialist Republics
+SR1.5,1,g,Grams
+SR1.5,1,GAMS,General Algebraic Modeling System
+SR1.5,3,GBAM,Ground-Based Albedo Modification
+SR1.5,2,GCAM,Global Change Assessment Model
+SR1.5,1,GCC,Gulf Cooperative Council
+SR1.5,1,GCEC,Global Commission on the Economy and Climate
+SR1.5,5,GCM,General Circulation Model or Global Climate Model
+SR1.5,4,GCP,Global Carbon Project
+SR1.5,7,GDP,Gross Domestic Product
+SR1.5,2,GE,General Equilibrium
+SR1.5,2,GEA,Global Energy Assessment
+SR1.5,1,GEM-E3,General Equilibrium Model for Economy - Energy - Environment
+SR1.5,1,GENeSYS-MOD,Global Energy System Model
+SR1.5,1,GeSI,Global e-Sustainability Initiative
+SR1.5,2,GFCF,Gross Fixed Capital Formation
+SR1.5,2,GFDL,Geophysical Fluid Dynamic Laboratory
+SR1.5,1,GFR,Grid Flexibility Resources
+SR1.5,3,Gha,Gigahectares
+SR1.5,1,GHCNDEX,Global Historical Climatology Network – Daily climate Extremes
+SR1.5,1,GHGs,Greenhouse Gases
+SR1.5,3,GHM,Global Hydrological Models
+SR1.5,4,GIS,Greenland Ice Sheet
+SR1.5,2,GISS,Goddard Institute for Space Studies
+SR1.5,3,GISTEMP,Goddard Institute for Space Studies Surface Temperature Analysis
+SR1.5,3,GJ,Gigajoules
+SR1.5,1,GLEAM,Global Livestock Environmental Assessment Model
+SR1.5,1,Glob-HM,Global Hydrological Model
+SR1.5,2,GLOBIOM,GLObal BIOsphere Management model
+SR1.5,1,GLOFs,Glacial Lake Outburst Floods
+SR1.5,4,GM,Genetically Modified
+SR1.5,2,GMO,Genetically Modified Organism
+SR1.5,5,GMSL,Global Mean Sea Level
+SR1.5,5,GMST,Global Mean Surface Temperature
+SR1.5,3,GMT,Global Mean Temperature
+SR1.5,1,GNHI,Gross National Happiness Index
+SR1.5,5,GPP,Gross Primary Productivity
+SR1.5,2,GPT,General Purpose Technologies
+SR1.5,1,GRAPE,Global Relationship Assessment to Protect the Environment model
+SR1.5,4,GSAT,Global mean Surface Air Temperature
+SR1.5,3,Gt,Gigatonne
+SR1.5,3,GTP,Global Temperature-change Potential
+SR1.5,1,GWA,Government of Western Australia
+SR1.5,6,GWP,Global Warming Potential or Gross World Product
+SR1.5,2,ha,Hectares
+SR1.5,2,H2,Hydrogen
+SR1.5,1,HadCM,Hadley Centre Coupled Model
+SR1.5,2,HadCRUT,Hadley Centre Climatic Research Unit Gridded Surface Temperature Data Set
+SR1.5,1,HadEX,Hadley Centre Global Climate Extremes index
+SR1.5,2,HadGEM,Hadley Centre Global Environmental Model
+SR1.5,1,HadRM,Hadley Centre Regional Model
+SR1.5,2,HAPPI,"Half a degree Additional warming, Prognosis and Projected Impacts"
+SR1.5,2,HDV,Heavy-Duty Vehicle
+SR1.5,2,HEV,Hybrid Electric Vehicle
+SR1.5,2,HFCs,Hydrofluorocarbons
+SR1.5,1,HLCCP,High-Level Commission on Carbon Prices
+SR1.5,2,HLPE,High Level Panel of Experts on Food Security and Nutrition
+SR1.5,1,HSRTF,Hurricane Sandy Rebuilding Task Force
+SR1.5,1,HTM,Holocene Thermal Maximum
+SR1.5,1,HYMOD,HYdrological MODel
+SR1.5,2,IAEA,International Atomic Energy Agency
+SR1.5,1,IAMC,Integrated Assessment Modelling Consortium
+SR1.5,1,IAMs,Integrated Assessment Models
+SR1.5,1,IBA,International Bar Association
+SR1.5,1,IBI,International Biochar Initiative
+SR1.5,1,ICAMS,Integrated Climate and Air Quality Modeling System
+SR1.5,1,ICEM,International Centre for Environmental Management
+SR1.5,2,ICLEI,International Council for Local Environmental Initiatives
+SR1.5,1,ICPDR,International Commission for the Protection of the Danube River
+SR1.5,2,ICSU,International Council for Science
+SR1.5,4,ICT,Information and Communication Technology
+SR1.5,5,IEA,International Energy Agency
+SR1.5,1,IEAGHG,IEA Greenhouse Gas R&D Programme
+SR1.5,2,IFAD,International Fund for Agricultural Development
+SR1.5,3,IFPRI,International Food Policy Research Institute
+SR1.5,3,IGCC,Integrated Gasification Combined Cycle
+SR1.5,2,IIASA,International Institute for Applied Systems Analysis
+SR1.5,1,IIF,Institute of International Finance
+SR1.5,3,iLUC,Indirect Land-Use Change
+SR1.5,1,IMACLIM-NLU,IMpact Assessment of CLIMate policies model – Nexus Land-Use model
+SR1.5,2,IMAGE,Integrated Model to Assess the Global Environment
+SR1.5,3,IMF,International Monetary Fund
+SR1.5,3,IMO,International Maritime Organization
+SR1.5,1,IMPACT2C,Quantifying Projected Impacts under 2°C Warming
+SR1.5,1,INDCs,Intended Nationally Determined Contributions
+SR1.5,1,INM,Russian Institute for Numerical Mathematics
+SR1.5,1,IOM,International Organization for Migration
+SR1.5,3,IoT,Internet of Things
+SR1.5,6,IPCC,Intergovernmental Panel on Climate Change
+SR1.5,2,IPSL,Institute Pierre Simon Laplace
+SR1.5,2,IRENA,International Renewable Energy Agency
+SR1.5,3,ISIMIP,Inter-Sectoral Impact Model Intercomparison Project
+SR1.5,3,ISO,International Standards Organisation
+SR1.5,1,ISSC,International Social Science Council
+SR1.5,4,ITF,International Transport Forum
+SR1.5,3,IUCN,International Union for Conservation of Nature
+SR1.5,1,IWG,Interagency Working Group on Social Cost of Greenhouse Gases
+SR1.5,3,IWRM,Integrated Water Resources Management
+SR1.5,1,JeDi,Jena Diversity-Dynamic Global Vegetation Model
+SR1.5,4,JJA,"June, July, August"
+SR1.5,2,JMA,Japan Meteorological Agency
+SR1.5,2,JRA-55,Japanese 55-year Reanalysis
+SR1.5,3,JRC,European Commission – Joint Research Centre
+SR1.5,1,JULES,Joint United Kingdom Land Environment Simulator
+SR1.5,1,kcal cap-1 day-1,Kilocalories per capita per day
+SR1.5,2,km,Kilometres
+SR1.5,2,kt,Kilotonnes
+SR1.5,4,kWh,Kilowatt hours
+SR1.5,1,KNMI,Koninklijk Nederlands Meteorologisch Instituut (Royal Netherlands Meteorological Institute)
+SR1.5,2,L,Litres
+SR1.5,3,L&D,Loss and Damage
+SR1.5,2,LAM,Latin America and Caribbean
+SR1.5,2,LDCs,Least Developed Countries
+SR1.5,1,LDMz-INCA,Laboratoire de Météorologie Dynamique – INteractions between Chemistry and Aerosols
+SR1.5,2,LDV,Light-Duty Vehicle
+SR1.5,1,LE,Limited Evidence
+SR1.5,3,LED,Low Energy Demand or Light Emitting Diode
+SR1.5,3,LGM,Last Glacial Maximum
+SR1.5,4,LIG,Last Interglacial
+SR1.5,1,LLCFs,Long-Lived Climate Forcers
+SR1.5,2,LNG,Liquefied Natural Gas
+SR1.5,3,LPG,Liquefied Petroleum Gas
+SR1.5,1,LPJmL,Lund-Potsdam-Jena managed Land model
+SR1.5,1,LTA,Land Transport Authority of Singapore
+SR1.5,2,LTGG,Long-Term Global Goal
+SR1.5,5,LUC,Land-Use Change
+SR1.5,6,LULUCF,"Land Use, Land-Use Change, and Forestry"
+SR1.5,1,m,Metres
+SR1.5,1,m3 cap-1 yr-1,Cubic metres per capita per year
+SR1.5,1,mg,Milligrams
+SR1.5,1,mL,Millilitres
+SR1.5,1,mm,Millimetres
+SR1.5,2,M&E,Monitoring and Evaluation
+SR1.5,3,Ma,Million years ago
+SR1.5,3,MAC,Marginal Abatement Cost
+SR1.5,1,MacPDM,Macro-scale – Probability-Distributed Moisture Model
+SR1.5,3,MAGICC,Model for the Assessment of Greenhouse Gas Induced Climate Change
+SR1.5,2,MAgPIE,Model of Agricultural Production and its Impact on the Environment
+SR1.5,3,MAM,"March, April, May"
+SR1.5,4,MCB,Marine Cloud Brightening
+SR1.5,1,MCCA,Mercado Común Centroamericano
+SR1.5,3,MDB,Group of Multilateral Development Banks
+SR1.5,1,MDGs,Millennium Development Goals
+SR1.5,4,MEA,Millennium Ecosystem Assessment
+SR1.5,4,MED,South Europe/Mediterranean
+SR1.5,1,MEPS,Minimum Energy Performance Standards
+SR1.5,1,MER,Market Exchange Rates
+SR1.5,1,MERET,Managing Environmental Resources to Enable Transitions
+SR1.5,1,MERGE-ETL,Model for Evaluating Regional and Global Effects of greenhouse gas reduction policies – Endogenous Technology Learning
+SR1.5,2,MESSAGE,Model for Energy Supply Systems And their General Environmental impact
+SR1.5,3,Mha,Megahectare
+SR1.5,2,MIROC,Model for Interdisciplinary Research on Climate
+SR1.5,4,MISI,Marine Ice Sheet Instability
+SR1.5,1,MIT IGSM,Massachusetts Institute of Technology Integrated Global System Model
+SR1.5,3,MJ,Megajoules
+SR1.5,1,MoCC,Ministry of Climate Change and Adaptation (Government of Vanuatu)
+SR1.5,1,MOHC,Met Office Hadley Centre
+SR1.5,1,MOPEX,Model Parameter Estimation Experiment
+SR1.5,1,MPAs,Marine Protected Areas
+SR1.5,3,MPI,Max-Planck-Institut für Meteorologie (Max Planck Institute for Meteorology)
+SR1.5,3,MPWP,Mid Pliocene Warm Period
+SR1.5,1,MRFCJ,Mary Robinson Foundation – Climate Justice
+SR1.5,2,MRI,Meteorological Research Institute of Japan Meteorological Agency
+SR1.5,5,MRV,"Measurement, Reporting and Verification"
+SR1.5,1,MSR,Multi-Sector Risk score
+SR1.5,3,Mt,Megatonnes
+SR1.5,2,N,Nitrogen
+SR1.5,5,N2O,Nitrous oxide
+SR1.5,5,NAP,National Adaptation Plan
+SR1.5,2,NAS,North Asia
+SR1.5,2,NASA,National Aeronautics and Space Administration
+SR1.5,1,NASEM,"National Academies of Sciences, Engineering, and Medicine"
+SR1.5,2,NAU,North Australia
+SR1.5,2,NCAR,National Center for Atmospheric Research
+SR1.5,2,NCCARF,National Climate Change Adaptation Research Facility
+SR1.5,2,NCE,New Climate Economy
+SR1.5,1,NDCs,Nationally Determined Contributions
+SR1.5,1,NEA,Nuclear Energy Agency
+SR1.5,1,NEB,North-East Brazil
+SR1.5,1,NEC,National Environment Commission (Royal Government of Bhutan)
+SR1.5,1,NETL,National Energy Technology Laboratory (US Department of Energy)
+SR1.5,3,NEU,North Europe
+SR1.5,3,NF3,Nitrogen trifluoride
+SR1.5,5,NGO,Non-Governmental Organization
+SR1.5,3,NH3,Ammonia
+SR1.5,1,NHD,Number of Hot Days
+SR1.5,1,NITI Aayog,National Institution for Transforming India
+SR1.5,3,NMVOC,Non-Methane Volatile Organic Compounds
+SR1.5,5,NOAA,National Oceanic and Atmospheric Administration
+SR1.5,2,NorESM,Norwegian Earth System Model
+SR1.5,2,NOx,Nitrogen oxides
+SR1.5,1,NPCC,New York City Panel on Climate Change
+SR1.5,5,NPP,Net Primary Productivity
+SR1.5,3,NPV,Net Present Value
+SR1.5,2,NRC,National Research Council
+SR1.5,2,NSR,Northern Sea Route
+SR1.5,1,NTP,Pacific Islands region [2]
+SR1.5,1,NYC,New York City
+SR1.5,1,NZAGRC,New Zealand Agricultural Greenhouse Gas Research Center
+SR1.5,2,O2,Oxygen
+SR1.5,3,O3,Ozone
+SR1.5,5,OA,Ocean Acidification or Ocean Alkalinization
+SR1.5,3,OC,Organic Carbon
+SR1.5,5,OECD,Organisation for Economic Co-operation and Development
+SR1.5,1,OGCC,Optimal Gasification Combined Cycle
+SR1.5,1,OHCHR,Office of the United Nations High Commissioner for Human Rights
+SR1.5,1,OIF,Ocean Iron Fertilisation
+SR1.5,2,ORCHIDEE,ORganising Carbon and Hydrology In Dynamic EcosystEms model
+SR1.5,1,ORR,NYC Mayor's Office of Recovery & Resiliency
+SR1.5,2,OS,Overshoot
+SR1.5,2,pp,People
+SR1.5,3,ppb,Parts per billion
+SR1.5,2,ppm,Parts per million
+SR1.5,1,ppt,Parts per thousand
+SR1.5,2,P,Precipitation or Phosphorous
+SR1.5,1,PAGE,Policy Analysis of the Greenhouse Effect model
+SR1.5,1,PAHO,Pan American Health Organization
+SR1.5,1,PCM,Parallel Climate Model
+SR1.5,3,PDSI,Palmer Drought Severity Index
+SR1.5,2,PE,Primary Energy or Partial Equilibrium
+SR1.5,3,PET,Physiologically Equivalent Temperature or Potential Evapo-Transpiration
+SR1.5,3,PFCs,Perfluorocarbons
+SR1.5,1,Pg,Petagrams
+SR1.5,2,PHEV,Plug-in Hybrid Electric Vehicle
+SR1.5,1,PIK,Potsdam-Institut für Klimafolgenforschung (Potsdam Institute for Climate Impact Research)
+SR1.5,2,PM10,Particulate Matter with Aerodynamic Diameter <10 μm
+SR1.5,3,PM2.5,Particulate Matter with Aerodynamic Diameter <2.5 μm
+SR1.5,1,POLES,Prospective Outlook on Long-term Energy Systems model
+SR1.5,4,PPP,Purchasing Power Parity
+SR1.5,1,PR,Probability Ratio
+SR1.5,3,PV,Photovoltaics
+SR1.5,3,R&D,Research and Development
+SR1.5,1,RCA,Rossby Centre Regional Atmospheric Model
+SR1.5,1,RCI,Rotterdam Climate Initiative
+SR1.5,6,RCM,Regional Climate Model
+SR1.5,2,RCPs,Representative Concentration Pathways
+SR1.5,3,REDD+,"Reducing Emissions from Deforestation and forest Degradation; and the role of conservation, sustainable management of forests and enhancement of forest carbon stocks in developing countries"
+SR1.5,1,ReEDS-IPM,Regional Electricity Deployment System model – Integrated Planning Model
+SR1.5,2,RegCM,Regional Climate Model system
+SR1.5,2,REMIND,REgional Model of INvestments and Development
+SR1.5,2,REN21,Renewable Energy Policy Network for the 21st Century
+SR1.5,3,RF,Radiative Forcing
+SR1.5,4,RFC,Reason for Concern
+SR1.5,1,RGoB,Royal Government of Bhutan
+SR1.5,1,RMI,Rocky Mountain Institute
+SR1.5,1,RNCFC,Reference Non-CO2 Forcing Contribution
+SR1.5,1,RNCTC,Reference Non-CO2 Temperature Contribution
+SR1.5,2,Rx1day,Annual maximum 1-day precipitation
+SR1.5,1,Rx5day,Annual maximum 5-day precipitation
+SR1.5,2,SAF,Southern Africa
+SR1.5,3,SAH,Sahara
+SR1.5,4,SAI,Stratospheric Aerosol Injection
+SR1.5,1,SAMS,South American Monsoon System
+SR1.5,4,SAR,IPCC Second Assessment Report
+SR1.5,4,SAS,South Asia
+SR1.5,3,SAT,Surface Air Temperature
+SR1.5,2,SAU,South Australia/New Zealand
+SR1.5,2,SBSTA,Subsidiary Body for Scientific and Technological Advice (UNFCCC)
+SR1.5,4,SCC,Social Cost of Carbon
+SR1.5,2,SCS,Soil Carbon Sequestration
+SR1.5,4,SD,Sustainable Development
+SR1.5,2,SDGs,Sustainable Development Goals
+SR1.5,1,SDGVM,Sheffield Dynamic Global Vegetation Model
+SR1.5,1,SDII,Simple Daily Intensity Index
+SR1.5,2,SDSN,Sustainable Development Solutions Network
+SR1.5,3,SEA,Southeast Asia
+SR1.5,1,SEAPs,Sustainable Energy Action Plans
+SR1.5,2,SED,Structured Expert Dialogue
+SR1.5,2,SEM,Semi-Empirical Model
+SR1.5,4,SF6,Sulphur hexafluoride
+SR1.5,2,SFM,Sustainable Forest Management
+SR1.5,7,SIDS,Small Island Developing States
+SR1.5,1,SIFMA,Securities Industry and Financial Markets Association
+SR1.5,1,SLCFs,Short-Lived Climate Forcers
+SR1.5,1,SLCPs,Short-Lived Climate Pollutants
+SR1.5,5,SLR,Sea Level Rise
+SR1.5,4,SM,Supplementary Material
+SR1.5,1,SMA,Soil Moisture Anomalies
+SR1.5,1,SMHI,Swedish Meteorological and Hydrological Institute
+SR1.5,4,SO2,Sulphur dioxide
+SR1.5,1,SOLARIS HEPPA,SOLARIS High Energy Particle Precipitation in the Atmosphere
+SR1.5,3,SON,"September, October, November"
+SR1.5,2,SOx,Sulphur oxides
+SR1.5,1,SPAs,Shared climate Policy Assumptions
+SR1.5,1,SPC,Secretariat of the Pacific Community
+SR1.5,3,SPEI,Standardized Precipitation Evapotranspiration Index
+SR1.5,3,SPI,Standardised Precipitation Index
+SR1.5,6,SPM,Summary for Policymakers
+SR1.5,5,SR1.5,IPCC Special Report on Global Warming of 1.5°C
+SR1.5,7,SRCCL,IPCC Special Report on Climate Change and Land
+SR1.5,5,SRES,IPCC Special Report on Emissions Scenarios
+SR1.5,4,SREX,IPCC Special Report on Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation
+SR1.5,6,SRM,Solar Radiation Modification
+SR1.5,7,SROCC,IPCC Special Report on the Ocean and Cryosphere in a Changing Climate
+SR1.5,3,SSA,Southeastern South America
+SR1.5,2,SSPs,Shared Socioeconomic Pathways
+SR1.5,5,SST,Sea Surface Temperature
+SR1.5,1,STP,Southern Tropical Pacific
+SR1.5,2,SWAT,Soil & Water Assessment Tool
+SR1.5,1,SWF,Social Welfare Function
+SR1.5,3,SYR,IPCC Synthesis Report
+SR1.5,3,t,Tonnes
+SR1.5,1,tDM,Tonnes Dry Matter
+SR1.5,1,tril$,Trillion dollars
+SR1.5,3,T,Temperature or Transient
+SR1.5,1,T&D,Transmission and Distribution
+SR1.5,3,TCR,Transient Climate Response
+SR1.5,3,TCRE,Transient Climate Response to cumulative CO2 Emissions
+SR1.5,1,TEAP,Technology and Economic Assessment Panel
+SR1.5,1,TFE,Thematic Focus Element
+SR1.5,2,TFP,Total Factor Productivity
+SR1.5,3,Tg,Teragrams
+SR1.5,3,TIB,Tibetan Plateau
+SR1.5,2,TNn,Coldest night-time temperature of the year
+SR1.5,2,TOD,Transit Oriented Development
+SR1.5,4,TS,Technical Summary
+SR1.5,1,Tt,Teratonnes
+SR1.5,1,TTs,Transition Towns
+SR1.5,1,TXx,Hottest daytime temperature of the year
+SR1.5,1,UCCRN,Urban Climate Change Research Network
+SR1.5,5,UHI,Urban Heat Islands
+SR1.5,1,UITP,Union Internationale des Transports Publics (International Association of Public Transport)
+SR1.5,1,UKCP,United Kingdom Climate Projections
+SR1.5,3,UN,United Nations
+SR1.5,1,UN DESA,United Nations Department of Economic and Social Affairs
+SR1.5,2,UNCBD,United Nations Convention on Biological Diversity
+SR1.5,4,UNDP,United Nations Development Programme
+SR1.5,6,UNEP,UN Environment
+SR1.5,1,UNEP-WCMC,UNEP World Conservation Monitoring Centre
+SR1.5,2,UNESCO,"United Nations Educational, Scientific and Cultural Organization"
+SR1.5,7,UNFCCC,United Nations Framework Convention on Climate Change
+SR1.5,1,UNGA,United Nations General Assembly
+SR1.5,3,UNICEF,United Nations International Children's Emergency Fund
+SR1.5,2,UNISDR,United Nations Office for Disaster Risk Reduction
+SR1.5,1,UN-OHRLLS,"Office of the High Representative for the Least Developed Countries, Landlocked Developing Countries and Small Island Developing States"
+SR1.5,1,UNRISD,United Nations Research Institute for Social Development
+SR1.5,1,UNSCEAR,United Nations Scientific Committee on the Effects of Atomic Radiation
+SR1.5,1,UNU,United Nations University
+SR1.5,1,UNU-EHS,United Nations University – Institute for Environment and Human Security
+SR1.5,5,USD,United States Dollars
+SR1.5,4,UV,Ultraviolet
+SR1.5,1,VISIT,Vegetation Integrative Simulator for Trace Gases
+SR1.5,2,VKT,Vehicle Kilometres of Travel
+SR1.5,1,VOCs,Volatile Organic Compounds
+SR1.5,2,w/,With
+SR1.5,2,w/o,Without
+SR1.5,1,w.r.t.,With respect to
+SR1.5,3,W,Watts
+SR1.5,3,WAF,West Africa
+SR1.5,4,WAIS,West Antarctic Ice Sheet
+SR1.5,1,WAS,West Asia
+SR1.5,3,WBCSD,World Business Council for Sustainable Development
+SR1.5,1,WBGU,Wissenschaftlicher Beirat der Bundesregierung Globale Umweltveränderungen (German Advisory Council on Global Change)
+SR1.5,1,WBM,Water Balance Model
+SR1.5,1,WCED,World Commission on Environment and Development
+SR1.5,3,WCRP,World Climate Research Programme
+SR1.5,2,WEC,World Energy Council
+SR1.5,3,WEF,Water-Energy-Food or World Economic Forum
+SR1.5,1,WEM,World Energy Model
+SR1.5,3,WEO,World Energy Outlook
+SR1.5,3,WFP,World Food Programme
+SR1.5,5,WGI,IPCC Working Group I
+SR1.5,5,WGII,IPCC Working Group II
+SR1.5,4,WGIII,IPCC Working Group III
+SR1.5,6,WHO,World Health Organization
+SR1.5,3,WIM,Warsaw International Mechanism for Loss and Damage
+SR1.5,1,WIO,West Indian Ocean
+SR1.5,1,WITCH,World Induced Technical Change Hybrid Model
+SR1.5,1,WMGHGs,Well-Mixed Greenhouse Gases
+SR1.5,5,WMO,World Meteorological Organization
+SR1.5,2,WNA,West North America
+SR1.5,1,WRF,Weather Research and Forecasting
+SR1.5,1,WSA,West Coast South America
+SR1.5,1,WSDI,Warm Spell Duration Index
+SR1.5,3,WTO,World Trade Organization
+SR1.5,2,yr,Year
+SR1.5,2,ZEC,Zero Emissions Commitment
+SRCCL,1,3-NOP,3-Nitrooxypropanol
+SRCCL,1,A/F,Afforestation/Reforestation
+SRCCL,1,ABC,Low Carbon Agriculture Plan
+SRCCL,1,ABM,Agent-Based Model
+SRCCL,3,ADB,Asian Development Bank
+SRCCL,2,AerChemMIP,Aerosol Chemistry Model Intercomparison Project
+SRCCL,6,AFOLU,"Agriculture, Forestry and Other Land Use"
+SRCCL,2,AgMIP,Agricultural Model Intercomparison and Improvement Project
+SRCCL,1,AGRA,Alliance for a Green Revolution in Africa
+SRCCL,4,AI,Aridity Index
+SRCCL,4,AMO,Atlantic Multi-decadal Oscillation
+SRCCL,4,AR,Afforestation and Reforestation
+SRCCL,7,AR5,Fifth Assessment Report
+SRCCL,3,ARC,Africa Risk Capacity
+SRCCL,1,ARM,Adaptive Risk Management
+SRCCL,2,ASF,Animal Sourced Foods
+SRCCL,2,AVHRR,Advanced High Resolution Radiometer
+SRCCL,1,AWD,Alternate Wetting and Drying
+SRCCL,1,BAPEN,British Association for Parenteral and Enteral Nutrition
+SRCCL,3,BAU,Business as Usual
+SRCCL,6,BC,Biochar / Black Carbon
+SRCCL,2,BCR,Benefit Cost Ratio
+SRCCL,3,BE,Bioenergy
+SRCCL,7,BECCS,Bioenergy with Carbon Capture and Storage
+SRCCL,1,BEFM,Bio-Economic Farm Model
+SRCCL,1,BEST,Berkeley Earth Surface Temperature
+SRCCL,1,BPE,Biomass Production Efficiency
+SRCCL,2,BrC,Brown Carbon
+SRCCL,1,BTV,Blue-Tongue Virus
+SRCCL,2,BUR,Biannual Update Report
+SRCCL,3,BVOC,Biogenic Volatile Organic Compounds
+SRCCL,2,C,Carbon
+SRCCL,4,CA,Conservation Agriculture
+SRCCL,1,CABI,Centre for Agriculture and Bioscience International
+SRCCL,1,CACILM,Central Asian Countries Initiative for Land Management
+SRCCL,1,CAFO,Concentrated Animal Feeding Operations
+SRCCL,1,CAMPA,Compensatory Afforestation Management and Planning Authority
+SRCCL,1,CATDDO,Catastrophe Risk Deferred Drawdown Option
+SRCCL,6,CBA,Community-based Adaptation/Cost Benefit Analysis
+SRCCL,5,CBD,United Nations Convention on Biodiversity
+SRCCL,2,CC,Carbon Capture
+SRCCL,6,CCS,Carbon dioxide Capture and Storage / Carbon Capture and Storage
+SRCCL,2,CCA,Climate Change Adaptation
+SRCCL,2,CCAFS,"CGIAR Research Program on Climate Change, Agriculture and Food Security"
+SRCCL,2,CCN,Cloud Condensation Nuclei
+SRCCL,4,CCRIF,Caribbean Catastrophe Risk Insurance Facility
+SRCCL,5,CCU,Carbon Capture and Usage
+SRCCL,4,CDM,Clean Development Mechanism
+SRCCL,2,CDP,Carbon Disclosure Project
+SRCCL,7,CDR,Carbon Dioxide Removal
+SRCCL,3,CEA,Cost Effectiveness Analysis
+SRCCL,2,CEC,Commission of the European Communities
+SRCCL,1,ÇEMGM,Conservation Reserve Program
+SRCCL,1,CEN-SAD,The Community of Sahel-Saharan States
+SRCCL,1,CFS,Committee on World Food Security
+SRCCL,1,CGIAR-,Consultative Group on International Agricultural Research
+SRCCL,2,CGRA,Coordinated Global and Regional Assessment
+SRCCL,5,CH4,Methane
+SRCCL,3,CHP,Combined Heat and Power
+SRCCL,1,CHIRPS,Climate Hazards Group Infrared Precipitation with Station
+SRCCL,1,CHMI,Czech Hydrometeorological Institute
+SRCCL,2,CI,Confidence Interval
+SRCCL,1,CIAT,International Centre for Tropical Agriculture
+SRCCL,1,CIPHET,Central Institute of Post-Harvest Engineering and Technology
+SRCCL,1,CIREN,Centro de Información de Recursos Naturales
+SRCCL,2,CM,Cultured Meat
+SRCCL,1,CMIE,Centre of Monitoring the Indian Economy
+SRCCL,6,CMIP5,Coupled Model Intercomparison Project Phase 5
+SRCCL,7,CMIP6,Coupled Model Intercomparison Project Phase 6
+SRCCL,4,CO,Carbon monoxide
+SRCCL,5,CO2,Carbon dioxide
+SRCCL,2,CO2e,Carbon dioxide equivalent
+SRCCL,2,CO2eq,Carbon dioxide equivalent
+SRCCL,6,COP,Conference of the Parties
+SRCCL,2,CRCM,Canadian Regional Climate Model
+SRCCL,2,CRISPR,Clustered Regularly Interspaced Short Palindromic Repeats
+SRCCL,1,CRP,Conservation Reserve Program
+SRCCL,3,CRU,Climatic Research Unit of the University of East Anglia
+SRCCL,2,CRUTEM,Dataset of the Climatic Research Unit of the University of East Anglia
+SRCCL,1,CRV,Climate Resilient Villages
+SRCCL,3,CSA,Climate Smart Agriculture
+SRCCL,1,CSO,Civil Society Organisation
+SRCCL,1,CSV,Climate Smart Village
+SRCCL,4,DALY,Disability-Adjusted Life-Year
+SRCCL,1,DERM,"Department of Environment and Resource Management, India"
+SRCCL,1,DESIRE,Desertification Mitigation and Remediation of Land
+SRCCL,3,DGVM,Dynamic Global Vegetation Model
+SRCCL,4,DJF,December-January-February
+SRCCL,1,DMP,Dust Mass Path
+SRCCL,5,DRM,Disaster Risk Management
+SRCCL,1,DOD,Dust Optical Depth
+SRCCL,2,DRR,Disaster Risk Reduction
+SRCCL,5,EBA,Ecosystem Based Adaptation
+SRCCL,3,EC,Elemental Carbon or European Commission
+SRCCL,1,ECA,European Court of Auditors
+SRCCL,3,EDGAR,Emissions Database for Global Atmospheric Research
+SRCCL,4,EEA,European Environment Agency
+SRCCL,2,EF,Emission Factor
+SRCCL,1,EFSA,European Food Safety Authority
+SRCCL,1,EFT,Ecological Fiscal Transfer
+SRCCL,1,ELD,Economics of Land Degradation or Economics of Land Degradation Initiative
+SRCCL,1,EM-DAT,International Disaster Database
+SRCCL,5,ENSO,El Niño/Southern Oscillation
+SRCCL,3,EPA,UN Environmental Protection Agency
+SRCCL,3,ES,Ecosystem Service
+SRCCL,6,ESM,Earth System Models
+SRCCL,5,ESL,Extreme Sea Level
+SRCCL,3,ETS,Emissions Trading Scheme
+SRCCL,5,EU,European Union
+SRCCL,2,EU-RED,European Union Renewable Energy Directive
+SRCCL,1,EVI,Enhanced Vegetation Index
+SRCCL,1,EW/EA,Early Warning and Early Action
+SRCCL,4,EWS,Early Warning Systems
+SRCCL,2,FACE,Free-Air Carbon dioxide Enrichment
+SRCCL,5,FAO,United Nations Food and Agricultural Organisation
+SRCCL,1,FAO-FRA,FAO Global Forest Resources Assessment
+SRCCL,2,FAOSTAT,FAO Database
+SRCCL,4,FAQ,Frequently Asked Questions
+SRCCL,3,Fe,Iron
+SRCCL,2,FF,Fossil Fuel
+SRCCL,1,FIES,Food Insecurity Experience Scale
+SRCCL,1,fNRB,fraction of Non-Renewable Biomass
+SRCCL,1,FRA,Forest Rights Act (India)
+SRCCL,3,FSC,Forest Stewardship Council
+SRCCL,2,FWL,Food Waste and Loss
+SRCCL,2,GATT,General Agreement on Tariffs and Trade
+SRCCL,1,GBEP,Global Bioenergy Partnership
+SRCCL,3,GCF,Green Climate Fund
+SRCCL,5,GCM,Global Climate Model or General Circulation Model
+SRCCL,4,GCP,Global Carbon Project
+SRCCL,1,GDEWS,Global Drought Early Warning System
+SRCCL,7,GDP,Gross Domestic Product
+SRCCL,2,GE,Government Effectiveness or General Equilibrium
+SRCCL,3,GEF,Global Environmental Facility
+SRCCL,2,GFCS,Global Framework for Climate Services
+SRCCL,2,GFED,Global Fire Emissions Database
+SRCCL,1,GFGP,Conversion of Cropland to Forests and Grasslands Program (Grain for Green Programme)
+SRCCL,1,GGCM,Global Gridded Crop Models
+SRCCL,3,Gha,Gigahectares
+SRCCL,2,GHCN,Global Historical Climatology Network
+SRCCL,6,GHG,Greenhouse Gas
+SRCCL,1,GHGE,Greenhouse Gas Emissions
+SRCCL,1,GHGI,Greenhouse Gas Inventory
+SRCCL,1,GIAHS,Globally Important Agricultural Heritage Site
+SRCCL,1,GIEWS,FAO Global Information and Early Warning System
+SRCCL,1,GIMMS3g,Global Inventory Modelling and Mapping Studies
+SRCCL,3,GISTEMP,Goddard's Global Surface Temperature Analysis
+SRCCL,2,GIZ,German Society for International Cooperation
+SRCCL,3,GJ,Gigajoules
+SRCCL,1,GLASOD,Global Assessment of Human-Induced Soil Degradation
+SRCCL,1,GLASS,Global Land Atmosphere System Study
+SRCCL,2,GLOBIOM,GLObal BIOsphere Management model
+SRCCL,3,GLOF,Glacial Lake Outburst Floods
+SRCCL,1,GLOMAP,Global Model of Aerosol Processes
+SRCCL,4,GM,Genetically Modified
+SRCCL,2,GMO,Genetically Modified Organism
+SRCCL,5,GMSL,Global Mean Sea Level
+SRCCL,5,GMST,Global Mean Surface Temperature
+SRCCL,3,GMT,Global Mean Temperature
+SRCCL,1,GNR,Global Nutrition Report
+SRCCL,5,GPP,Gross Primary Productivity/Gross Primary Production
+SRCCL,6,GWP,Global Warming Potential
+SRCCL,2,Ha,Hectares
+SRCCL,2,H2,Hydrogen
+SRCCL,2,HadCM3,"Hadley Centre Coupled Model, version 3"
+SRCCL,1,HANPP,Human Appropriation of Net Primary Production
+SRCCL,2,HAPPI,"Half a degree Additional warming, Projections, Prognosis and Impacts"
+SRCCL,3,HDI,Human Development Index
+SRCCL,1,HEI,Healthcare Environment Inspectorate
+SRCCL,1,HHP,High Hydrostatic Pressure
+SRCCL,3,HKH,Hindu-Kush Himalayan
+SRCCL,2,HLPE,High Level Panel of Experts
+SRCCL,2,HYDE,History Database of the Global Environment
+SRCCL,4,IAM,Integrated Assessment Model
+SRCCL,1,ICARDA,International Center for Agriculture Research in the Dry Areas
+SRCCL,1,ICCC,International Conference on Climate Change
+SRCCL,1,ICOS,Integrated Carbon Observation System
+SRCCL,1,ICPAC,IGAD Climate Prediction and Applications Centre
+SRCCL,2,ICSU,International Council for Science
+SRCCL,4,ICT,Information and Communication Technology
+SRCCL,1,ICTP,International Centre for Theoretical Physics
+SRCCL,5,IEA,International Energy Agency
+SRCCL,2,IFAD,International Fund for Agricultural Development
+SRCCL,3,IFPRI,International Food Policy Research Institute
+SRCCL,1,IGAD,Intergovernmental Authority on Development
+SRCCL,2,IHME,Institute for Health Metrics and Evaluation
+SRCCL,3,IK,Indigenous Knowledge
+SRCCL,1,ILK,Indigenous and Local Knowledge
+SRCCL,3,iLUC,indirect Land Use Change
+SRCCL,2,IMAGE,Integrated Model to Assess Global Environment
+SRCCL,3,INDC,Intended Nationally Determined Contribution
+SRCCL,1,INPE,Instituto Nacional de Pesquisas Espaciais (National Institute for Space Research)
+SRCCL,4,IOD,Indian Ocean Dipole
+SRCCL,5,IPBES,Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services
+SRCCL,6,IPCC,Intergovernmental Panel on Climate Change
+SRCCL,4,IPO,Inter-decadal Pacific Oscillation
+SRCCL,2,IQR,Interquartile Range
+SRCCL,1,IRD,Integrated Rural Development
+SRCCL,1,ISEAL,ISEAL Alliance (International Social and Environmental Accreditation and Labelling Alliance)
+SRCCL,3,ISO,International Organization for Standardization
+SRCCL,1,ITPS,Intergovernmental Technical Panel on Soils
+SRCCL,1,ITRDB,International Tree Ring Data Bank
+SRCCL,3,IUCN,International Union for Conservation of Nature
+SRCCL,1,IWAI,Inland Waterways Authority of India
+SRCCL,1,IWM,Integrated Watershed Management
+SRCCL,4,JJA,June-July-August
+SRCCL,1,K,Potassium
+SRCCL,2,km,Kilometres
+SRCCL,2,kt,Kilotonnes
+SRCCL,4,kWh,Kilowatt hours
+SRCCL,2,L,Litres
+SRCCL,1,LADA,Land Degradation Assessment in Drylands
+SRCCL,3,LAI,Leaf Area Index
+SRCCL,1,LAPA,Local Adaptation Plan of Action
+SRCCL,2,LCA,Lifecycle Analysis/Life-Cycle Assessment
+SRCCL,2,LCC,Land-Cover Conversions
+SRCCL,1,LCCS,Land Cover Classification System
+SRCCL,4,LDC,Least Developed Countries
+SRCCL,3,LDN,Land Degradation Neutrality
+SRCCL,3,LED,Low Energy Demand
+SRCCL,1,LGP,Length of Growing Period
+SRCCL,1,LiDAR,Light Detection and Ranging
+SRCCL,1,LIMCOM,Limpopo Watercourse Commission
+SRCCL,4,LK,Local Knowledge
+SRCCL,1,LM,Land Management
+SRCCL,1,LMIC,Low- and Middle-Income Country
+SRCCL,3,LPG,Liquified Petroleum Gas
+SRCCL,2,LSAT,Land Surface Air Temperature
+SRCCL,2,LSLA,Large-Scale Land Acquisition
+SRCCL,1,LTKA,Local and Traditional Knowledge in Agriculture
+SRCCL,5,LUC,Land Use Change
+SRCCL,1,LUH2,Harmonised Land Use Change Data
+SRCCL,1,LULCC,Land Use Land Cover Change
+SRCCL,6,LULUCF,"Land Use, Land Use Change and Forestry"
+SRCCL,3,MA,Millennium Ecosystem Assessment
+SRCCL,3,MAC,Marginal Abatement Cost
+SRCCL,2,MACC,Marginal Abatement Cost Curve
+SRCCL,2,MAgPIE,Model of Agricultural Production and its Impact on the Environment
+SRCCL,3,MAM,March-April-May
+SRCCL,2,MAR,Managed Aquifer Recharge
+SRCCL,1,MCF,Methyl Chloroform
+SRCCL,2,MCS,Mesoscale Convective Systems
+SRCCL,4,MEA,Millennium Ecosystem Assessment
+SRCCL,4,MED,Middle Eastern Dust Storms
+SRCCL,1,MERIS,Medium Resolution Imaging Spectrometer
+SRCCL,2,MESSAGE,Model for Energy Supply Systems And their General Environmental impact
+SRCCL,1,MFS,Microfinance Services
+SRCCL,3,Mha,Megahectare
+SRCCL,1,MIRWH,Mechanized Micro Rainwater Harvesting
+SRCCL,3,MJ,Megajoules
+SRCCL,1,MND,Micro Nutrient Deficiency
+SRCCL,3,MODIS,Moderate Resolution Imaging Spectroradiometer
+SRCCL,1,MOFPI,Ministry of Food Processing Industries
+SRCCL,5,MRV,"Monitoring, Reporting and Verification"
+SRCCL,1,MSA,Mean Species Abundance
+SRCCL,3,Mt,Megatonnes
+SRCCL,1,MTOE,Million Tonnes of Oil Equivalent
+SRCCL,2,N,Nitrogen
+SRCCL,5,N2O,Nitrous Oxide
+SRCCL,2,NAMA,Nationally Appropriate Mitigation Action
+SRCCL,5,NAP,National Adaptation Plan
+SRCCL,2,NAPA,National Adaptation Program of Action
+SRCCL,1,NARC,Nepal Agricultural Research Council
+SRCCL,1,NASA/GISS,US National Aeronautics and Space Administration
+SRCCL,3,NBS,Nature Based Solutions
+SRCCL,2,NCE,New Climate Economy
+SRCCL,2,NCD,Non-Communicable Diseases
+SRCCL,3,NCP,Nature's Contributions to People
+SRCCL,6,NDC,Nationally Determined Contribution
+SRCCL,3,NDVI,Normalised Difference Vegetation Index
+SRCCL,1,NENA,Near East and North Africa
+SRCCL,1,NEON,National Science Foundation's National Ecological Observatory Network
+SRCCL,2,NEP,National Energy Programme
+SRCCL,1,NET,Negative Emission Technology
+SRCCL,1,NFPP,National Forest Protection Program
+SRCCL,5,NGO,Non-Governmental Organisation
+SRCCL,3,NH3,Ammonia
+SRCCL,1,NIAB,National Institute of Agricultural Botany
+SRCCL,5,NOAA,US National Oceanic and Atmospheric Administration
+SRCCL,1,NOAA AVHRR,US National Oceanic and Atmospheric Administration Advanced Very High Resolution Radiometer
+SRCCL,1,NOAA ESRL,US National Oceanic and Atmospheric Administration Earth System Research Laboratory
+SRCCL,5,NPP,Net Primary Production/Net Primary Productivity
+SRCCL,3,NPV,Net Present Value
+SRCCL,2,NRC,National Research Council
+SRCCL,1,NRDC,Natural Resources Defence Council
+SRCCL,1,NTFP,Non-Timber Forest Product
+SRCCL,1,NUS,Neglected and Underutilised Species
+SRCCL,2,O2,Oxygen
+SRCCL,3,O3,Ozone
+SRCCL,3,OC,Organic Carbon
+SRCCL,5,OECD,Organisation for Economic Co-operation and Development
+SRCCL,2,OH,Hydroxyl Radical
+SRCCL,2,ORCHIDEE,Organising Carbon and Hydrology In Dynamic Ecosystems
+SRCCL,2,OSS,Sahara and Sahel Observatory
+SRCCL,2,P,Precipitation or Phosphorus
+SRCCL,1,PAF,Pilot Auction Facility
+SRCCL,1,PAGGW,Pan-African Agency of the Great Green Wall
+SRCCL,1,PAH,Polycyclic Aromatic Hydrocarbon
+SRCCL,1,PAYT,Pay As You Throw
+SRCCL,1,PBAP,Primary Biological Aerosol Particles
+SRCCL,1,PCP,Precipitation
+SRCCL,2,PCRAFI,Pacific Catastrophe Risk Assessment and Financing Initiative
+SRCCL,3,PEFC,Programme for the Endorsement of Forest Certification
+SRCCL,3,PES,Payment for Environmental Services/Payment for Ecosystem Services
+SRCCL,3,PET,Potential Evapotranspiration
+SRCCL,1,PHL,Post Harvest Losses
+SRCCL,1,PICS,Purdue Improved Crop Storage
+SRCCL,5,PM,Particulate Matter
+SRCCL,3,PM2.5,Particulate matter with size less than 2.5 µm
+SRCCL,1,PoU,Prevalence of Undernourishment
+SRCCL,2,PPA,Power Purchase Agreements
+SRCCL,1,PPCDAm,Interministerial Plan of Action for Prevention and Control of Deforestation of the Legal Amazon
+SRCCL,2,PPI,Plant Phenology Index
+SRCCL,1,PRIMAP,Potsdam Real-time Integrated Model for the probabilistic Assessment of emission Paths
+SRCCL,1,RAP,Representative Agricultural Pathways
+SRCCL,6,RCM,Regional Climate Models
+SRCCL,5,RCP,Representative Concentration Pathway
+SRCCL,2,REDD,Reducing Emissions from Deforestation and Degradation
+SRCCL,3,REDD+,"Reducing Emissions from Deforestation and Degradation and the role of conservation, sustainable management of forests and enhancement of forest carbon stocks in developing countries"
+SRCCL,2,RegCM,Regional Climate Model
+SRCCL,2,REMIND,REgional Model of INvestments and Development
+SRCCL,2,REN21,Renewable Energy Policy Network for the 21st Century
+SRCCL,3,RF,Radiative Forcing
+SRCCL,1,RESTREND,Residual Trends
+SRCCL,1,RIL,Reduced Impact Logging
+SRCCL,1,ROSCA,Rotating Saving and Credit Association
+SRCCL,1,RPDS,Research Program on Dryland Systems
+SRCCL,1,RUE,Rain Use Efficiency
+SRCCL,1,RUSLE,Revised Universal Soil Loss Equation
+SRCCL,1,RVI,Reconstructed Vegetation Index
+SRCCL,1,RWH,Rainwater Harvesting
+SRCCL,2,RX1day,Annual Maximum 1-day Precipitation
+SRCCL,3,SAH,Sahara
+SRCCL,4,SAS,South Asia
+SRCCL,3,SAT,Surface Air Temperature
+SRCCL,4,SCC,Social Cost of Carbon
+SRCCL,4,SD,Standard Deviation or Sustainable Development
+SRCCL,5,SDG,Sustainable Development Goal
+SRCCL,1,SDS-WAS,Sand and Dust Storm Warning Advisory and Assessment System
+SRCCL,1,SERFOR,National Forest Service and Wildlife Authority
+SRCCL,3,SES,Socio-Ecological Systems
+SRCCL,2,SFM,Sustainable Forest Management
+SRCCL,1,SFSC,Shortening Food Supply Chain
+SRCCL,3,SI,Sustainable Intensification
+SRCCL,1,SIB,State Investment Bank
+SRCCL,1,SICAR,National Land Registry System
+SRCCL,7,SIDS,Small Island Developing States
+SRCCL,6,SLCF,Short-Lived Climate Forcer
+SRCCL,2,SLCP,Short Lived Climate Pollutant
+SRCCL,3,SLM,Sustainable Land Management
+SRCCL,4,SM,Supplementary Materials
+SRCCL,4,SO2,Sulfur dioxide
+SRCCL,2,SOA,Secondary Organic Aerosols
+SRCCL,2,SOC,Soil Organic Carbon
+SRCCL,1,SOFI,The State of Food Security and Nutrition in the World
+SRCCL,2,SOM,Soil Organic Matter
+SRCCL,3,SON,September-October-November
+SRCCL,1,SPOT VGT,Satellite Pour l'Observation de la Terre Vegetation (Satellite for the Observation of the Earth Vegetation)
+SRCCL,2,SR15,IPCC Special Report on Global Warming of 1.5°C
+SRCCL,7,SRCCL,IPCC Special Report on Climate Change and Land
+SRCCL,5,SRES,IPCC Special Report on Emission Scenarios
+SRCCL,4,SREX,IPCC Special Report on Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation
+SRCCL,1,SR-LULUCF,"IPCC Special Report on Land Use, Land-Use Change and Forestry"
+SRCCL,7,SROCC,IPCC Special Report on the Ocean Cryosphere and Climate Change
+SRCCL,5,SSP,Shared Socio-economic Pathways
+SRCCL,1,SSSA,Soil Science Society of America
+SRCCL,5,SST,Sea Surface Temperature
+SRCCL,2,SWAT,Soil and Water Assessment Tool
+SRCCL,1,SWC,Soil and Water Conservation
+SRCCL,3,SYR,IPCC Synthesis Report
+SRCCL,3,t,Tonnes
+SRCCL,3,TCR,Transient Climate Response
+SRCCL,2,TEEB,The Economics of Ecosystems and Biodiversity
+SRCCL,3,Tg,Teragrams
+SRCCL,4,TS,Technical Summary
+SRCCL,1,TSS,Time Series Segmentation
+SRCCL,1,UGI,Urban Green Infrastructure
+SRCCL,5,UHI,Urban Heat Island
+SRCCL,2,UNCBD,United Nations Convention on Biodiversity
+SRCCL,3,UNCCD,United Nations Convention to Combat Desertification
+SRCCL,1,UNCED,United Nations Conference on Environment and Development
+SRCCL,1,UNCTAD,United Nations Conference on Trade and Development
+SRCCL,4,UNDP,United Nations Development Programme
+SRCCL,1,UN-EMG,UN Environment Management Group
+SRCCL,6,UNEP,United Nations Environment Programme
+SRCCL,1,UNEP-GEF,UN Environment Global Environment Facility
+SRCCL,7,UNFCCC,United Nations Framework Convention on Climate Change
+SRCCL,3,UNICEF,United Nations Children's Fund
+SRCCL,2,UNISDR,UN Sendai Framework for Disaster Risk Reduction
+SRCCL,1,UN-REDD,United Nations Collaborative Programme on Reducing Emissions from Deforestation and Forest Degradation in Developing Countries
+SRCCL,1,UPAF,Urban and Peri-urban Agriculture and Forestry
+SRCCL,2,USAID,United States Agency for International Development
+SRCCL,5,USD,United States Dollars
+SRCCL,1,USDA,United States Department of Agriculture
+SRCCL,1,USEPA,United States Environmental Protection Agency
+SRCCL,1,UTFI,Underground Taming of Floods for Irrigation
+SRCCL,4,UV,Ultraviolet
+SRCCL,1,VGGT,"Voluntary Guidelines on the Responsible Governance of Tenure of Land, Fisheries and Forests in the Context of National Food Security"
+SRCCL,3,VOC,Volatile Organic Compound
+SRCCL,2,VOD,Vegetation Optical Depth
+SRCCL,2,w/,With
+SRCCL,2,w/o,Without
+SRCCL,3,W,Watts
+SRCCL,3,WAF,West Africa
+SRCCL,1,WaTEM/SEDEM,Spatially distributed sediment delivery model combining the WaTEM and SEDEM models
+SRCCL,1,WBA,World Bioenergy Association
+SRCCL,3,WBCSD,World Business Council for Sustainable Development
+SRCCL,2,WEC,World Energy Council
+SRCCL,3,WEF,World Economic Forum
+SRCCL,3,WEO,World Energy Outlook
+SRCCL,1,WEPP,Water Erosion Prediction Project
+SRCCL,1,WET,Wetland Extent Trends
+SRCCL,3,WFP,World Food Programme
+SRCCL,5,WGI,IPCC Working Group I
+SRCCL,5,WGII,IPCC Working Group II
+SRCCL,4,WGIII,IPCC Working Group III
+SRCCL,6,WHO,World Health Organisation
+SRCCL,5,WMO,World Meteorological Organisation
+SRCCL,1,WOCAT,World Overview of Conservation Approaches and Technologies
+SRCCL,1,WRI,World Resources Institute
+SRCCL,1,WSOA,Water Soluble Organic Compounds
+SRCCL,3,WTO,World Trade Organisation
+SRCCL,3,WUE,Water Use Efficiency
+SRCCL,2,yr,Year
+SRCCL,1,ZNLD,Zero Net Land Degradation
+SROCC,1,a.s.l.,Above Sea Level
+SROCC,2,AABW,Antarctic Bottom Water
+SROCC,2,ABNJ,Areas Beyond National Jurisdiction
+SROCC,3,AC,Arctic Council
+SROCC,2,ACC,Antarctic Circumpolar Current
+SROCC,1,AEWC,Alaska Eskimo Whaling Commission
+SROCC,2,AIS,Antarctic Ice Sheet
+SROCC,3,ALT,Active-Layer Thickness
+SROCC,4,AMO,Atlantic Multidecadal Oscillation
+SROCC,4,AMOC,Atlantic Meridional Overturning Circulation
+SROCC,2,AMV,Atlantic Multidecadal Variability
+SROCC,3,AOGCM,Atmosphere-Ocean General Circulation Model
+SROCC,2,AP,Antarctic Peninsula
+SROCC,5,AR4,IPCC 4th Assessment Report
+SROCC,7,AR5,IPCC 5th Assessment Report
+SROCC,6,AR6,IPCC 6th Assessment Report
+SROCC,3,ASE,Amundsen Sea Embayment
+SROCC,2,ASF,Animal Sourced Food
+SROCC,1,ATS,Antarctic Treaty System
+SROCC,6,BC,Black Carbon
+SROCC,7,BECCS,Bioenergy with Carbon Capture and Storage
+SROCC,1,CAO,Central Arctic Ocean
+SROCC,6,CbA,Community-based Adaptation
+SROCC,5,CBD,Convention on Biological Diversity
+SROCC,1,CBM,Community-based Monitoring
+SROCC,1,CCAMLR,Convention for the Conservation of Antarctic Marine Living Resources
+SROCC,7,CDR,Carbon Dioxide Removal
+SROCC,2,CFC,Chlorofluorocarbons
+SROCC,3,CMIP,Coupled Model Intercomparison Project
+SROCC,4,CMIP3,Coupled Model Intercomparison Project Phase 3
+SROCC,6,CMIP5,Coupled Model Intercomparison Project Phase 5
+SROCC,7,CMIP6,Coupled Model Intercomparison Project Phase 6
+SROCC,6,COP,Conference of Parties
+SROCC,1,CoSMoS,Coastal Storm Modeling System
+SROCC,1,COWCLIP,Coordinated Ocean Wave Climate Project
+SROCC,1,CPR,Continuous Plankton Recorder
+SROCC,2,CRDP,Climate-Resilient Development Pathway
+SROCC,1,DDT,Dichlorodiphenyl-trichloroethane
+SROCC,2,DHW,Degree Heating Week
+SROCC,2,DIC,Dissolved Inorganic Carbon
+SROCC,4,DJF,"December, January, February"
+SROCC,1,DO,Dissolved Oxygen
+SROCC,2,DOC,Dissolved Organic Carbon
+SROCC,5,DRM,Disaster Risk Management
+SROCC,1,DSL,Deep Scattering Layers
+SROCC,2,EAD,Expected Annual Damages
+SROCC,4,EAIS,East Antarctic Ice Sheet
+SROCC,5,EbA,Ecosystem-based Adaptation
+SROCC,3,EBUS,Eastern Boundary Upwelling System
+SROCC,3,ECMWF,European Centre for Medium-Range Weather Forecasts
+SROCC,1,ECP,Extended Concentration Pathway
+SROCC,2,EDW,Elevation Dependent Warming
+SROCC,2,EEZ,Exclusive Economic Zone
+SROCC,5,ENSO,El Niño-Southern Oscillation
+SROCC,3,ESA CCI,European Space Agency Climate Change Initiative
+SROCC,5,ESL,Extreme Sea Level
+SROCC,6,ESM,Earth System Model
+SROCC,3,ETC,Extratropical Cyclone
+SROCC,4,EWS,Early Warning System
+SROCC,1,FISHMIP,Fisheries and Marine Ecosystems Impact Model Intercomparison Project
+SROCC,1,GACS,Global Alliance of Continuous Plankton Recorder Surveys
+SROCC,5,GCM,General Circulation Model/Global Climate Model
+SROCC,7,GDP,Gross Domestic Product
+SROCC,1,GGR,Greenhouse Gas Removal
+SROCC,6,GHG,Greenhouse Gas
+SROCC,2,GIA,Glacio-Isostatic Adjustment
+SROCC,4,GIS,Greenland Ice Sheet
+SROCC,3,GLOF,Glacial Lake Outburst Flood
+SROCC,5,GMSL,Global Mean Sea Level
+SROCC,5,GMST,Global Mean Surface Temperature
+SROCC,1,GPD,Generalised Pareto Distribution
+SROCC,2,GPG,Good Practice Guidance
+SROCC,5,GPP,Gross Primary Production
+SROCC,2,GPS,Global Positioning System
+SROCC,3,GRACE,Gravity Recovery and Climate Experiment
+SROCC,2,GRD,"Gravity, Rotation, and Deformation"
+SROCC,1,GSP,Gross State Product
+SROCC,6,GWP,Global Warming Potential
+SROCC,2,HAB,Harmful Algal Blooms
+SROCC,4,HFC,Hydrofluorocarbons
+SROCC,1,HSM,Historical Simulation
+SROCC,2,IAEA,International Atomic Energy Agency
+SROCC,1,ICC,Inuit Circumpolar Council
+SROCC,2,ICM,Integrated Coastal Management
+SROCC,2,ICZM,Integrated Coastal Zone Management
+SROCC,3,IK,Indigenous Knowledge
+SROCC,3,IMO,International Maritime Organization
+SROCC,1,INGO,International Non-Governmental Organisation
+SROCC,1,IOC-UNESCO,"Intergovernmental Oceanographic Commission of the United Nations Educational, Scientific and Cultural Organization"
+SROCC,4,IOD,Indian Ocean Dipole
+SROCC,5,IPBES,Intergovernmental Platform on Biodiversity and Ecosystem Services assessments
+SROCC,4,IPO,Interdecadal Pacific Oscillation
+SROCC,1,IRC,Inuvialuit Regional Corporation
+SROCC,1,ISR,Inuvialuit Settlement Region
+SROCC,2,ITCZ,Intertropical Convergence Zone
+SROCC,4,ITF,Indonesia Throughflow
+SROCC,3,IWRM,Integrated Water Resource Management
+SROCC,4,JJA,"June, July, August"
+SROCC,3,L&D,Loss and Damage
+SROCC,4,LDC,Least Developed Countries
+SROCC,1,LDOC,Labile Dissolved Organic Carbon
+SROCC,2,LECZ,Low Elevation Coastal Zone
+SROCC,3,LGM,Last Glacial Maximum
+SROCC,4,LIG,Last Interglacial
+SROCC,4,LK,Local Knowledge
+SROCC,1,LLIC,Low-Lying Islands and Coasts
+SROCC,2,LMMA,Locally Managed Marine Protected Area
+SROCC,5,LUC,Land-Use Change
+SROCC,2,LULUC,Land Use and Land-Use Change
+SROCC,2,M&E,Monitoring and Evaluation
+SROCC,1,MAGT,Mean Annual Ground Temperature
+SROCC,2,MCDA,Multi-Criteria Decision Analysis
+SROCC,3,MHW,Marine Heatwave
+SROCC,2,MICI,Marine Ice Cliff Instability
+SROCC,2,MIP,Model Intercomparison Project
+SROCC,4,MISI,Marine Ice Sheet Instability
+SROCC,2,MOC,Meridional Overturning Circulation
+SROCC,3,MPA,Marine Protected Area
+SROCC,3,mPWP,mid-Pliocene Warm Period
+SROCC,5,MRV,"Measurement, Reporting and Verification"
+SROCC,2,MSL,Mean Sea Level
+SROCC,2,MSY,Maximum Sustainable Yield
+SROCC,2,NADW,North Atlantic Deep Water
+SROCC,3,NAO,North Atlantic Oscillation
+SROCC,5,NAP,National Adaption Plan
+SROCC,2,NCEP,National Centers for Environmental Prediction
+SROCC,3,NCP,Nature's Contribution to People
+SROCC,6,NDC,Nationally Determined Contributions
+SROCC,5,NGO,Non-Governmental Organisation
+SROCC,5,NOAA,National Oceanic and Atmospheric Administration
+SROCC,5,NPP,Net Primary Production
+SROCC,3,NPV,Net Present Value
+SROCC,5,OA,Ocean Acidification
+SROCC,2,OHC,Ocean Heat Content
+SROCC,2,OLS,Ordinary Least Square
+SROCC,2,OMZ,Oxygen Minimum Zone
+SROCC,1,PCBs,Polychlorinated Biphenyls
+SROCC,3,PDO,Pacific Decadal Oscillation
+SROCC,2,PFC,Perfluorocarbons
+SROCC,1,PIG,Pine Island Glacier
+SROCC,1,PISM,Parallel Ice Sheet Model
+SROCC,5,PM,Particulate Matter
+SROCC,2,POC,Particulate Organic Carbon
+SROCC,2,POP,Persistent Organic Pollutants
+SROCC,1,ppmv,parts per million volume
+SROCC,1,PSU,Practical Salinity Unit
+SROCC,6,RCM,Regional Climate Model
+SROCC,5,RCP,Representative Concentration Pathway
+SROCC,2,RDM,Robust Decision Making
+SROCC,1,RDOC,Refractory Dissolved Organic Carbon
+SROCC,4,RFC,Reason for Concern
+SROCC,1,RGI,Randolph Glacier Inventory
+SROCC,1,RITC,Rapid Intensification of Tropical Cyclones
+SROCC,3,RSL,Relative Sea Level
+SROCC,3,RSLR,Relative Sea Level Rise
+SROCC,4,SAM,Southern Annular Mode
+SROCC,1,SAMOC,South Atlantic Meridional Overturning Circulation
+SROCC,4,SD,Sustainable Development
+SROCC,2,SDGs,Sustainable Development Goals
+SROCC,2,SDM,Structured Decision Making
+SROCC,2,SDP,Sustainable Development Pathway
+SROCC,2,SH,Southern Hemisphere
+SROCC,7,SIDS,Small Island Developing States
+SROCC,6,SLCF,Short-Lived Climate Forcers
+SROCC,2,SLE,Sea Level Equivalent
+SROCC,2,SLP,Sea Level Pressure
+SROCC,5,SLR,Sea Level Rise
+SROCC,2,SMB,Surface Mass Balance
+SROCC,1,SPG,Subpolar Gyre
+SROCC,6,SPM,Summary for Policymakers
+SROCC,2,SR15,IPCC Special Report on Global Warming of 1.5°C
+SROCC,7,SRCCL,IPCC Special Report on Climate Change and Land
+SROCC,5,SRES,IPCC Special Report on Emissions Scenarios
+SROCC,4,SREX,IPCC Special Report on Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation
+SROCC,6,SRM,Solar Radiation Modification
+SROCC,7,SROCC,IPCC Special Report on the Ocean and Cryosphere in a Changing Climate
+SROCC,2,SRTM,Shuttle Radar Topography Mission
+SROCC,2,SSPs,Shared Socioeconomic Pathways
+SROCC,5,SST,Sea Surface Temperature
+SROCC,3,SWE,Snow Water Equivalent
+SROCC,3,TC,Tropical Cyclone
+SROCC,1,THC,Thermohaline Circulation
+SROCC,2,ToE,Time of Emergence
+SROCC,1,UNCLOS,United Nations Convention on the Law of the Sea
+SROCC,6,UNEP,United Nations Environment Programme
+SROCC,7,UNFCCC,United Nations Framework Convention on Climate Change
+SROCC,1,UQ,Uncertainty Quantification
+SROCC,2,VLM,Vertical Land Motion
+SROCC,4,WAIS,West Antarctic Ice Sheet
+SROCC,2,WBC,Western Boundary Current
+SROCC,5,WGI,IPCC Working Group I
+SROCC,5,WGII,IPCC Working Group II
+SROCC,1,WGMS,World Glacial Monitoring Service
+SYR,6,AFOLU,"Agriculture, Forestry and Other Land Use"
+SYR,7,AR5,Fifth Assessment Report
+SYR,6,AR6,Sixth Assessment Report
+SYR,7,BECCS,Bioenergy with Carbon Dioxide Capture and Storage
+SYR,6,CCS,Carbon Capture and Storage
+SYR,5,CCU,Carbon Capture and Utilization
+SYR,7,CDR,Carbon Dioxide Removal
+SYR,5,CH4,Methane
+SYR,3,CID,Climatic impact-driver
+SYR,6,CMIP5,Coupled Model Intercomparison Project Phase 5
+SYR,7,CMIP6,Coupled Model Intercomparison Project Phase 6
+SYR,5,CO2,Carbon Dioxide
+SYR,3,CO2-eq,Carbon Dioxide Equivalent
+SYR,3,CRD,Climate Resilient Development
+SYR,1,CO2-FFI,CO2 from Fossil Fuel combustion and Industrial processes
+SYR,1,CO2-LULUCF,"CO2 from Land Use, Land-Use Change and Forestry"
+SYR,1,CSB,Cross-Section Box
+SYR,5,DACCS,Direct Air Carbon Capture and Storage
+SYR,5,DRM,Disaster Risk Management
+SYR,5,EbA,Ecosystem-based Adaptation
+SYR,4,ECS,Equilibrium climate sensitivity
+SYR,3,ES,Executive Summary
+SYR,4,EV,Electric Vehicle
+SYR,4,EWS,Early Warning System
+SYR,5,FaIR,Finite Amplitude Impulse Response simple climate model
+SYR,5,FAO,Food and Agriculture Organization of the United Nations
+SYR,2,FFI,Fossil-Fuel combustion and Industrial processes
+SYR,1,F-gases,Fluorinated gases
+SYR,7,GDP,Gross Domestic Product
+SYR,6,GHG,Greenhouse Gas
+SYR,3,Gt,Gigatonnes
+SYR,2,GW,Gigawatt
+SYR,3,GWL,Global Warming Level
+SYR,2,GWP100,Global Warming Potential over a 100 year time horizon
+SYR,2,HFCs,Hydrofluorocarbons
+SYR,5,IEA,International Energy Agency
+SYR,1,IEA-STEPS,International Energy Agency Stated Policies Scenario
+SYR,2,IMP,Illustrative Mitigation Pathway
+SYR,2,IMP-LD,Illustrative Mitigation Pathway - Low Demand
+SYR,2,IMP-NEG,Illustrative Mitigation Pathway - NEGative emissions deployment
+SYR,2,IMP-SP,Illustrative Mitigation Pathway - Shifting development Pathways
+SYR,2,IMP-REN,Illustrative Mitigation Pathway - Heavy reliance on RENewables
+SYR,1,IP-ModAct,Illustrative Pathway Moderate Action
+SYR,6,IPCC,Intergovernmental Panel on Climate Change
+SYR,4,kWh,Kilowatt hour
+SYR,3,LCOE,Levelized Cost of Energy
+SYR,4,LDC,Least Developed Countries
+SYR,1,Li-on,Lithium-ion
+SYR,4,LK,Local Knowledge
+SYR,6,LULUCF,"Land Use, Land-Use Change and Forestry"
+SYR,3,MAGICC,Model for the Assessment of Greenhouse Gas Induced Climate Change
+SYR,2,MWh,Megawatt hour
+SYR,5,N2O,Nitrous oxide
+SYR,6,NDC,Nationally Determined Contribution
+SYR,3,NF3,Nitrogen trifluoride
+SYR,3,O3,Ozone
+SYR,3,PFCs,Perfluorocarbons
+SYR,3,ppb,parts per billion
+SYR,4,PPP,Purchasing Power Parity
+SYR,2,ppm,parts per million
+SYR,3,PV,Photovoltaic
+SYR,3,R&D,Research and Development
+SYR,1,RCB,Remaining Carbon Budget
+SYR,2,RCPs,"Representative Concentration Pathways (e.g. RCP2.6, pathway for which radiative forcing by 2100 is limited to 2.6 Wm-2)"
+SYR,1,RFCs,Reasons for Concern
+SYR,5,SDG,Sustainable Development Goal
+SYR,2,SDPs,Shifting Development Pathways
+SYR,4,SF6,Sulphur Hexafluoride
+SYR,7,SIDS,Small Island Developing States
+SYR,6,SLCF,Short-Lived Climate Forcer
+SYR,6,SPM,Summary For Policymakers
+SYR,5,SR1.5,Special Report on Global Warming of 1.5°C
+SYR,7,SRCCL,Special Report on Climate Change and Land
+SYR,6,SRM,Solar Radiation Modification
+SYR,7,SROCC,Special Report on the Ocean and Cryosphere in a Changing Climate
+SYR,5,SSP,Shared Socioeconomic Pathway
+SYR,3,SYR,Synthesis Report
+SYR,1,tCO2-eq,Tonne of carbon dioxide equivalent
+SYR,1,tCO2-FFI,Tonne of carbon dioxide from Fossil Fuel combustion and Industrial processes
+SYR,4,TS,Technical Summary
+SYR,7,UNFCCC,United Framework Convention on Climate Change
+SYR,5,USD,United States Dollar
+SYR,3,WG,Working Group
+SYR,5,WGI,IPCC Working Group I
+SYR,5,WGII,IPCC Working Group II
+SYR,4,WGIII,IPCC Working Group III
+SYR,6,WHO,World Health Organization
+SYR,3,WIM,Warsaw International Mechanism on Loss and Damage under UNFCCC
+SYR,1,Wm-2,Watts per square meter
+WGI,1,20CR,20th Century Reanalysis
+WGI,1,A1B,Special Report on Emissions Scenarios A1B scenario
+WGI,2,AABW,Antarctic bottom water
+WGI,1,AAIW,Antarctic intermediate water
+WGI,2,AAO,Antarctic Oscillation
+WGI,1,abrupt4xCO2,Scenario with abrupt quadrupling of the atmospheric concentration of carbon dioxide
+WGI,2,ACC,Antarctic Circumpolar Current
+WGI,2,ACCESS,Australian Community Climate and Earth System Simulator
+WGI,2,ACCMIP,Atmospheric Chemistry and Climate Model Intercomparison Project
+WGI,2,ACE,Accumulated Cyclone Energy
+WGI,1,AED,atmospheric evaporative demand
+WGI,2,AerChemMIP,Aerosols and Chemistry Model Intercomparison Project
+WGI,1,AeroCom,Aerosol Comparisons between Observations and Models project
+WGI,1,AERONET,Aerosol Robotic Network
+WGI,1,AEW,African Easterly Wave
+WGI,3,AF,airborne fraction of CO2
+WGI,6,AFOLU,"agriculture, forestry and other land use"
+WGI,2,AFR,Africa
+WGI,2,AGAGE,Advanced Global Atmospheric Gases Experiment
+WGI,2,AGCM,atmospheric global climate model
+WGI,1,AGFP,absolute global forcing potential
+WGI,1,AGR/ECOL,agriculture and ecological droughts
+WGI,1,AGTP,absolute global temperature change potential
+WGI,1,AGWP,absolute global warming potentials
+WGI,1,AIRS,Atmospheric Infrared Sounder
+WGI,2,AIS,Antarctic Ice Sheet
+WGI,1,ALL,all forcings
+WGI,3,ALT,active layer thickness
+WGI,1,AMIP,Atmospheric Model Intercomparison Project
+WGI,1,AMM,Atlantic Meridional Mode
+WGI,1,AMMA,African Monsoon Multidisciplinary Analyses
+WGI,4,AMO,Atlantic Multi-decadal Oscillation
+WGI,4,AMOC,Atlantic Meridional Overturning Circulation
+WGI,1,AMSU,Advanced Microwave Sounding Unit
+WGI,2,AMV,Atlantic Multi-decadal Variability
+WGI,1,AO,Arctic Oscillation
+WGI,1,AOD,aerosol optical depth
+WGI,3,AOGCM,atmosphere–ocean general circulation model
+WGI,2,AP,Antarctic Peninsula
+WGI,1,AQ,air quality
+WGI,4,AR,atmospheric river
+WGI,5,AR4,IPCC Fourth Assessment Report
+WGI,7,AR5,IPCC Fifth Assessment Report
+WGI,6,AR6,IPCC Sixth Assessment Report
+WGI,1,ARO,Arctic Ocean
+WGI,1,ARP,Arabian Peninsula
+WGI,1,ARS,Arabian Sea
+WGI,3,ASE,Amundsen Sea Embayment
+WGI,1,AUS,Australasia
+WGI,1,AusMCM,Australian–Maritime Continent monsoon
+WGI,2,AVHRR,Advanced Very High Resolution Radiometer
+WGI,1,AZM,Atlantic Zonal Modes
+WGI,6,BC,black carbon
+WGI,1,BCE,Before the Common Era
+WGI,1,BCP,biological carbon pump
+WGI,3,BE,Berkeley Earth
+WGI,7,BECCS,bioenergy with carbon capture and storage
+WGI,1,BOB,Bay of Bengal
+WGI,1,BP,before the present
+WGI,2,BrC,brown carbon
+WGI,1,BSISO,boreal summer intra-seasonal oscillation
+WGI,1,BU,bottom up
+WGI,3,BVOC,biogenic volatile organic compound
+WGI,1,C3S,Copernicus Climate Change Service
+WGI,1,C4MIP,Coupled Climate Carbon Cycle Model Intercomparison Project
+WGI,2,CAF,Central Africa
+WGI,3,CAM,Central America
+WGI,1,CAMS,Copernicus Atmosphere Monitoring Service
+WGI,1,CanESM2,Canadian Earth System Model version 2
+WGI,1,CanESM5,Canadian Earth System Model version 5
+WGI,1,CAPE,convective available potential energy
+WGI,3,CAR,Caribbean
+WGI,1,CAU,Central Australia
+WGI,1,CCM,chemistry–climate model
+WGI,1,CCMI,Chemistry–Climate Modelling Initiative
+WGI,2,CCN,cloud condensation nuclei
+WGI,6,CCS,carbon dioxide capture and storage
+WGI,4,CCT,cirrus cloud thinning
+WGI,2,CD,cooling degree days
+WGI,4,CDD,consecutive dry days
+WGI,7,CDR,carbon dioxide removal
+WGI,1,CDRMIP,Carbon Dioxide Removal Model Intercomparison Project
+WGI,1,CDW,Circumpolar Deep Water
+WGI,3,CE,Common Era
+WGI,3,CEDS,Community Emissions Data System
+WGI,1,CERES,Clouds and the Earth's Radiant Energy System
+WGI,2,CESM,Community Earth System Model
+WGI,3,CFCs,chlorofluorocarbons
+WGI,1,CFMIP,Cloud Feedback Model Intercomparison Project
+WGI,1,CFSR,Climate Forecast System Reanalysis
+WGI,2,CGTP,combined global temperature change potential
+WGI,5,CH4,methane
+WGI,1,CICERO,Center for International Climate and Environment Research
+WGI,3,CID,climatic impact-driver
+WGI,1,CISM2,Community Ice Sheet Model 2
+WGI,1,CLLJ,Caribbean low-level jet
+WGI,1,CLSAT,China Land Surface Air Temperature
+WGI,1,CMAP,NOAA Climate Prediction Center Merged Analysis of Precipitation
+WGI,3,CMIP,Coupled Model Intercomparison Project
+WGI,4,CMIP3,Coupled Model Intercomparison Project Phase 3
+WGI,6,CMIP5,Coupled Model Intercomparison Project Phase 5
+WGI,7,CMIP6,Coupled Model Intercomparison Project Phase 6
+WGI,2,CNA,Central North America
+WGI,2,CNRM,Centre National de la Recherche Météorologique
+WGI,4,CO,carbon monoxide
+WGI,5,CO2,carbon dioxide
+WGI,3,CO2-eq,carbon dioxide equivalent
+WGI,1,COBE,Centennial in situ Observation-Based Estimates of Sea Surface Temperature
+WGI,3,CORDEX,Coordinated Regional Climate Downscaling Experiment
+WGI,2,COSMO,Consortium for Small-scale Modeling
+WGI,2,COVID-19,coronavirus disease of 2019
+WGI,1,CP,Central Pacific
+WGI,1,CPM,convection-permitting model
+WGI,1,CRA,climate risk and adaptation assessment
+WGI,1,CRE,cloud radiative effect
+WGI,2,CRM,cloud resolving model
+WGI,3,CRU,Climate Research Unit
+WGI,2,CRUTEM,Climatic Research Unit gridded global historical near-surface air temperature dataset
+WGI,1,CRUTS,Climatic Research Unit gridded time-series dataset
+WGI,3,CSIRO,Commonwealth Scientific and Industrial Research Organisation
+WGI,5,DACCS,direct air carbon capture with carbon storage
+WGI,1,DAMIP,Detection and Attribution Model Intercomparison Project
+WGI,1,DCPP,Decadal Climate Prediction Project
+WGI,1,DECK,"Diagnostic, Evaluation and Characterization of Klima"
+WGI,1,DeepMIP,Deep-Time Model Intercomparison Project
+WGI,1,DF,drought frequency
+WGI,3,DGVM,dynamic global vegetation model
+WGI,1,DI,Drought Index
+WGI,2,DIC,dissolved inorganic carbon
+WGI,4,DJF,December–January–February
+WGI,1,DJFM,December–January–February–March
+WGI,1,DMS,dimethyl sulphide
+WGI,1,DTR,diurnal temperature range
+WGI,1,DU,Dobson Units
+WGI,4,EAIS,East Antarctic Ice Sheet
+WGI,1,EAN,East Antarctica
+WGI,1,EAO,Equatorial Atlantic Ocean
+WGI,2,EAS,East Asia
+WGI,1,EAsiaM,East Asian monsoon
+WGI,1,EASM,East Asian summer monsoon
+WGI,1,EAU,Eastern Australia
+WGI,1,EAWM,East Asian winter monsoon
+WGI,1,EBAF,CERES Energy Balanced and Filled climate data record
+WGI,2,EBM,Energy Balance Model
+WGI,3,EBUS,Eastern boundary upwelling systems
+WGI,3,ECMWF,European Centre for Medium-Range Weather Forecasts
+WGI,4,ECS,equilibrium climate sensitivity
+WGI,1,ECV,Essential Climate Variable
+WGI,2,ECWL,Extreme Coastal Water Level
+WGI,2,EDW,elevation-dependent warming
+WGI,1,EECO,Early Eocene Climatic Optimum
+WGI,2,EEU,Eastern Europe
+WGI,1,EgC,exagrams of carbon (1000 petagrams of carbon)
+WGI,1,EIO,Equatorial Indian Ocean
+WGI,2,EMIC,Earth models of intermediate complexity
+WGI,2,ENA,Eastern North America
+WGI,5,ENSO,El Niño–Southern Oscillation
+WGI,1,EOF,empirical orthogonal function
+WGI,1,EOV,Essential Ocean Variable
+WGI,2,EP,Eastern Pacific
+WGI,3,EPA,USA Environmental Protection Agency
+WGI,1,EPO,Equatorial Pacific Ocean
+WGI,1,EqAmer,equatorial America
+WGI,1,ERA-Interim,ECMWF global reanalysis
+WGI,1,ERA20C,ECMWF 20th century reanalysis
+WGI,1,ERA20CM,ECMWF 20th century atmospheric model ensemble
+WGI,1,ERA5,ECMWF global reanalysis (replaces ERA-Interim)
+WGI,3,ERF,effective radiative forcing
+WGI,2,ERFaci,effective radiative forcing due to aerosol–cloud interactions
+WGI,2,ERFari,effective radiative forcing due to aerosol–radiation interactions
+WGI,1,ERSST,Extended Reconstructed Sea Surface Temperature
+WGI,3,ESA,European Space Agency
+WGI,3,ESA CCI,European Space Agency Climate Change Initiative
+WGI,2,ESAF,East Southern Africa
+WGI,1,ESB,East Siberia
+WGI,1,ESGF,Earth System Grid Federation
+WGI,5,ESL,extreme sea level
+WGI,6,ESM,Earth system model
+WGI,1,ESMValTool,Earth System Model Evaluation Tool
+WGI,2,ESRL,NOAA Earth System Research Laboratory
+WGI,2,ESWL,extreme still water levels
+WGI,2,ET,evapotranspiration
+WGI,3,ETC,extratropical cyclone
+WGI,1,ETCCDI,Expert Team on Climate Change Detection and Indices
+WGI,2,ETWL,Extreme Total Water Level
+WGI,5,EU,European Union
+WGI,5,FaIR,Finite Amplitude Impulse Response simple climate model
+WGI,5,FAIR,"Findable, Accessible, Interoperable and Reusable principles"
+WGI,1,FAPAR,fraction of absorbed photosynthetically active radiation
+WGI,2,FAR,IPCC First Assessment Report
+WGI,1,FD,frost days
+WGI,1,FESOM,Finite Element Sea ice/Ice Shelf Ocean Model
+WGI,2,FFDI,Forest Fire Danger Index
+WGI,1,FOLU,forestry and other land use
+WGI,1,fSST,fixed-sea surface temperature
+WGI,5,GCM,general circulation model or global climate model
+WGI,1,GCOS,Global Climate Observing System
+WGI,4,GCP,Global Carbon Project
+WGI,2,GDD,growing degree days
+WGI,7,GDP,gross domestic product
+WGI,1,GeoMIP,Geoengineering Model Intercomparison Project
+WGI,2,GFCS,Global Framework for Climate Services
+WGI,2,GFDL,NOAA Geophysical Fluid Dynamics Laboratory
+WGI,2,GHCN,NOAA Global Historical Climatology Network
+WGI,1,GHCNd,NOAA Global Historical Climatology Network daily database
+WGI,1,GHCNv4,NOAA Global Historical Climatology Network monthly database version 4
+WGI,6,GHG,greenhouse gas
+WGI,3,GHM,global hydrological model
+WGI,2,GIA,glacial isostatic adjustment
+WGI,1,GIC,Greenland/Iceland
+WGI,2,GISS,NASA Goddard Institute for Space Studies
+WGI,3,GISTEMP,NASA Goddard Institute for Space Studies Surface Temperature Analysis
+WGI,1,GlacierMIP,Glacier Model Intercomparison Project
+WGI,1,GLDAS,Global Land Data Assimilation System
+WGI,1,GloGEM,Global Glacier Evolution Model
+WGI,4,GM,Global monsoon
+WGI,1,GMMIP,Global Monsoons Model Intercomparison Project
+WGI,5,GMSL,global mean sea level
+WGI,5,GMST,global mean surface temperature
+WGI,1,GMTSL,global mean thermosteric sea level
+WGI,1,GNSS,Global Navigation Satellite System
+WGI,1,GOME,Global Ozone Monitoring Experiment
+WGI,1,GOSAT,Greenhouse Gases Observing Satellite
+WGI,2,GPCC,Global Precipitation Climatology Centre
+WGI,1,GPCP,Global Precipitation Climatology Project
+WGI,1,GPM,Global Precipitation Mission
+WGI,2,GPS,Global Positioning System
+WGI,3,GRACE,Gravity Recovery and Climate Experiment
+WGI,2,GRD,"gravitational, rotational and deformational"
+WGI,1,GrIS,Greenland Ice Sheet
+WGI,4,GSAT,global surface air temperature
+WGI,1,GSMaP,Global Satellite Mapping of Precipitation dataset
+WGI,1,GtC,gigatonnes of carbon
+WGI,1,GtCO2,gigatonnes of carbon dioxide
+WGI,3,GTP,global temperature change potential
+WGI,3,GWL,global warming level
+WGI,6,GWP,global warming potential
+WGI,2,HadCRUT,Hadley Centre Climatic Research Unit gridded surface temperature dataset
+WGI,1,HadEX3,Hadley Centre gridded land surface extremes indices
+WGI,2,HadGEM,Hadley Centre Global Environment Model
+WGI,1,HadISST,Hadley Centre Ice and Sea Surface Temperature dataset
+WGI,1,HadSST,Hadley Centre Sea Surface Temperature dataset
+WGI,1,HC,Hadley circulation
+WGI,1,HCFC,hydrochlorofluorocarbon
+WGI,1,HD,heating degree days
+WGI,4,HFC,hydrofluorocarbon
+WGI,1,HI,heat index
+WGI,1,HighResMIP,High Resolution Model Intercomparison Project
+WGI,3,HKH,Hindu Kush Himalaya
+WGI,1,HNO3,nitric acid
+WGI,1,IAGOS,In-service Aircraft for a Global Observing System
+WGI,4,IAM,integrated assessment model
+WGI,2,ICE,initial condition ensemble
+WGI,1,ICESat,"Ice, Cloud and land Elevation Satellite"
+WGI,1,ICOADS,International Comprehensive Ocean–Atmosphere Data Set
+WGI,1,IMBIE,Ice Sheet Mass Balance Intercomparison Exercise
+WGI,1,INP,ice nucleating particle
+WGI,1,IOB,Indian Ocean Basin
+WGI,4,IOD,Indian Ocean Dipole
+WGI,5,IPBES,Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services
+WGI,6,IPCC,Intergovernmental Panel on Climate Change
+WGI,4,IPO,Inter-decadal Pacific Oscillation
+WGI,2,IPSL,Institut Pierre-Simon Laplace
+WGI,1,IRF,instantaneous radiative forcing
+WGI,1,IRFaci,Instantaneous radiative forcing (or effect) due to aerosol-cloud interactions
+WGI,1,IRFari,Instantaneous radiative forcing (or effect) due to aerosol–radiation interactions
+WGI,3,ISIMIP,Inter-Sectoral Impact Model Intercomparison Project
+WGI,2,ITCZ,Inter-tropical Convergence Zone
+WGI,4,ITF,Indonesian throughflow
+WGI,1,JAS,July–August–September
+WGI,1,JAXA,Japan Aerospace Exploration Agency
+WGI,4,JJA,June–July–August
+WGI,1,JJAS,June–July–August–September
+WGI,2,JMA,Japan Meteorological Agency
+WGI,2,JRA-55,Japanese 55-year Reanalysis
+WGI,3,LAI,leaf area index
+WGI,1,LAP,light-absorbing particle
+WGI,1,LARMIP,Linear Antarctic Response Model Intercomparison Project
+WGI,1,LDT,Last deglacial transition
+WGI,1,LEO,low Earth orbit
+WGI,3,LGM,Last Glacial Maximum
+WGI,4,LIG,Last Interglacial
+WGI,1,LLGHG,long-lived greenhouse gas
+WGI,1,LLHI,"Low-likelihood, high-impact"
+WGI,1,LNOx,lightning NOx
+WGI,1,LR,lapse rate
+WGI,2,LSAT,land surface air temperature
+WGI,5,LUC,land-use change
+WGI,6,LULUCF,"land use, land-use change and forestry"
+WGI,1,LW,longwave
+WGI,1,LWP,liquid water path
+WGI,1,LWS,land-water storage
+WGI,3,MAGICC,Model for the Assessment of Greenhouse Gas Induced Climate Change
+WGI,3,MAM,March–April–May
+WGI,1,MAT,marine air temperature
+WGI,4,MCB,marine cloud brightening
+WGI,1,MCO,Miocene Climatic Optimum
+WGI,2,MCS,mesoscale convective system
+WGI,2,MDG,Madagascar
+WGI,4,MED,Mediterranean
+WGI,2,MENA,Middle East North Africa
+WGI,1,MERRA,Modern-Era Retrospective Analysis for Research and Applications
+WGI,1,METACLIP,Metadata for climate products project
+WGI,1,MH,mid-Holocene
+WGI,3,MHW,marine heatwave
+WGI,2,MICI,marine ice cliff instability
+WGI,2,MIP,Model Intercomparison Project
+WGI,2,MIROC,Model for Interdisciplinary Research on Climate
+WGI,2,MIS,Marine Isotope Stage
+WGI,4,MISI,marine ice sheet instability
+WGI,1,MISMIP,Marine Ice Sheet Model Intercomparison Projects
+WGI,1,MJO,Madden–Julian Oscillation
+WGI,1,MLO,Mauna Loa Observatory
+WGI,1,MME,multi-model ensemble
+WGI,2,MOC,meridional overturning circulation
+WGI,3,MODIS,Moderate Resolution Imaging Spectroradiometer
+WGI,3,MPI,Max Planck Institute for Meteorology
+WGI,3,MPWP,mid-Pliocene Warm Period
+WGI,2,MRI,"Meteorological Research Institute, Japan Meteorological Agency"
+WGI,1,MSD,midsummer drought
+WGI,1,MTFR,maximum technically feasible reductions
+WGI,5,N2O,nitrous oxide
+WGI,2,NADW,North Atlantic Deep Water
+WGI,1,NAM,Northern Annular Mode
+WGI,1,NAmerM,North American monsoon
+WGI,3,NAO,North Atlantic Oscillation
+WGI,1,NARCCAP,North American Regional Climate Change Assessment Program
+WGI,2,NASA,USA National Aeronautics and Space Administration
+WGI,1,NASH,North Atlantic Subtropical High
+WGI,2,NAU,Northern Australia
+WGI,1,NBP,Net Biome Productivity
+WGI,1,NCA,Northern Central America
+WGI,2,NCAR,National Center for Atmospheric Research
+WGI,2,NCEI,NOAA National Centers for Environmental Information
+WGI,2,NCEP,NOAA National Centers for Environmental Prediction
+WGI,6,NDC,Nationally Determined Contribution
+WGI,1,NDD,number of dry days
+WGI,3,NDVI,Normalized Difference Vegetation Index
+WGI,1,NEAF,North Eastern Africa
+WGI,1,NEN,North-Eastern North America
+WGI,1,NES,North-Eastern South America
+WGI,3,NEU,Northern Europe
+WGI,1,NH,Northern Hemisphere
+WGI,3,NH3,ammonia
+WGI,1,NH4,ammonium
+WGI,1,NMAT,nighttime marine air temperature
+WGI,3,NMVOC,non-methane volatile organic compound
+WGI,1,NO2,nitrogen dioxide
+WGI,1,NO3,nitrate
+WGI,5,NOAA,USA National Oceanic and Atmospheric Administration
+WGI,1,NOAAGlobalTemp,NOAA Merged Land Ocean Global Surface Temperature Analysis
+WGI,2,NorESM,Norwegian Earth System Model
+WGI,2,NOx,nitrogen oxides
+WGI,1,NPO,North Pacific Ocean
+WGI,5,NPP,net primary production
+WGI,2,NSA,Northern South America
+WGI,1,NWN,North-Western North America
+WGI,2,NWS,North-Western South America
+WGI,2,NZ,New Zealand
+WGI,5,OA,organic aerosols
+WGI,3,OC,organic carbon
+WGI,2,ODS,ozone depleting substances
+WGI,5,OECD,Organisation for Economic Co-operation and Development
+WGI,2,OH,hydroxyl radical
+WGI,2,OHC,ocean heat content
+WGI,1,OLR,outgoing longwave radiation
+WGI,2,OLS,ordinary least squares
+WGI,1,OMI,Ozone Monitoring Instrument
+WGI,1,OMIP,Ocean Model Intercomparison Project
+WGI,3,PA,Paris Agreement
+WGI,1,PAGES 2K,Past Global Changes 2k consortium
+WGI,1,PC,principal component
+WGI,2,pCO2,partial pressure of CO2
+WGI,3,PDO,Pacific Decadal Oscillation
+WGI,3,PDSI,Palmer Drought Severity Index
+WGI,1,PDV,Pacific Decadal Variability
+WGI,1,PERSIANN-CDR,Precipitation estimations from Remotely Sensed Information using Artificial Neural Networks Climate Data Record
+WGI,1,PETM,Paleocene–Eocene Thermal Maximum
+WGI,1,PgC,petagrams of carbon
+WGI,1,PgCeq,petagrams of carbon equivalent
+WGI,1,PlioMIP,Pliocene Model Intercomparison Project
+WGI,5,PM,particulate matter
+WGI,2,PM10,particulate matter with diameter of less than 10 microns
+WGI,3,PM2.5,particulate matter with diameter of less than 2.5 microns
+WGI,1,PMIP,Paleoclimate Modelling Intercomparison Project
+WGI,1,POA,primary organic aerosols
+WGI,2,PP,primary production
+WGI,1,PSS-78,Practical Salinity Scale 1978
+WGI,1,QBO,quasi-biennial oscillation
+WGI,1,RAR,Russian Arctic Region
+WGI,6,RCM,regional climate model
+WGI,1,RCMIP,Reduced Complexity Model Intercomparison Project
+WGI,5,RCP,Representative Concentration Pathway
+WGI,3,RF,radiative forcing
+WGI,4,RFC,Reasons for Concern
+WGI,1,RFE,Russian Far East
+WGI,1,RFMIP,Radiative Forcing Model Intercomparison Project
+WGI,1,RH,relative humidity
+WGI,1,RICH,Radiosonde Innovation Composite Homogenization
+WGI,3,RKR,Representative Key Risk
+WGI,1,RO,radio occultation
+WGI,3,RSL,relative sea level
+WGI,3,RSLR,relative sea level rise
+WGI,3,SAH,Sahara
+WGI,4,SAI,stratospheric aerosol injection
+WGI,4,SAM,Southern Annular Mode
+WGI,1,SAmerM,South American monsoon
+WGI,1,SAO,South Atlantic Ocean
+WGI,1,SAOD,stratospheric aerosol optical depth
+WGI,4,SAR,IPCC Second Assessment Report
+WGI,1,SARF,stratospheric-temperature-adjusted radiative forcing
+WGI,4,SAS,South Asia
+WGI,1,SAsiaM,South and South East Asian monsoon
+WGI,3,SAT,surface air temperature
+WGI,2,SAU,Southern Australia
+WGI,1,SCA,Southern Central America
+WGI,2,SCE,snow cover extent
+WGI,1,ScenarioMIP,Scenario Model Intercomparison Project
+WGI,1,SCM,simple climate model
+WGI,5,SDG,Sustainable Development Goals
+WGI,3,SEA,South East Asia
+WGI,1,SEAF,South Eastern Africa
+WGI,2,SED,Structured Expert Dialogue
+WGI,1,SEJ,Structured Expert Judgement
+WGI,3,SES,South-Eastern South America
+WGI,4,SF6,sulphur hexaflouride
+WGI,2,SH,Southern Hemisphere
+WGI,1,SIA,sea ice area
+WGI,7,SIDS,Small Island Developing States
+WGI,1,SIE,sea ice extent
+WGI,6,SLCF,short-lived climate forcer
+WGI,2,SLE,sea level equivalent
+WGI,2,SLP,sea level pressure
+WGI,5,SLR,sea level rise
+WGI,1,SMAP,Soil Moisture Active Passive
+WGI,2,SMB,surface mass balance
+WGI,1,SMILE,single-model initial-condition large ensemble
+WGI,4,SO2,sulphur dioxide
+WGI,1,SO4,sulphate
+WGI,2,SOA,secondary organic aerosols
+WGI,2,SOI,Southern Oscillation Index
+WGI,3,SON,September–October–November
+WGI,1,SOO,Southern Ocean
+WGI,2,SOx,sulphur oxides
+WGI,1,SPCZ,South Pacific Convergence Zone
+WGI,3,SPEI,Standardized Precipitation Evapotranspiration Index
+WGI,3,SPI,Standardized Precipitation Index
+WGI,6,SPM,Summary for Policymakers
+WGI,1,SPO,South Pacific Ocean or South Pole Observatory
+WGI,5,SR1.5,IPCC Special Report on Global Warming of 1.5°C
+WGI,7,SRCCL,IPCC Special Report on Climate Change and Land
+WGI,5,SRES,IPCC Special Report on Emissions Scenarios
+WGI,4,SREX,IPCC Special Report on Managing the Risk of Extreme Events and Disasters to Advance Climate Change Adaptation
+WGI,2,SRI,Standardized Runoff Index
+WGI,6,SRM,solar radiation modification
+WGI,7,SROCC,IPCC Special Report on the Ocean and Cryosphere in a Changing Climate
+WGI,3,SSA,Southern South America
+WGI,5,SSP,Shared Socio-economic Pathways
+WGI,5,SST,sea surface temperature
+WGI,1,SSW,sudden stratospheric warming
+WGI,1,STE,stratosphere–troposphere exchange
+WGI,2,SW,shortwave
+WGI,3,SWE,snow water equivalent
+WGI,1,SWS,South-Western South America
+WGI,1,SWV,stratospheric water vapour
+WGI,2,TAR,IPCC Third Assessment Report
+WGI,2,TAV,Tropical Atlantic Variability
+WGI,3,TC,tropical cyclone
+WGI,3,TCR,transient climate response
+WGI,3,TCRE,transient climate response to cumulative CO2 emissions
+WGI,1,TCWV,total column water vapour
+WGI,3,Tg,teragrams
+WGI,1,ThSL,thermosteric sea level
+WGI,3,TIB,Tibetan Plateau
+WGI,2,TNn,annual minimum daily minimum temperature
+WGI,1,TNx,annual maximum daily minimum temperature
+WGI,1,TOA,the net top-of-the-atmosphere
+WGI,2,ToE,time of emergence
+WGI,1,TPI,tripole Index
+WGI,1,TRMM,Tropical Rainfall Measuring Mission
+WGI,4,TS,Technical Summary
+WGI,1,TSI,total solar irradiance
+WGI,1,UAH,University of Alabama in Huntsville
+WGI,5,UHI,urban heat island
+WGI,3,UN,United Nations
+WGI,6,UNEP,United Nations Environment Programme
+WGI,7,UNFCCC,United Nations Framework Convention on Climate Change
+WGI,1,UTLS,upper troposphere and lower stratosphere
+WGI,4,UV,ultraviolet
+WGI,1,UVic ESCM,University of Victoria Earth System Climate Model
+WGI,2,VLM,vertical land motion
+WGI,3,VOC,volatile organic compounds
+WGI,2,VPD,vapour pressure deficit
+WGI,1,VSLS,very short-lived halogenated species
+WGI,3,WAF,Western Africa
+WGI,1,WAfriM,West African monsoon
+WGI,4,WAIS,West Antarctic Ice Sheet
+WGI,1,WAN,West Antarctica
+WGI,2,WBC,western boundary current
+WGI,1,WBGT,wet bulb globe temperature
+WGI,1,WC,Walker circulation
+WGI,2,WCA,West Central Asia
+WGI,2,WCE,Western and Central Europe
+WGI,3,WCRP,World Climate Research Programme
+WGI,3,WG,IPCC Working Group
+WGI,6,WHO,World Health Organization
+WGI,1,WMGHG,well-mixed greenhouse gas
+WGI,5,WMO,World Meteorological Organization
+WGI,2,WNA,Western North America
+WGI,1,WNP,Western North Pacific
+WGI,1,WOA18,World Ocean Atlas 2018
+WGI,2,WSAF,West Southern Africa
+WGI,1,WSB,Wilkes Subglacial Basin
+WGI,3,WUE,water-use efficiency
+WGI,1,YJ,"yottajoule, 10^24 joules"
+WGI,2,ZEC,zero emissions commitment
+WGI,1,ZJ,"zettajoule, 10^21 joules"
+WGII,1,3-PG,Physiological Processes Predicting Growth
+WGII,2,A/R,Afforestation and Reforestation
+WGII,1,AAI,Africa Adaptation Initiative
+WGII,2,AAO,Antarctic Ocean Oscillation
+WGII,1,AAS,Australian Academy of Science
+WGII,2,ABNJ,Areas Beyond National Jurisdiction
+WGII,1,ABS,Australian Bureau of Statistics
+WGII,3,AC,Air Conditioning
+WGII,1,ACCC,Australian Competition and Consumer Commission
+WGII,1,ACCCRN,Asian Cities Climate Change Resilience Network
+WGII,2,ACE,Antarctic Climate & Ecosystems Cooperative Research Centre
+WGII,1,ACRE,Agriculture and Climate Risk Enterprise
+WGII,1,ACT,Australian Capital Territory
+WGII,3,ADB,Asian Development Bank
+WGII,1,ADW,Alternate Drying and Wetting
+WGII,1,AEMO,Australian Energy Market Operator
+WGII,3,AF,Africa / Agroecological Farming
+WGII,2,AfDB,African Development Bank
+WGII,6,AFOLU,"Agriculture, Forestry and Other Land Use"
+WGII,1,AFSI,Australian Sustainable Finance Initiative
+WGII,2,AgMIP,Agricultural Model Intercomparison and Improvement Project
+WGII,1,AHP,Analytic Hierarchy Processing
+WGII,4,AI,Artificial Intelligence
+WGII,1,AIDR,Australian Institute for Disaster Resilience
+WGII,1,AIHW,Australian Institute of Health and Welfare
+WGII,1,AK,Alaska
+WGII,3,ALT,Active Layer Thickness
+WGII,4,AMO,Atlantic Multidecadal Oscillation
+WGII,4,AMOC,Atlantic Meridional Overturning Circulation
+WGII,1,ANPP,Annual Net Primary Productivity
+WGII,3,AOGCM,Atmosphere–Ocean General Circulation Model
+WGII,1,AOSIS,Alliance of Small Island States
+WGII,1,APP,Agricultural Adaptation and Perception
+WGII,1,APRA,Australian Prudential Regulation Authority
+WGII,4,AR,Atmospheric River / Assessment Report
+WGII,5,AR4,IPCC Fourth Assessment Report
+WGII,7,AR5,IPCC Fifth Assessment Report
+WGII,6,AR6,IPCC Sixth Assessment Report
+WGII,1,ARA,Arab Region of Asia
+WGII,1,ARI,Acute Respiratory Infection
+WGII,1,ASBEC,Australian Sustainable Built Environment Council
+WGII,3,ASE,Amundsen Sea Embayment
+WGII,2,ASEAN,Association of Southeast Asian Nations
+WGII,1,ASFI,Australian Sustainable Finance Initiative
+WGII,1,ASP,Adaptive Social Protection
+WGII,1,AT,Air Temperature / Austria
+WGII,1,ATLAS,Adaptation Thought Leadership and Assessments
+WGII,1,AU,African Union
+WGII,1,AUC,Area under the Curve
+WGII,1,AUP,Auckland Unitary Plan
+WGII,3,BAU,Business-as-Usual
+WGII,6,BC,British Columbia
+WGII,1,BCH,Built Cultural Heritage
+WGII,2,BCR,Benefit-to-Cost Ratio
+WGII,1,BDP,The Bangladesh Delta Plan
+WGII,3,BE,Belgium
+WGII,7,BECCS,Bioenergy with Carbon Capture and Storage
+WGII,1,BFV,Barmah Forest Virus
+WGII,1,BMPs,Best Management Practices
+WGII,1,BOM,Bureau of Meteorology
+WGII,1,BORDA,Bremen Overseas Research & Development Association
+WGII,2,BR,Biennial Report
+WGII,2,BRI,Belt and Road Initiative
+WGII,1,BRICS,"Brazil, Russia, India, China and South Africa"
+WGII,1,BTM,Bhutanese Traditional Medicine
+WGII,3,BVOC,Biogenic Volatile Organic Compounds
+WGII,1,C&S,Cities and Settlements
+WGII,4,CA,Conservation Agriculture
+WGII,3,CAM,Crassulacean Acid Metabolism
+WGII,6,CBA,Community-Based Adaptation / Commonwealth Bank of Australia
+WGII,5,CBD,Convention on Biological Diversity
+WGII,1,CBO,Community-Based Organisations
+WGII,1,CBs,Central Banks
+WGII,2,CCA,Climate-Change Adaptation
+WGII,2,CCAFS,"Climate Change, Agriculture and Food Security"
+WGII,1,CCATWG,Climate Change Adaptation Technical Working Group
+WGII,2,CCC,Climate Change Committee
+WGII,2,CCD,Climate Compatible Development
+WGII,1,CCDMF,China Clean Development Mechanism Fund
+WGII,1,CCE,Climate-Change Education
+WGII,1,CCP,Cross-Chapter Paper
+WGII,1,CCRA,Climate Change Response Act
+WGII,4,CCRIF,Caribbean Catastrophe Risk Insurance Facility
+WGII,6,CCS,Carbon Capture and Storage
+WGII,4,CCT,Cirrus Cloud Thinning
+WGII,5,CCU,Carbon Dioxide Capture and Utilisation
+WGII,1,CDC,Community Development Committees
+WGII,4,CDD,Consecutive Dry Days
+WGII,1,CDEM,Civil Defence & Emergency Management
+WGII,1,CDKN,Climate & Development Knowledge Network
+WGII,4,CDM,Clean Development Mechanism
+WGII,1,CDMC,Community Disaster Management Committees
+WGII,7,CDR,Carbon Dioxide Removal
+WGII,3,CE,Circular Economy
+WGII,1,CEIC,Census and Economic Information Center
+WGII,1,CER,Certified Emissions Reduction
+WGII,2,CES,Cultural Ecosystem Services / Circulating and Ecological Sphere
+WGII,2,CFC,Chlorofluorocarbon
+WGII,1,CFM,Community Forest Management
+WGII,1,CFP,Ciguatera Fish Poisoning
+WGII,1,CFPP,Coal-Fired Power Plant
+WGII,3,CGE,Computable General Equilibrium
+WGII,2,CGIAR,Consultative Group on International Agricultural Research
+WGII,2,CGRA,Coordinated Global and Regional Assessments
+WGII,1,CH,Switzerland
+WGII,1,CHIKV,Chikungunya Virus
+WGII,1,CHL,Chlorophyll a
+WGII,1,CICES,Common International Classification of Ecosystem Services
+WGII,3,CID,Climate-Impact Driver
+WGII,1,CIS,Climate Information Services
+WGII,1,CLP,Community Learning Platform
+WGII,3,CMIP,Coupled Model Intercomparison Project
+WGII,4,CMIP3,Coupled Model Intercomparison Project Phase 3
+WGII,6,CMIP5,Coupled Model Intercomparison Project Phase 5
+WGII,7,CMIP6,Coupled Model Intercomparison Project Phase 6
+WGII,1,CMR,Crude Mortality Rate
+WGII,1,CMSI,Climate Measurement Standards Initiative
+WGII,1,CoA,Commonwealth of Australia
+WGII,1,COAG,Council of Australian Governments
+WGII,1,CODOHSAPA,Centre for Dialogue on Human Settlement and Poverty Alleviation
+WGII,6,COP,Conference of the Parties
+WGII,1,COP16,16th Session of the Conference of the Parties
+WGII,1,COP19,19th Session of the Conference of the Parties
+WGII,1,COP26,26th Session of the Conference of the Parties
+WGII,1,COPD,Chronic Obstructive Pulmonary Disease
+WGII,3,CORDEX,Coordinated Regional Climate Downscaling Experiment
+WGII,1,COSSAO,"Corporación De Servicios De Salud Y Desarrollo Socioeconómico, El Otoao"
+WGII,2,COVID-19,Coronavirus Disease 2019
+WGII,1,CPA,Conservation Priority Areas
+WGII,1,CPI,Climate Policy Initiative / Climate Policy Integration
+WGII,1,CRC,Climate Resilient City
+WGII,3,CRD,Climate Resilient Development
+WGII,2,CRDP,Climate Resilient Development Pathway
+WGII,1,CRFS,City Region Food System
+WGII,1,CRGE,Climate Resilient Green Economy
+WGII,1,CRIDA,Climate Risk Informed Decision Analysis
+WGII,2,CRM,Climate Risk Management
+WGII,1,CRO,Chief Resilience Officer
+WGII,1,CRS,Climate Regime Shifts
+WGII,2,CS,Climate Services
+WGII,3,CSA,Central and South American / Climate-Smart Agriculture
+WGII,1,CSF,Climate-Smart Forestry
+WGII,3,CSIRO,Commonwealth Scientific Industrial and Research Organisation
+WGII,1,CSOs,Combined Sewer Overflows
+WGII,3,CSR,Climatically Suitable Region
+WGII,1,CVD,Cardiovascular Disease
+WGII,1,CZ,Czech Republic
+WGII,2,DAC,Development Assistance Committee
+WGII,5,DACCS,Direct Air Carbon Capture and Storage
+WGII,1,DAE,Direct Access Entities
+WGII,1,DAI,Dangerous Anthropogenic Interference
+WGII,4,DALY,Disability-Adjusted Life Year
+WGII,1,DAPP,Dynamic Adaptive Pathways Planning
+WGII,2,DBH,Diameter at Breast Height
+WGII,1,DCCEE,"Department of Climate Change, Energy and Efficiency"
+WGII,1,DE,Germany
+WGII,1,DEA,Data Envelopment Analysis
+WGII,1,DEHP,Department of Environment and Heritage Protection
+WGII,1,DELWP,"Department of Environment, Land, Water and Planning"
+WGII,1,DEM,Digital Elevation Model
+WGII,1,DENR,Department of Environment and Natural Resources
+WGII,1,DES,Department of Environment and Science
+WGII,1,DESA,Department of Economic and Social Affairs
+WGII,1,DFIs,Development Finance Institutions
+WGII,1,DGVMs,Dynamic Global Vegetation Models
+WGII,2,DHW,Degree Heating Weeks
+WGII,1,DINA,Drought Impact and Needs Assessment
+WGII,1,DISER,"Department of Industry, Science, Energy and Resources"
+WGII,1,DIY,Do It Yourself
+WGII,1,DMDU,Decision-Making under Deep Uncertainty
+WGII,2,DOC,Dissolved Organic Carbon / Department of Conservation
+WGII,1,DOM,Dissolved Organic Matter
+WGII,1,DRC,Democratic Republic of Congo
+WGII,1,DRFIP,Disaster Risk Financing and Insurance Program
+WGII,5,DRM,Disaster Risk Management
+WGII,2,DRR,Disaster Risk Reduction
+WGII,1,DSR,Direct-Seeded Rice
+WGII,2,E,Exposure
+WGII,2,EAD,Expected Annual Damages
+WGII,4,EAIS,East Antarctic Ice Sheet
+WGII,5,EbA,Ecosystem-Based Adaptation
+WGII,2,EBM,Ecosystem-Based Management
+WGII,1,EBS,Eastern Bering Sea
+WGII,1,EBSA,Ecologically and Biologically Significant Areas
+WGII,3,EBUS,Eastern Boundary Upwelling System
+WGII,3,EC,End-Century
+WGII,1,ECB,European Central Bank
+WGII,1,ECOSOC,Economic and Social Council of the United Nations
+WGII,4,ECS,Equilibrium Climate Sensitivity
+WGII,2,ECWL,Extreme Coastal Water Level
+WGII,1,EDCD,European Centre for Disease Prevention and Control
+WGII,1,EDRM,Emergency and Disaster Risk Management
+WGII,4,EEA,European Environment Agency
+WGII,2,EEU,Eastern Europe
+WGII,2,EEZ,Exclusive Economic Zone
+WGII,1,EFRs,Environmental Flow Requirements
+WGII,1,EIA,Energy Information Administration
+WGII,1,EKC,Environmental Kuznets Curve
+WGII,1,ENACTS,East Africa and the West African Sahel
+WGII,5,ENSO,El Niño-Southern Oscillation
+WGII,2,EP,Environmental Peacebuilding
+WGII,3,ES,Expected Shortfall / Spain
+WGII,3,ESA,European Space Agency
+WGII,3,ESA CCI,European Space Agency Climate Change Initiative
+WGII,2,ESAF,East Southern Africa
+WGII,1,ESCC,Earth Systems and Climate Change
+WGII,1,ESCI,Electricity Sector Climate Information
+WGII,2,ESD,Education for Sustainable Development
+WGII,5,ESL,Extreme Sea Level
+WGII,6,ESM,Earth System Model
+WGII,1,ESW,Economic and Sector Work
+WGII,2,ESWL,Extreme Still Water Level
+WGII,2,ET,Evapotranspiration
+WGII,3,ETC,Extra-Tropical Cyclone
+WGII,2,ETWL,Extreme Total Water Level
+WGII,5,EU,European Union
+WGII,4,EV,Electric Vehicle
+WGII,3,EW,Enhanced Weathering
+WGII,1,EWFD,European Water Framework Directive
+WGII,4,EWS,Early Warning System
+WGII,2,FACE,Free-Air Carbon Dioxide Enrichment
+WGII,5,FAO,Food and Agriculture Organization
+WGII,4,FAQ,Frequently Asked Questions
+WGII,2,FAR,Financing for Adaptation and Resilience / Fraction of Attributable Risks
+WGII,1,FBD,Food-Borne Disease
+WGII,1,FEDURP,Federation of the Urban and Rural Poor
+WGII,2,FEMA,Federal Emergency Management Agency
+WGII,1,FEW,Food–Energy–Water
+WGII,2,FFDI,Forest Fire Danger Index
+WGII,1,Fish-MIP,Fisheries and Marine Ecosystem Model Intercomparison Project
+WGII,2,FLW,Food Loss and Waste
+WGII,1,FMU,Forest Management Unit
+WGII,1,FPIC,Free Prior and Informed Consent
+WGII,1,FR,France
+WGII,3,FSC,Forest Stewardship Council
+WGII,1,FW,Fire Weather
+WGII,2,FWL,Freshwater Lens
+WGII,1,FYROM,North Macedonia
+WGII,1,G20,Group of Twenty
+WGII,1,GAMI,Global Adaptation Mapping Initiative
+WGII,1,GAST,Global Mean Surface Air Temperature
+WGII,3,GBAM,Ground-Based Albedo Modification
+WGII,1,GBCA,Green Building Council of Australia
+WGII,1,GBP,Great Britain Pound
+WGII,1,GBR,Great Barrier Reef
+WGII,1,GBRMPA,Great Barrier Reef Marine Park Authority
+WGII,3,GCF,Green Climate Fund
+WGII,5,GCM,General Circulation Model / Global Climate Model
+WGII,2,GDD,Growing Degree Days
+WGII,1,GDE,Groundwater-Dependent Ecosystem
+WGII,7,GDP,Gross Domestic Product
+WGII,3,GEF,Global Environment Facility
+WGII,3,GHA,Greater Horn of Africa
+WGII,6,GHG,Greenhouse Gas
+WGII,3,GHM,Global Hydrological Model
+WGII,1,GI,Gastrointestinal
+WGII,4,GIS,Geographic Information System
+WGII,1,GLEON,Global Lakes Ecological Observatory Network
+WGII,3,GLOF,Glacial Lake Outburst Flood
+WGII,4,GM,Genetically Modified / Global Monsoon
+WGII,5,GMSL,Global Mean Sea Level
+WGII,1,GMSLR,Global Mean Sea Level Rise
+WGII,5,GMST,Global Mean Surface Temperature
+WGII,3,GMT,Global Mean Temperature
+WGII,1,GNDR,Global Network of Civil Society Organisations for Disaster Reduction
+WGII,1,GNH,Gross National Happiness
+WGII,1,GOA-ON,Global Ocean Acidification Observing Network
+WGII,2,GPCC,Global Precipitation Climatology Centre
+WGII,2,GPG,Good Practice Guidance
+WGII,5,GPP,Gross Primary Production
+WGII,1,GQL,Good Quality of Life
+WGII,3,GRACE,Gravity Recovery and Climate Experiment
+WGII,1,GRDC,Global Runoff Data Centre
+WGII,4,GSAT,Global Surface Air Temperature
+WGII,2,GW,Gigawatt
+WGII,3,GWL,Global Warming Level
+WGII,6,GWP,Global Warming Potential
+WGII,1,GWR,Geographically Weighted Regression
+WGII,1,GWRC,Greater Wellington Regional Council
+WGII,1,GWSHP,Groundwater-Source Heat Pumps
+WGII,1,GWSI,Global Water Security Index
+WGII,1,H,Hazard
+WGII,2,HAB,Harmful Algal Bloom
+WGII,2,HadCM3,Hadley Center Coupled Model
+WGII,2,HAP,Heat Action Plan
+WGII,1,HCSA,High Carbon Stock Areas
+WGII,1,HCVA,High Conservation Value Areas
+WGII,1,HDD,Heat Degree Days
+WGII,3,HDI,Human Development Index
+WGII,1,HDSR,Health and Disability System Review
+WGII,1,HELP,High Level Experts and Leaders Panel
+WGII,4,HFC,Hydrofluorocarbon
+WGII,1,HFRS,Haemorrhagic Fever with Renal Syndrome
+WGII,1,HIV,Human Immunodeficiency Virus
+WGII,3,HKH,Hindu Kush Himalaya
+WGII,1,HLD,High Latitude Dust
+WGII,1,HNPP,Herbaceous Net Primary Productivity
+WGII,1,HPLE,High Level Panel of Experts
+WGII,1,HRBA,Human Rights-Based Approach
+WGII,2,HVAC,"Heating, Ventilation and Air Conditioning"
+WGII,4,IAM,Integrated Assessment Model
+WGII,1,IAS,Invasive Alien Species
+WGII,1,IBAI,Index-Based Agricultural Insurance
+WGII,1,ICA,Insurance Council of Australia
+WGII,2,ICLEI,Local Governments for Sustainability
+WGII,2,ICM,Integrated Coastal Management
+WGII,1,ICNZ,Insurance Council of New Zealand
+WGII,1,ICRI,International Coral Reef Initiative
+WGII,4,ICT,Information and Communications Technology
+WGII,1,ICV,Instituto Centro de Vida
+WGII,2,ICZM,Integrated Coastal Zone Management
+WGII,1,ID,Insufficient Data
+WGII,1,IDF,International Diabetes Foundation
+WGII,1,IDMC,Internal Displacement Monitoring Centre
+WGII,1,IDP,Internally Displaced People
+WGII,5,IEA,International Energy Agency
+WGII,3,IFPRI,International Food Policy Research Institute
+WGII,3,IGCC,Investor Group on Climate Change
+WGII,2,IHME,Institute for Health Metrics and Evaluation
+WGII,1,IIED,International Institute for Environment and Development
+WGII,1,IISD,International Institute for Sustainable Development
+WGII,3,IK,Indigenous Knowledge
+WGII,1,IKLK,Indigenous Knowledge and Local Knowledge
+WGII,3,iLUC,Indirect Land-Use Change
+WGII,3,IMF,International Monetary Fund
+WGII,3,INDC,Intended Nationally Determined Contributions
+WGII,4,IOD,Indian Ocean Dipole
+WGII,3,IoT,Internet of Things
+WGII,5,IPBES,Intergovernmental Science Policy Platform on Biodiversity and Ecosystem Services
+WGII,6,IPCC,Intergovernmental Panel on Climate Change
+WGII,1,IPLC,Indigenous Peoples and Local Communities
+WGII,4,IPO,Inter-Decadal Pacific Oscillation
+WGII,2,IQR,Interquartile Range
+WGII,1,IRGC,International Risk Governance Council
+WGII,1,IS,Ice Sheet
+WGII,3,ISIMIP,Inter-Sectoral Impacts Model Intercomparison Project
+WGII,1,ISME,International Society for Mangrove Ecosystems
+WGII,3,ISO,International Organization for Standardization
+WGII,1,IT,Italy
+WGII,3,IUCN,International Union for the Conservation of Nature
+WGII,1,IUWN,Integrated Urban Water Management
+WGII,1,IVA,Integrated Vulnerability Assessments
+WGII,1,IWGIA,International Work Group for Indigenous Affairs
+WGII,3,IWRM,Integrated Water Resource Management
+WGII,3,JRC,Joint Research Centre
+WGII,1,"K1, K2, K3",Mountain Delineations
+WGII,1,KNOMAD,Knowledge Partnership on Migration and Development
+WGII,2,KR,Key Risk
+WGII,3,L&D,Losses and Damages
+WGII,3,LAI,Leaf Area Index
+WGII,3,LCOE,Levelised Costs of Electricity
+WGII,1,LCP,Local Community Perception
+WGII,1,LC-PUFAs,Long-Chain Polyunsaturated Fatty Acids
+WGII,4,LDC,Least Developed Countries
+WGII,2,LDCF,Least Developed Country Fund
+WGII,3,LDN,Land Degradation Neutrality
+WGII,2,LECZ,Low-Elevation Coastal Zone
+WGII,2,LEDS,Low Emission Development Strategies
+WGII,1,LEED,Leadership in Energy and Environmental Design
+WGII,1,LEED-ND,Leadership in Energy and Environmental Design–Neighbourhood Design
+WGII,1,LGBTQI,"Lesbian, Gay, Bisexual, Transgender, Queer, Intersex"
+WGII,1,LGNZ,Local Government of New Zealand
+WGII,1,LI,Lithuania
+WGII,4,LIG,Last Interglacial
+WGII,1,LIMIC,Low-Income and Medium-Income Countries
+WGII,4,LK,Local Knowledge
+WGII,2,LMMA,Locally Managed Marine Area
+WGII,2,LSLA,Large-Scale Land Acquisition
+WGII,1,LTP,Long-Term Plan
+WGII,1,LU,Luxembourg
+WGII,5,LUC,Land-Use Change
+WGII,2,LULUC,Land Use and Land-Use Change
+WGII,6,LULUCF,"Land Use, Land-Use Change and Forestry"
+WGII,1,m w.e.,Meter Water Equivalent
+WGII,1,M&C,Monitoring and Evaluation
+WGII,1,m.a.s.l.,Metres Above Sea Level
+WGII,1,MAP,Mediterranean Action Plan / Municipal Adaptation Plan
+WGII,2,MAR,Managed Aquifer Recharge
+WGII,1,MBIE,"Ministry of Business, Innovation and Employment"
+WGII,1,MC,Mid-Century
+WGII,4,MCB,Marine Cloud Brightening
+WGII,2,MCDA,Multi-Criteria Decision Analysis
+WGII,1,MCP,Maximum Catch Potential
+WGII,1,MCPP,Municipal Climate Protection Programme
+WGII,1,MD,Mega-Drought
+WGII,3,MDB,Multi-Lateral Development Bank / Murray–Darling Basin
+WGII,2,MDG,Millennium Development Goal
+WGII,4,MEA,Millennium Ecosystem Assessment
+WGII,1,MEASO,Marine Ecosystem Assessment for the Southern Ocean
+WGII,4,MED,Mediterranean
+WGII,1,MEE,Ministry of Ecology and Environment
+WGII,1,MEFF,Mediterranean Flood Fatalities Database
+WGII,1,MeHg,Methylmercury
+WGII,1,MEL,"Monitoring, Evaluation and Learning"
+WGII,2,MENA,Middle East and North Africa
+WGII,1,MERI,"Monitoring, Evaluation, Reporting and Improvement"
+WGII,1,MERS,Middle East Respiratory Syndrome
+WGII,1,MfE,Ministry for the Environment
+WGII,1,MFP,Multistakeholder Forestry Programme
+WGII,1,MGNREGA,Mahatma Gandhi National Rural Employment Guarantee Act
+WGII,3,MHW,Marine Heatwaves
+WGII,1,MI,Myocardial Infarction
+WGII,1,MIPs,Model Intercomparison Projects
+WGII,4,MISI,Marine Ice Sheet Instability
+WGII,1,MMT,Minimum Mortality Temperature
+WGII,3,MODIS,Moderate Resolution Imaging Spectroradiometer
+WGII,3,MPA,Marine-Protected Area
+WGII,3,MPI,Multidimensional Poverty Index
+WGII,5,MRV,"Monitoring, Reporting and Verification"
+WGII,1,MSFD,Marine Strategy Framework Directive
+WGII,2,MSL,Mean Sea Level
+WGII,1,MSP,Marine Spatial Planning
+WGII,1,MSRI,Modified System of Rice Intensification
+WGII,1,MSSD,Mediterranean Strategy for Sustainable Development
+WGII,2,MSY,Maximum Sustainable Yields
+WGII,1,MTE,Mediterranean-Type Ecosystems
+WGII,1,NAF,North Africa and Middle East
+WGII,1,NAHS,National Aboriginal Health Strategy
+WGII,3,NAO,North Atlantic Oscillation
+WGII,5,NAP,National Adaptation Plan
+WGII,2,NAPA,National Adaptation Programmes of Action
+WGII,2,NAS,National Adaptation Strategy
+WGII,1,NBI,Nile Basin Initiative
+WGII,3,NbS,Nature-Based Solutions
+WGII,2,NCCARF,National Climate Change Adaptation Research Facility
+WGII,1,NCCRS,National Climate Change Response Strategy
+WGII,2,NCD,Non-Communicable Disease
+WGII,2,NCEI,National Centers for Environmental Information
+WGII,3,NCP,Nature's Contribution to People
+WGII,6,NDC,Nationally Determined Contributions
+WGII,3,NDVI,Normalised Difference Vegetation Index
+WGII,1,NE,Northeast
+WGII,2,NELD,Non-Economic Loss and Damage
+WGII,2,NEP,Net Ecosystem Production
+WGII,1,NESP,National Environmental Science Program
+WGII,3,NEU,Northern Europe
+WGII,1,NEUS,European Arctic Waters
+WGII,1,NF,Near Future
+WGII,1,NFM,Natural Flood Management
+WGII,5,NGO,Non-Governmental Organisation
+WGII,1,NHS,National Health Service
+WGII,1,NIES,National Institute for Environmental Studies
+WGII,1,NIWA,National Institute of Water and Air
+WGII,1,NL,Netherlands
+WGII,1,NMHS,National Meteorological and Hydrological Services
+WGII,5,NPP,Net Primary Production / Nuclear Power Plants
+WGII,2,NSR,Northern Sea Route
+WGII,1,NSW,New South Wales
+WGII,1,NTDs,Neglected Tropical Diseases
+WGII,1,NTFPs,Non-Timber Forest Products
+WGII,2,NUA,New Urban Agenda
+WGII,1,NWP,Northwest Passages
+WGII,2,NWS,Northwestern South America
+WGII,1,NYCEDC,New York City Economic Development Corporation
+WGII,2,NZ,New Zealand
+WGII,1,NZCFSF,New Zealand Centre for Sustainable Finance
+WGII,5,OA,Ocean Acidification
+WGII,2,OAC,Ocean Albedo Change
+WGII,1,OCLTT,Capacity-Limited Thermal Tolerance
+WGII,2,ODA,Official Development Assistance
+WGII,5,OECD,Organisation for Economic Co-Operation and Development
+WGII,1,OECM,Other Effective Area-Based Conservation Measures
+WGII,1,OEH,Office of Environment and Heritage
+WGII,1,OHRLLS,"United Nations Office of the High Representative for the Least Developed Countries, Landlocked Developing Countries and Small Island Developing States"
+WGII,1,OMVS,Senegal River Basin Organisation
+WGII,2,OMZ,Oxygen Minimum Zones
+WGII,1,OSPAR,Convention for the Protection of the Marine Environment of the North-East Atlantic
+WGII,1,OW,The Office of Water
+WGII,3,PA,Partnership Agreement / Protected Area
+WGII,1,PACJA,Pan Africa Climate Justice Alliance
+WGII,1,PAGCC,Gender and Climate Change Action Plans
+WGII,1,Pas,Protected Areas
+WGII,1,PCB,Polychlorinated Biphenyl
+WGII,1,PCE,Parliamentary Commissioner for the Environment
+WGII,2,pCO2,Partial Pressure of Carbon Dioxide
+WGII,3,PDO,Pacific Decadal Oscillation
+WGII,1,PDRC,People's Democratic Republic of Congo
+WGII,1,PDS,Public Distribution System
+WGII,3,PDSI,Palmer Drought Severity Index
+WGII,2,PE,Asked for Expansion
+WGII,3,PEFC,Program for the Endorsement of Forest Certification
+WGII,3,PES,Payments for Ecosystem Services
+WGII,3,PET,Potential Evapotranspiration
+WGII,2,PFC,Perfluorocarbon
+WGII,1,pH,Potential of Hydrogen
+WGII,1,PICSA,Participatory Integrated Climate Services for Agriculture
+WGII,1,PIDA,African Union's Programme for Infrastructure Development
+WGII,1,PIDACC,Programmes for Integrated Development and Adaptation to Climate Change
+WGII,5,PM,Particulate Matter
+WGII,2,POC,Particulate Organic Carbon
+WGII,1,POMS,Pacific Oyster Mortality Syndrome
+WGII,2,POP,Persistent Organic Pollutant
+WGII,1,PPADI,"Human Development Index, Recently Adjusted to Reflect the Effect of Planetary Pressures"
+WGII,3,PPB,Participatory Plant Breeding
+WGII,4,PPP,Public–Private Partnerships / Purchasing Power Parity
+WGII,1,PSI,Principles for Sustainable Insurance
+WGII,1,PSNP,Productive Safety Net Programme
+WGII,1,PTSD,Post-Traumatic Stress Disorder
+WGII,1,PWC,Physical Work Capacity
+WGII,1,PWLM,Participatory Watershed Land-Use Management
+WGII,1,QFCI,Queensland Floods Commission of Inquiry
+WGII,1,QFES,Queensland Fire and Emergency Services
+WGII,1,QOL,Quality of Life
+WGII,1,RAWES,Rapid Assessment of Wetland Ecosystem Services
+WGII,1,RBNZ,Reserve Bank of New Zealand
+WGII,6,RCM,Regional Climate Model
+WGII,5,RCP,Representative Concentration Pathway
+WGII,1,RCSA,Rwanda Climate Services Programme
+WGII,2,RDM,Robust Decision-Making
+WGII,1,RE,Renewable Energy
+WGII,2,REDD,Reduction of Emissions From Deforestation and Forest Degradation
+WGII,1,REGEN,Rainfall Estimates on a Gridded Network
+WGII,4,RFC,Reason for Concern
+WGII,1,RFMO,Regional Fisheries Management Organisation
+WGII,1,RIO,Rational Impartial Observer
+WGII,1,RIT,Resilient Infrastructure and Technologies
+WGII,3,RKR,Representative Key Risk
+WGII,1,RMB,Renminbi
+WGII,1,ROSES,Reporting Standards for Systematic Evidence Syntheses
+WGII,1,RRV,Ross River Virus
+WGII,3,RSL,Relative Sea Level
+WGII,3,RSLR,Relative Sea-Level Rise
+WGII,1,RTI,Respiratory Tract Infection
+WGII,1,RVF,Rift Valley Fever
+WGII,4,SAI,Stratospheric Aerosol Intervention
+WGII,1,SAIA,South African Insurance Association
+WGII,1,SAIIA,South African Institute of International Affairs
+WGII,4,SAM,Southern Annular Mode / South American Monsoon
+WGII,4,SAR,Second Assessment Report
+WGII,1,SARS,Severe Acute Respiratory Syndrome
+WGII,4,SAS,South Asia
+WGII,1,SASSCAL,"Southern African Science Service Centre for Climate Change, Adaptive Land Management"
+WGII,1,SC,Sponge City
+WGII,4,SCC,Social Cost of Carbon
+WGII,2,SCE,Snow Cover Extent
+WGII,1,scPDSI,Self-Calibrating Palmer Drought Severity Index
+WGII,4,SD,Sustainable Development
+WGII,5,SDG,Sustainable Development Goal
+WGII,2,SDM,Species Distribution Model
+WGII,2,SDP,Sustainable Development Pathway
+WGII,2,SDS,Sand and Dust Storms
+WGII,2,SE,Southeast
+WGII,1,SEEA,System of Environmental–Economic Accounting
+WGII,3,SES,Socio-Ecological Systems / Southeast South America / Semi-Enclosed Sea
+WGII,1,SETS,"Social, Ecological and Technological Systems"
+WGII,1,SEU,Southern Europe
+WGII,1,SEUS,Mediterranean Sea and Black Sea
+WGII,1,SHELF,Sheffield Elicitation Framework
+WGII,3,SI,Sustainable Intensification
+WGII,7,SIDS,Small Island Developing States
+WGII,1,SITES,Sustainable Sites Initiative
+WGII,1,SL,Slovenia
+WGII,6,SLCF,Short-Lived Climate Forcer
+WGII,3,SLM,Sustainable Land Management
+WGII,5,SLR,Sea Level Rise
+WGII,1,SLURC,Sierra Leone Urban Research Centre
+WGII,4,SM,Supplementary Material
+WGII,1,SMART,Stormwater Management and Road Tunnel
+WGII,1,SME,Small and Medium Enterprises
+WGII,2,SNA,System of National Accounts
+WGII,2,SOC,Soil Organic Carbon
+WGII,2,SOI,Southern Oscillation Index
+WGII,2,SOM,Soil Organic Matter
+WGII,1,SP,Social Protection
+WGII,3,SPEI,Standardised Precipitation Evapotranspiration Index
+WGII,3,SPI,Standardised Precipitation Index
+WGII,6,SPM,Summary for Policymakers
+WGII,1,SPP,State Planning Policy
+WGII,2,SPV,Special Purpose Vehicle
+WGII,5,SR1.5,IPCC Special Report on Global Warming of 1.5°C
+WGII,1,SRA,Social Responsibility Agreements
+WGII,7,SRCCL,Special Report on Climate Change and Land
+WGII,5,SRES,Special Report on Emissions Scenarios
+WGII,6,SRM,Solar Radiation Modification
+WGII,7,SROCC,Special Report on the Ocean and Cryosphere in a Changing Climate
+WGII,2,SRTM,Shuttle Radar Topography Mission
+WGII,3,SSA,South and Sub-Saharan Africa
+WGII,5,SSP,Shared Socioeconomic Pathways
+WGII,1,SSR,Seasonal Severity Rating
+WGII,5,SST,Sea Surface Temperature
+WGII,1,STFM,Sustainable Tropical Forest Management
+WGII,1,STI,"Science, Technology and Innovation"
+WGII,1,SUDS,Sustainable Urban Drainage Systems
+WGII,2,SW,Southwest
+WGII,3,SWE,Snow Water Equivalent
+WGII,1,SWM,Sustainable Water Management
+WGII,1,SWP,Soil Water Potential
+WGII,2,TAR,Third Assessment Report
+WGII,2,TAV,Tropical Atlantic Variability
+WGII,3,TC,Tropical Cyclone
+WGII,2,TCFD,Task Force on Climate-Related Financial Disclosures
+WGII,1,TCs,Tropical Cyclones
+WGII,1,TEG CRM,Technical Expert Group on Comprehensive Risk Management
+WGII,1,TEU,Twenty-Foot Container Equivalent Units
+WGII,1,TEUS,European Temperate Seas
+WGII,1,T-FACE,Temperature Free-Air Controlled Enhancement
+WGII,2,TFP,Total Factor Productivity
+WGII,1,THI,Temperature Humidity Index
+WGII,1,TIA,Tourism Industry Aotearoa
+WGII,3,TIB,Tibetan Plateau
+WGII,1,TK,Traditional Knowledge
+WGII,1,TLAS,Timber Legality Assurance System
+WGII,1,TMNs,Transnational Municipal Networks
+WGII,1,TMSP,Transboundary Marine Spatial Planning
+WGII,1,TN,Tropical Nights
+WGII,1,TSR,Transpolar Sea Route
+WGII,1,TSRA,Torres Strait Regional Authority
+WGII,1,TSU,Technical Support Unit
+WGII,1,TURFs,Territorial Use Rights for Fishing
+WGII,1,TWS,Terrestrial Water Storage
+WGII,1,TWS-DSI,Terrestrial Water Storage-Drought Severity Index
+WGII,1,TWWHA,Tasmanian Wilderness World Heritage Area
+WGII,1,UA,Urban Agriculture
+WGII,1,UCDP,Uppsala Conflict Data Program
+WGII,1,UCLG,United Cities and Local Governments
+WGII,1,UHC,Universal Health Coverage
+WGII,5,UHI,Urban Heat Island
+WGII,3,UN,United Nations
+WGII,3,UNCCD,United Nations Convention to Combat Desertification
+WGII,4,UNDP,United Nations Development Programme
+WGII,6,UNEP,United Nations Environment Programme
+WGII,2,UNESCO,"United Nations Educational, Scientific and Cultural Organization"
+WGII,7,UNFCCC,United Nations Framework Convention on Climate Change
+WGII,1,UNHCR,United Nations High Commissioner for Refugee
+WGII,3,UNICEF,United Nations Children's Fund
+WGII,1,UPA,Urban and Peri-Urban Agriculture
+WGII,2,USAID,United States Agency for International Development
+WGII,5,USD,United States Dollars
+WGII,1,USGS,United States Geological Survey
+WGII,1,V,Vulnerability
+WGII,1,VaR,Value at Risk
+WGII,1,VBD,Vector-Borne Disease
+WGII,1,VF,Vertical Farming
+WGII,3,VOC,Volatile Organic Compound
+WGII,1,VoCC,Velocity of Climate Change
+WGII,2,VOD,Vegetation Optical Depth
+WGII,1,VPA,Voluntary Partnership Agreements
+WGII,2,VPD,Vapour Pressure Deficit
+WGII,1,VRES,Variable Renewable Energies
+WGII,3,W,Western
+WGII,4,WAIS,West Antarctic Ice Sheet
+WGII,1,WASCAL,West African Science Service Centre on Climate Change and Adaptive Land Management
+WGII,1,WASH,"Water, Sanitation and Hygiene"
+WGII,1,WBD,Waterborne Disease
+WGII,2,WCA,West Central Asia
+WGII,2,WCE,Western Central Europe
+WGII,3,WCRP,World Climate Research Programme
+WGII,3,WEF,Water–Energy–Food / World Economic Forum
+WGII,1,WEMA,Water Efficient Maize for Africa
+WGII,1,WEU,Western Europe
+WGII,5,WGI,Working Group I
+WGII,5,WGII,Working Group II
+WGII,4,WGIII,Working Group III
+WGII,1,WGWDGD,"Wet Get Wetter, Dry Get Drier"
+WGII,6,WHO,World Health Organization
+WGII,3,WIM,Warsaw International Mechanism
+WGII,5,WMO,World Meteorological Organization
+WGII,1,WNF,West Nile Fever
+WGII,1,WSAA,Water Services Association of Australia
+WGII,2,WSAF,West Southern Africa
+WGII,1,WSI,Water Scarcity Index
+WGII,2,WSUD,Water Sensitive Urban Design
+WGII,1,WTTC,World Travel & Tourism Council
+WGII,1,WTU,Water Treatment Unit
+WGII,3,WUE,Water-Use Efficiency
+WGII,1,WUI,Wildland–Urban Interface
+WGII,1,WWF,World Wildlife Fund
+WGII,1,YCS,Yield Constraint Score
+WGII,1,YLD,Years of Life Lived with Disability
+WGII,1,YLL,Years of Life Lost
+WGIII,2,A/R,afforestation/reforestation
+WGIII,1,AB,Assembly Bill
+WGIII,3,AC,alternating current
+WGIII,1,ACCTS,"Agreement on Climate Change, Trade and Sustainability"
+WGIII,1,ACF,areal carbon footprint
+WGIII,1,ADEME,Agence de l'Environnement et de la Maîtrise de l'Energie (French Environment and Energy Management Agency)
+WGIII,3,AF,Adaptation Fund
+WGIII,2,AFR,Africa
+WGIII,1,AFD,French Development Agency
+WGIII,6,AFOLU,"agriculture, forestry and other land use"
+WGIII,2,AGAGE,Advanced Global Atmospheric Gases Experiment
+WGIII,4,AI,artificial intelligence
+WGIII,1,AILAC,Association of the Latin American and Caribbean Countries
+WGIII,1,ALBA,Alianza Bolivariana para los Pueblos de Nuestra América (Bolivarian Alliance for the Peoples of our Americas)
+WGIII,1,ALCA,Attributional Life Cycle Assessment
+WGIII,1,AM,additive manufacturing
+WGIII,1,APEC,Asia-Pacific Economic Cooperation
+WGIII,5,AR4,Fourth Assessment Report of the Intergovernmental Panel on Climate Change
+WGIII,7,AR5,Fifth Assessment Report of the Intergovernmental Panel on Climate Change
+WGIII,6,AR6,Sixth Assessment Report of the Intergovernmental Panel on Climate Change
+WGIII,1,AR7,Seventh Assessment Cycle of the Intergovernmental Panel on Climate Change
+WGIII,3,ARC,African Risk Capacity
+WGIII,1,ARPA-E,Advanced Research Projects Agency-Energy
+WGIII,1,ART,Architecture for REDD+ Transactions
+WGIII,1,Art.,"Article (e.g., of the UNFCCC)"
+WGIII,1,ASAP,Adaptation for Smallholder Agriculture Programme
+WGIII,1,ASCM,Agreement on Subsidies and Countervailing Measures
+WGIII,1,ASI,Avoid-Shift-Improve
+WGIII,1,ASK,available seat kilometres
+WGIII,1,AUM,assets under management
+WGIII,2,BASIC,"Brazil, South Africa, India and China"
+WGIII,1,BAT,best available technology
+WGIII,3,BAU,business as usual
+WGIII,6,BC,black carbon
+WGIII,1,BCA,border carbon adjustment
+WGIII,7,BECCS,bioenergy with carbon capture and storage
+WGIII,1,BEES,building energy efficiency standards
+WGIII,1,BEMS,building energy management systems
+WGIII,2,BEV,battery electric vehicle
+WGIII,1,BF-BOF,blast furnace-basic oxygen furnace
+WGIII,1,BIM,Building Information Modelling
+WGIII,1,BIPV,building-integrated photovoltaic
+WGIII,1,BLUE,Bookkeeping of land-use emissions
+WGIII,2,BR,biennial report
+WGIII,2,BRI,Belt and Road Initiative
+WGIII,2,BRT,bus rapid transport
+WGIII,1,BTR,biennial transparency report
+WGIII,1,BTU,British thermal units
+WGIII,2,BUR,biennial update report
+WGIII,4,CA,capability approach
+WGIII,1,CAT,Climate Action Tracker
+WGIII,1,CAGR,compound annual growth rate
+WGIII,1,CAIT,Climate Analysis Indicators Tool
+WGIII,1,CAPEX,capital expenditure
+WGIII,3,CAR,Climate Action Reserve
+WGIII,6,CBA,cost-benefit analysis
+WGIII,1,CBAM,carbon border adjustment mechanism
+WGIII,1,CBCF,consumption-based carbon footprint (accounting)
+WGIII,5,CBD,Convention on Biological Diversity
+WGIII,1,CBDRRC,common but differentiated responsibilities and respective capabilities
+WGIII,1,CBEs,consumption-based emissions
+WGIII,1,CCAC,Climate and Clean Air Coalition
+WGIII,2,CCD,climate-compatible development
+WGIII,1,CCPI,Climate Change Performance Index
+WGIII,4,CCRIF,Caribbean Catastrophe Risk Insurance Facility
+WGIII,6,CCS,carbon capture and storage
+WGIII,4,CCT,cirrus cloud thinning
+WGIII,5,CCU,carbon capture and utilisation
+WGIII,2,CCUS,"carbon capture, use and storage"
+WGIII,1,CCX,Chicago Climate Exchange
+WGIII,2,CD,charge depleting
+WGIII,4,CDD,cooling degree-days
+WGIII,1,CDIAC,Carbon Dioxide Information Analysis Center
+WGIII,4,CDM,Clean Development Mechanism
+WGIII,7,CDR,carbon dioxide removal
+WGIII,3,CE,circular economy
+WGIII,3,CEA,cost-effectiveness analysis
+WGIII,3,CEDS,Community Emissions Data System
+WGIII,1,CETA,EU-Canada Comprehensive Economic and Trade Agreement
+WGIII,3,CFCs,chlorofluorocarbons
+WGIII,1,CfD,contract for difference
+WGIII,1,CFL,compact fluorescent lamp [/lighting]
+WGIII,3,CGE,Computable General Equilibrium
+WGIII,2,CGTP,combined global temperature change potential
+WGIII,5,CH4,methane
+WGIII,3,CHP,combined heat and power
+WGIII,1,CII,Carbon Intensity Indicator
+WGIII,1,CLASP,Collaborative Labelling and Appliance Standards Program
+WGIII,1,CLC,constant land cover
+WGIII,1,CLCA,Consequential Life Cycle Assessment
+WGIII,1,CLIMI,"Climate Laws, Institutions and Measures Index"
+WGIII,1,CLRTAP,Convention on Long-Range Transboundary Air Pollution
+WGIII,1,CLT,cross-laminated timber
+WGIII,1,CMA,Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+WGIII,7,CMIP6,Coupled Model Intercomparison Project Phase 6
+WGIII,1,CNG,compressed natural gas
+WGIII,4,CO,carbon monoxide
+WGIII,5,CO2,carbon dioxide
+WGIII,3,CO2-eq,carbon dioxide equivalent
+WGIII,1,COMMIT,Climate policy assessment and Mitigation Modelling to Integrate national and global Transition pathways
+WGIII,6,CoP,coefficient of performance
+WGIII,6,COP,Conference of the Parties to the UNFCCC
+WGIII,1,CORSIA,Carbon Offsetting and Reduction Scheme for International Aviation
+WGIII,1,CPRS,Climate Policy Relevant Sectors
+WGIII,1,CPTPP,Comprehensive and Progressive Agreement for Trans-Pacific Partnership
+WGIII,3,CRD,climate-resilient development
+WGIII,1,CREMAs,Community Resource Management Area Mechanisms (Ghana)
+WGIII,1,CRF,common reporting format
+WGIII,1,CRIBs,Climate Relevant Innovation-system Builders
+WGIII,2,CS,charge sustaining
+WGIII,2,CSC,climate-smart cocoa
+WGIII,1,CSI,Cement Sustainability Initiative
+WGIII,2,CSP,concentrating solar power
+WGIII,3,CSR,corporate social responsibility
+WGIII,1,CSSP,cross-sector social partnership
+WGIII,1,CTCN,Climate Technology Centre and Network
+WGIII,1,CurPol,Current Policies scenario
+WGIII,2,DAC,direct air capture
+WGIII,5,DACCS,direct air carbon capture and storage
+WGIII,1,DACCU,direct air capture carbon and utilisation
+WGIII,4,DALY,disability adjusted life year
+WGIII,2,DBH,diameter at breast height
+WGIII,1,DC,direct current
+WGIII,3,DGVM,dynamic global vegetation model
+WGIII,1,DLS,decent living standards
+WGIII,2,DRI,direct reduced iron
+WGIII,1,DSM,demand-side management
+WGIII,1,DWM,down woody material
+WGIII,1,EaaS,energy as a service
+WGIII,2,EAF,electric arc furnace
+WGIII,1,EBEs,extraction-based emissions
+WGIII,3,EDGAR,Emissions Database for Global Atmospheric Research
+WGIII,1,EDLC,electrochemical double layer capacitor
+WGIII,4,EEA,Eastern Europe and West Central Asia
+WGIII,1,EED,Energy Efficiency Directive
+WGIII,1,EEDI,Energy Efficiency Design Index
+WGIII,1,EEE,emissions embodied in exports
+WGIII,1,EEI,emissions embodied in imports
+WGIII,1,EEM,Energy Efficient Mortgage
+WGIII,1,EES,electrical energy storage
+WGIII,1,EET,emissions embodied in trade
+WGIII,1,EEXI,Energy Efficiency Existing Ship Index
+WGIII,2,EF,emission factor
+WGIII,1,EGR,exhaust gas recirculation
+WGIII,1,EGTT,Expert Group on Technology Transfer
+WGIII,1,EIMs,Energy Improvement Mortgages
+WGIII,1,EIP,energy and industrial processes
+WGIII,2,EJ,exajoule
+WGIII,1,ELUC,land-use change emissions
+WGIII,1,EMAS,Eco-Management and Auditing Scheme
+WGIII,1,EPD,Environmental Product Declaration
+WGIII,1,EPBD,Energy Performance Buildings Directive
+WGIII,1,EPCs,Energy Performance Certificates
+WGIII,1,EPS,Emissions Performance Standard
+WGIII,1,EPR,extended producer responsibility
+WGIII,3,ERF,effective radiative forcing
+WGIII,1,ERIA,Economic Research Institute for ASEAN and East Asia
+WGIII,1,ES-FiT,Energy Savings Feed-in Tariff
+WGIII,1,ESCO,Energy Service Company
+WGIII,3,ESA,energy services agreement
+WGIII,2,ESD,education for sustainable development
+WGIII,1,ESG,"environmental, social and governance"
+WGIII,6,ESM,energy systems model
+WGIII,2,ETP,Energy Technology Perspectives (IEA report)
+WGIII,3,ETS,Emissions Trading System
+WGIII,5,EU,European Union
+WGIII,1,EU-27,European Union member states [excluding UK]
+WGIII,1,EU-28,European Union member states [including UK]
+WGIII,1,EU ETS,European Union Emissions Trading Scheme
+WGIII,2,EU-RED,EU Renewable Energy Directive
+WGIII,4,EV,electric vehicle
+WGIII,3,EW,enhanced weathering
+WGIII,5,FaIR,Finite Amplitude Impulse Response
+WGIII,4,FAQ,frequently asked question
+WGIII,5,FAO,Food and Agriculture Organization of the United Nations
+WGIII,1,FBDG,food-based dietary guidelines
+WGIII,1,FCDO,"UK Foreign, Commonwealth and Development Office"
+WGIII,1,FCV,fuel cell vehicle
+WGIII,1,FDI,Foreign Direct Investment
+WGIII,2,FFI,fossil fuel and industry
+WGIII,2,F-gas,fluorinated gas
+WGIII,1,FIC,Faster Innovation Case
+WGIII,1,FiT,feed-in tariff
+WGIII,1,FiTP,feed-in premium
+WGIII,1,FLEGT,"Forest Law Enforcement, Governance and Trade"
+WGIII,2,FLW,food loss and waste
+WGIII,1,FRAND,"fair, reasonable and non-discriminatory"
+WGIII,3,FSC,Forest Sustainability Council
+WGIII,1,FT,Fischer-Tropsch
+WGIII,1,FTA,free trade agreement
+WGIII,1,FWM,fine woody material
+WGIII,1,GATS,General Agreement on Trade in Services
+WGIII,2,GATT,General Agreement on Tariffs and Trade
+WGIII,3,GBAM,ground-based albedo modifications
+WGIII,2,GCAM,Global Change Assessment Model
+WGIII,1,GCCA,Global Cement and Concrete Association
+WGIII,3,GCF,Green Climate Fund
+WGIII,1,GCoM,Global Covenant of Mayors
+WGIII,4,GCP,Global Carbon Project
+WGIII,7,GDP,gross domestic product
+WGIII,2,GEA,Global Energy Assessment
+WGIII,3,GEF,Global Environment Facility
+WGIII,1,GFBI,Global Forest Biodiversity Initiative
+WGIII,1,GFCA,Global Framework for Climate Action
+WGIII,2,GFCF,Gross-fixed capital formation
+WGIII,2,GFED,Global Fire Emissions Database
+WGIII,6,GHG,greenhouse gas
+WGIII,4,GIS,geographic information system / global innovation system
+WGIII,2,GIZ,the German Development Agency (Deutsche Gesellschaft für Internationale Zusammenarbeit)
+WGIII,3,GJ,gigajoule
+WGIII,1,GMF,Global Methane Fund
+WGIII,1,GMI,Global Methane Initiative
+WGIII,1,GMRIO,global multi-region input-output
+WGIII,1,GNI,gross national income
+WGIII,5,GPP,Green Public Procurement
+WGIII,2,GPT,general-purpose technologies
+WGIII,4,GSAT,Global Surface Air Temperature
+WGIII,3,Gt,gigatonne
+WGIII,1,GtCO2-eq,gigatonnes of CO2 equivalent
+WGIII,1,GTEM,global transport energy sectoral models
+WGIII,3,GTP,global temperature change potential
+WGIII,6,GWP,global warming potential
+WGIII,2,GWP100,100-year global warming potential
+WGIII,2,HAP,household air pollution
+WGIII,1,HCE,historical cumulative emission
+WGIII,1,HCFCs,hydrochlorofluorocarbons
+WGIII,1,HCS,High Carbon Stock
+WGIII,3,HDI,Human Development Index
+WGIII,1,H-DRI,Hydrogen-based direct reduced iron
+WGIII,2,HDV,Heavy-duty vehicles
+WGIII,1,HEMS,home energy management system
+WGIII,1,HES,Hybrid energy storage
+WGIII,2,HEV,hybrid electric vehicle
+WGIII,4,HFC,hydrofluorocarbon
+WGIII,1,HFCV,hydrogen fuel cell vehicle
+WGIII,1,HIHD,Historical Index of Human Development
+WGIII,1,HLPF,High-Level Political Forum
+WGIII,1,HN,Houghton and Nassikas
+WGIII,1,HSR,high-speed rail
+WGIII,2,HVAC,"heating, ventilation and air conditioning"
+WGIII,1,HVO,hydrotreated vegetable oil
+WGIII,2,HYDE,History database of the Global Environment
+WGIII,1,IAGA,International Air Transport Association
+WGIII,4,IAM,integrated assessment model
+WGIII,1,IBE,income-based emission accounting
+WGIII,1,ICAO,International Civil Aviation Organization
+WGIII,1,ICCT,International Council on Clean Transportation
+WGIII,2,ICE,internal combustion engine
+WGIII,1,ICEV,internal combustion engine vehicles
+WGIII,1,ICI,international cooperative initiative
+WGIII,1,ICJ,International Court of Justice
+WGIII,4,ICT,information and communication technology
+WGIII,1,IDDRI,Institute for Sustainable Development and International Relations
+WGIII,5,IEA,International Energy Agency
+WGIII,1,IFC,International Finance Corporation
+WGIII,1,IFDD,Institut de la Francophonie pour le Développement Durable (Francophonie Institute for Sustainable Development)
+WGIII,1,IFI,international financial institution
+WGIII,3,IGCC,International Green Construction Code
+WGIII,2,IIASA,International Institute for Applied Systems Analysis
+WGIII,1,IIGCC,Institutional Investors Group on Climate Change
+WGIII,1,IIoT,industrial internet of things
+WGIII,1,ILB,incandescent light bulb
+WGIII,1,ILM,intrusive load monitoring
+WGIII,3,IMF,International Monetary Fund
+WGIII,3,IMO,International Maritime Organization
+WGIII,2,IMP,Illustrative Mitigation Pathway
+WGIII,1,IMP-GS,Illustrative Mitigation Pathway – Gradual Strengthening
+WGIII,2,IMP-LD,Illustrative Mitigation Pathway – Low Demand
+WGIII,2,IMP-Neg,Illustrative Mitigation Pathway – Net Negative Emissions
+WGIII,2,IMP-Ren,Illustrative Mitigation Pathway – Renewable Electricity
+WGIII,2,IMP-SP,Illustrative Mitigation Pathway – Shifting Pathways
+WGIII,3,INDC,Intended Nationally Determined Contributions
+WGIII,3,IoT,internet of things
+WGIII,5,IPBES,Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services
+WGIII,6,IPCC,Intergovernmental Panel on Climate Change
+WGIII,1,IP,Illustrative Pathway
+WGIII,1,IPP,independent power producers
+WGIII,1,IPPU,Industrial processes and product use
+WGIII,1,IPR,intellectual property rights
+WGIII,2,IRENA,International Renewable Energy Agency
+WGIII,1,IRP,UN International Resource Panel
+WGIII,1,ISDS,investor–state dispute settlement
+WGIII,4,ITF,International Transport Forum
+WGIII,1,ITMO,internationally transferred mitigation outcome
+WGIII,1,ITUC,International Trade Union Confederation
+WGIII,1,JICA,Japanese International Cooperation Agency
+WGIII,3,JRC,GECO Joint Research Centre – Global Energy and Climate Outlook
+WGIII,2,KR,key risks
+WGIII,4,kWh,kilowatt hour
+WGIII,2,LAM,Latin America and the Caribbean
+WGIII,2,LCA,life cycle assessment or life cycle analysis
+WGIII,2,LCC,lifecycle costs
+WGIII,1,LCCE,levelised cost of conserved energy
+WGIII,1,LCCC,levelised cost of conserved carbon
+WGIII,3,LCOE,levelised cost of electricity or levelised cost of energy
+WGIII,1,LCS,low-carbon society
+WGIII,2,LDCs,Least-Developed Countries
+WGIII,2,LDCF,Least Developed Countries Fund
+WGIII,3,LDN,Land Degradation Neutrality
+WGIII,2,LDV,light-duty vehicle
+WGIII,1,LEAF,Lowering Emissions by Accelerating Forest Finance
+WGIII,3,LED,light-emitting diode
+WGIII,1,LED scenario,Low Energy Demand scenario
+WGIII,2,LEDS,low-emissions development strategies
+WGIII,1,LIB,lithium-ion battery
+WGIII,1,LiRE,IMAGE-Lifestyle-Renewable (IEA scenario)
+WGIII,2,LNG,liquefied natural gas
+WGIII,3,LPG,liquefied petroleum gas
+WGIII,2,LTGG,long-term global goal (to hold the increase in the global average temperature to well below 2°C above pre-industrial levels and to pursue efforts to limit the temperature increase to 1.5°C above pre-industrial levels)
+WGIII,1,LTO,long-term operation
+WGIII,6,LULUCF,"land use, land-use change and forestry"
+WGIII,1,LUM,land-use model
+WGIII,3,MA,Mitigation Alliance
+WGIII,1,MaaS,Mobility as a Service
+WGIII,3,MAC,marginal abatement cost
+WGIII,2,MACC,marginal abatement cost curve
+WGIII,1,MAPS,Mitigation Action Plans and Scenarios
+WGIII,1,mbpd,million barrels per day
+WGIII,4,MCB,marine cloud brightening
+WGIII,3,MDB,multilateral development bank
+WGIII,1,ME,material efficiency
+WGIII,1,MES,material efficiency scenario
+WGIII,4,MEA,multilateral environmental agreement
+WGIII,1,MEPC,Marine Environment Protection Committee
+WGIII,1,MEPSs,Minimum Energy Performance Standards
+WGIII,3,Mha,million hectares
+WGIII,1,MIGA,Multilateral Investment Guarantee Agency
+WGIII,2,MIS,mission-oriented innovation systems
+WGIII,3,MJ,megajoule
+WGIII,1,Mkm2,million square kilometres
+WGIII,1,MLP,multi-level perspective
+WGIII,1,ModAct,Moderate Action scenario
+WGIII,1,MOE,molten oxide electrolysis
+WGIII,1,MOOC,massive open online course
+WGIII,3,MPa,megapascal
+WGIII,5,MRV,"measuring, reporting and verifying or measuring, reporting and verification"
+WGIII,1,MS,member state
+WGIII,1,MSME,"micro, small and medium enterprises"
+WGIII,3,Mt,megatonne
+WGIII,1,MTA,methanol-to-aromatics
+WGIII,1,MTO,methanol-to-olefins
+WGIII,2,MWh,megawatt hour
+WGIII,5,N2O,nitrous oxide
+WGIII,1,NAFTA,North American Free Trade Agreement
+WGIII,2,NAMA,Nationally Appropriate Mitigation Actions
+WGIII,5,NAP,national adaptation plan
+WGIII,1,NAZCA,Non-State Actor Zone for Climate Action
+WGIII,3,NBS,nature-based solutions
+WGIII,6,NDC,Nationally Determined Contribution
+WGIII,1,NEDO,"New Energy and Industrial Technology Development Organisation, Japan"
+WGIII,2,NELD,non-economic loss and damage
+WGIII,3,NF3,nitrogen trifluoride
+WGIII,1,NGFS,Network for Greening the Financial System
+WGIII,1,NGHGI,national greenhouse gas inventories
+WGIII,5,NGO,non-governmental organisation
+WGIII,1,NiCD,nickel–cadmium
+WGIII,1,NILM,non-intrusive load monitoring
+WGIII,1,Nimby,Not in my back yard
+WGIII,1,NiMH,nickel-metal hydride
+WGIII,1,NIS,national innovation system
+WGIII,3,NMVOC,non-methane volatile organic compounds
+WGIII,5,NOAA,National Oceanic and Atmospheric Administration
+WGIII,1,NRG,natural regrowth
+WGIII,1,NR,Non-Residential
+WGIII,2,NSA,non-state actor
+WGIII,1,NTEM,national transport-energy models
+WGIII,1,NT,Non-technological
+WGIII,1,NZE,net zero emissions
+WGIII,1,NZE scenario,Net-Zero Emissions by 2050 (IEA scenario)
+WGIII,2,NZEB,net zero energy building
+WGIII,2,nZEB,nearly zero energy building
+WGIII,1,NSTT,North–South technology transfer and cooperation
+WGIII,2,NUA,New Urban Agenda
+WGIII,1,NYDF,New York Declaration on Forests
+WGIII,5,OA,ocean alkalinity
+WGIII,2,OAC,ocean albedo change
+WGIII,1,OAE,ocean alkalinity enhancement
+WGIII,2,ODA,overseas development assistance
+WGIII,2,ODS,ozone-depleting substance
+WGIII,5,OECD,Organisation for Economic Co-operation and Development
+WGIII,1,OF,ocean fertilisation
+WGIII,1,OPEC,Organization of the Petroleum Exporting Countries
+WGIII,1,OPEX,operating and maintenance expenditures
+WGIII,2,OS,overshoot
+WGIII,2,OSS,one-stop shop
+WGIII,1,P2P,peer-to-peer
+WGIII,3,PA,The Paris Agreement
+WGIII,1,PACE,Property Assessed Clean Energy
+WGIII,1,PBEs,production-based emissions
+WGIII,1,PCCB,Paris Committee on Capacity-building
+WGIII,1,PCF,personal carbon footprint
+WGIII,2,PCRAFI,Pacific Catastrophe Risk Assessment and Financing Initiative
+WGIII,1,PDB,public development bank
+WGIII,3,PEFC,Programme for the Endorsement of Forest Certification
+WGIII,1,PEMFC,proton-exchange membrane fuel cells
+WGIII,3,PES,payment for ecosystem services
+WGIII,3,PFCs,perfluorocarbons
+WGIII,2,PHEV,plug-in hybrid electric vehicle
+WGIII,1,pkm,passenger-kilometres
+WGIII,5,PM,particulate matter
+WGIII,2,PPA,Power Purchase Agreement
+WGIII,1,PPCA,Powering Past Coal Alliance
+WGIII,1,PPCR,Pilot Program for Climate Resilience
+WGIII,2,PPI,pulp and paper industry
+WGIII,4,PPP,public-private partnership / purchasing power parity
+WGIII,1,PRI,Principles for Responsible Investment
+WGIII,3,PV,photovoltaic
+WGIII,1,QE,quantitative easing
+WGIII,3,R&D,research and development
+WGIII,1,RCEP,Regional Comprehensive Economic Partnership
+WGIII,6,RCM,reduced complexity model
+WGIII,5,RCP,Representative Concentration Pathway
+WGIII,1,RD&D,"research, development and demonstration"
+WGIII,1,RDI,"Research, Development and Innovation"
+WGIII,1,RECC,Resource Efficiency and Climate Change
+WGIII,1,RECC-LED,Resource Efficiency and Climate Change-Low Energy Demand (IEA scenario)
+WGIII,3,REDD+,"reducing emissions from deforestation and forest degradation and the role of conservation, sustainable management of forests and enhancement of forest carbon stocks"
+WGIII,1,REEs,rare earth elements
+WGIII,1,ReSOLVE,"Regenerate, Share, Optimise, Loop, Virtualise, Exchange framework"
+WGIII,1,RGGI,Regional Greenhouse Gas Initiative
+WGIII,1,RIMAP,Real-time Integrated Model for probabilistic Assessment of emissions Paths
+WGIII,1,RIS,regional innovation systems
+WGIII,3,RKR,Representative Key Risks
+WGIII,1,RPK,revenue passenger-kilometres
+WGIII,1,RSD,relative standard deviation
+WGIII,1,RSPO,Roundtable on Sustainable Palm Oil
+WGIII,1,RTS,Reference Technology Scenario
+WGIII,1,S&L,standards and labelling
+WGIII,2,SAF,sustainable aviation fuel
+WGIII,4,SAI,stratospheric aerosol interventions
+WGIII,4,SAM,Social Accounting Matrix
+WGIII,4,SAR,Second Assessment Report
+WGIII,1,SARPs,Standards and Recommended Practices
+WGIII,1,SASB,Sustainability Accounting Standards Board
+WGIII,2,SBSTA,Subsidiary Body for Scientific and Technological Advice
+WGIII,1,SBT,science-based target
+WGIII,4,SCC,social cost of carbon
+WGIII,1,SCCF,Special Climate Change Fund
+WGIII,2,SCS,soil carbon sequestration
+WGIII,5,SDG,Sustainable Development Goal
+WGIII,2,SDPS,shifting development pathways to increased sustainability
+WGIII,1,SDR,Special Drawing Rights
+WGIII,2,SDS,Sustainable Development Scenario (IEA scenario)
+WGIII,2,SDSN,Sustainable Development Solutions Network
+WGIII,2,SE,sustainable entrepreneur
+WGIII,3,SEA,strategic environmental assessment
+WGIII,1,SEADRIF,South East Asian Disaster Risk Insurance Facility
+WGIII,1,SEC,specific energy consumption
+WGIII,1,SECA,sulphur emission control area
+WGIII,1,SEEMP,Ship Energy Efficiency Management Plan
+WGIII,2,SEM,structural equations modelling
+WGIII,1,SER,"Sufficiency, Efficiency, Renewal"
+WGIII,1,SETAC,Society of Environmental Toxicology and Chemistry (UNEP-SETAC)
+WGIII,4,SF6,sulphur hexafluoride
+WGIII,3,SI,sustainable intensification
+WGIII,7,SIDS,Small Island Developing States
+WGIII,1,SIS,sectoral innovation system
+WGIII,6,SLCF,short-lived climate forcer
+WGIII,2,SLCP,short-lived climate pollutant
+WGIII,1,SLoCaT,Sustainable Low Carbon Transport Partnership
+WGIII,3,SLM,sustainable land management
+WGIII,5,SLR,sea level rise
+WGIII,4,SM,smart manufacturing
+WGIII,1,SMEs,small and medium-sized enterprises
+WGIII,2,SNA,System of National Accounts
+WGIII,1,SNTT,South–North technology transfer and cooperation
+WGIII,4,SO2,sulphur dioxide
+WGIII,1,SOE,state-owned enterprise
+WGIII,1,SOFC,solid oxide fuel cell
+WGIII,6,SPM,Summary for Policymakers
+WGIII,2,SPV,special purpose vehicle
+WGIII,5,SR1.5,IPCC Special Report on Global Warming of 1.5ºC
+WGIII,7,SRCCL,IPCC Special Report on Climate Change and Land
+WGIII,2,SRI,Sustainable and Responsible Investment
+WGIII,6,SRM,solar radiation modification
+WGIII,7,SROCC,IPCC Special Report on the Ocean and Cryosphere in a Changing Climate
+WGIII,1,SSC,South-South cooperation
+WGIII,5,SSP,Shared Socio-economic Pathway
+WGIII,1,SSTT,South–South technology transfer and cooperation
+WGIII,1,STEM,"science, technology, engineering and mathematics"
+WGIII,1,STEPS,Stated Policies Scenario
+WGIII,1,SUV,sport utility vehicle
+WGIII,1,TA,territorial accounting
+WGIII,1,TABS,thermally activated building systems
+WGIII,1,TBT Agreement,WTO Agreement on Technical Barriers to Trade
+WGIII,1,TCBA,technology-adjusted consumption-based emission accounting
+WGIII,2,TCFD,Task Force on Climate-related Financial Disclosures
+WGIII,3,TCRE,transient climate response to cumulative emissions of carbon dioxide
+WGIII,1,TDR,travel demand reduction
+WGIII,2,TEEB,The Economics of Ecosystems and Biodiversity
+WGIII,1,TEC,Technology Executive Committee
+WGIII,1,TES,Transforming Energy Scenario
+WGIII,1,TIS,technological innovation system
+WGIII,1,TFC,total final energy consumption
+WGIII,1,TGC,tradeable green certificate
+WGIII,1,tkm,tonne-kilometre
+WGIII,1,TNA,technology needs assessment
+WGIII,2,TOD,transit-oriented development
+WGIII,1,TPES,total primary energy supply
+WGIII,1,TRA,technology readiness assessment
+WGIII,1,TrC,triangular cooperation
+WGIII,1,TGCs,Tradable Green Certificates
+WGIII,1,TRIPS Agreement,Trade-Related Aspects of Intellectual Property Rights Agreement
+WGIII,1,TRL,technology readiness level
+WGIII,1,TW,terawatt
+WGIII,1,UF,utility factor
+WGIII,5,UHI,urban heat island
+WGIII,1,UKCCC,United Kingdom Climate Change Committee
+WGIII,1,ULCS,ultra-low carbon steel
+WGIII,3,UNCCD,United Nations Convention to Combat Desertification
+WGIII,1,UNCRD,United Nations Centre for Regional Development
+WGIII,4,UNDP,United Nations Development Programme
+WGIII,6,UNEP,United Nations Environment Programme
+WGIII,7,UNFCCC,United Nations Framework Convention on Climate Change
+WGIII,1,UNOSSC,United Nations Office for South-South Cooperation
+WGIII,5,USD,US dollar
+WGIII,1,US DOE,United States Department of Energy
+WGIII,1,US EPA,United States Environmental Protection Agency
+WGIII,4,UV,ultraviolet
+WGIII,1,V1G,controlled charging (of an electric vehicle)
+WGIII,1,V2G,vehicle-to-grid
+WGIII,1,VC,venture capital
+WGIII,1,VCS,Verified Carbon Standard of the Verra programme
+WGIII,1,vkm,vehicle-kilometre
+WGIII,2,VKT,vehicle kilometres travelled
+WGIII,1,VLR,Voluntary Local Review
+WGIII,1,VMT,vehicle miles travelled
+WGIII,1,VNR,Voluntary National Review
+WGIII,3,WBCSD,World Business Council on Sustainable Development
+WGIII,1,WEFN,water-energy-food nexus
+WGIII,3,WEO,World Energy Outlook
+WGIII,3,WFP,World Food Programme
+WGIII,3,WG,Working Group
+WGIII,6,WHO,World Health Organization
+WGIII,1,WHP,waste heat to power
+WGIII,5,WMO,World Meteorological Organisation
+WGIII,1,WRAP,Waste and Resources Action Programme
+WGIII,2,WSUD,Water Sensitive Urban Design
+WGIII,3,WTO,World Trade Organization
+WGIII,1,WTP,willingness to pay
+WGIII,1,ZEV,zero emission vehicle

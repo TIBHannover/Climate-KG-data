@@ -1,0 +1,95 @@
+Type,QID,Label,Description,Acronym,DOI
+Series,Q10,Special Report: Global Warming of 1.5°C,Global Warming of 1.5°C,SR15,10.1017/9781009157940
+Series,Q35,Special Report: Climate Change and Land,Climate Change and Land,SRCCL,10.1017/9781009157988
+Series,Q57,Special Report: The Ocean and Cryosphere in a Changing Climate,The Ocean and Cryosphere in a Changing Climate,SROCC,10.1017/9781009157964
+Series,Q77,Working Group I: Climate Change 2021 – The Physical Science Basis,Climate Change 2021 – The Physical Science Basis,WGI,10.1017/9781009157896
+Series,Q106,"Working Group II: Climate Change 2022 – Impacts, Adaptation and Vulnerability","Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844
+Series,Q150,Working Group III: Climate Change 2022 – Mitigation of Climate Change,Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926
+Series,Q189,"Climate Change 2023: Synthesis Report. Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change","Synthesis Report. Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change",SYR,10.59327/IPCC/AR6-9789291691647
+Chapter,Q17,Technical Summary,Global Warming of 1.5°C,SR15,10.1017/9781009157940.002
+Chapter,Q21,Framing and Context,Global Warming of 1.5°C,SR15,10.1017/9781009157940.003
+Chapter,Q24,Mitigation Pathways Compatible with 1.5°C in the Context of Sustainable Development,Global Warming of 1.5°C,SR15,10.1017/9781009157940.004
+Chapter,Q26,Impacts of 1.5°C Global Warming on Natural and Human Systems,Global Warming of 1.5°C,SR15,10.1017/9781009157940.005
+Chapter,Q30,Strengthening and Implementing the Global Response,Global Warming of 1.5°C,SR15,10.1017/9781009157940.006
+Chapter,Q33,"Sustainable Development, Poverty Eradication and Reducing Inequalities",Global Warming of 1.5°C,SR15,10.1017/9781009157940.007
+Chapter,Q38,Summary for Policymakers,Climate Change and Land,SRCCL,10.1017/9781009157988.001
+Chapter,Q41,Technical Summary,Climate Change and Land,SRCCL,10.1017/9781009157988.002
+Chapter,Q44,Framing and context,Climate Change and Land,SRCCL,10.1017/9781009157988.003
+Chapter,Q45,Land–climate interactions,Climate Change and Land,SRCCL,10.1017/9781009157988.004
+Chapter,Q48,Desertification,Climate Change and Land,SRCCL,10.1017/9781009157988.005
+Chapter,Q50,Land degradation,Climate Change and Land,SRCCL,10.1017/9781009157988.006
+Chapter,Q53,Food security,Climate Change and Land,SRCCL,10.1017/9781009157988.007
+Chapter,Q54,"Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes: Synergies, trade-offs and integrated response options",Climate Change and Land,SRCCL,10.1017/9781009157988.008
+Chapter,Q55,Risk management and decision-making in relation to sustainable development,Climate Change and Land,SRCCL,10.1017/9781009157988.009
+Chapter,Q60,Summary for Policymakers,The Ocean and Cryosphere in a Changing Climate,SROCC,10.1017/9781009157964.001
+Chapter,Q61,Technical Summary,The Ocean and Cryosphere in a Changing Climate,SROCC,10.1017/9781009157964.002
+Chapter,Q64,Framing and Context of the Report,The Ocean and Cryosphere in a Changing Climate,SROCC,10.1017/9781009157964.003
+Chapter,Q67,High Mountain Areas,The Ocean and Cryosphere in a Changing Climate,SROCC,10.1017/9781009157964.004
+Chapter,Q69,Polar Regions,The Ocean and Cryosphere in a Changing Climate,SROCC,10.1017/9781009157964.005
+Chapter,Q71,"Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities",The Ocean and Cryosphere in a Changing Climate,SROCC,10.1017/9781009157964.006
+Chapter,Q72,"Changing Ocean, Marine Ecosystems, and Dependent Communities",The Ocean and Cryosphere in a Changing Climate,SROCC,10.1017/9781009157964.007
+Chapter,Q74,"Extremes, Abrupt Changes and Managing Risks",The Ocean and Cryosphere in a Changing Climate,SROCC,10.1017/9781009157964.008
+Chapter,Q76,Integrative Cross-Chapter Box on Low-lying Islands and Coasts,The Ocean and Cryosphere in a Changing Climate,SROCC,10.1017/9781009157964.009
+Chapter,Q79,Summary for Policymakers,Climate Change 2021 – The Physical Science Basis,WGI,10.1017/9781009157896.001
+Chapter,Q80,Technical Summary,Climate Change 2021 – The Physical Science Basis,WGI,10.1017/9781009157896.002
+Chapter,Q83,"Framing, Context, and Methods",Climate Change 2021 – The Physical Science Basis,WGI,10.1017/9781009157896.003
+Chapter,Q85,Changing State of the Climate System,Climate Change 2021 – The Physical Science Basis,WGI,10.1017/9781009157896.004
+Chapter,Q87,Human Influence on the Climate System,Climate Change 2021 – The Physical Science Basis,WGI,10.1017/9781009157896.005
+Chapter,Q88,Future Global Climate: Scenario-based Projections and Near-term Information,Climate Change 2021 – The Physical Science Basis,WGI,10.1017/9781009157896.006
+Chapter,Q90,Global Carbon and Other Biogeochemical Cycles and Feedbacks,Climate Change 2021 – The Physical Science Basis,WGI,10.1017/9781009157896.007
+Chapter,Q93,Short-lived Climate Forcers,Climate Change 2021 – The Physical Science Basis,WGI,10.1017/9781009157896.008
+Chapter,Q95,"The Earth’s Energy Budget, Climate Feedbacks and Climate Sensitivity",Climate Change 2021 – The Physical Science Basis,WGI,10.1017/9781009157896.009
+Chapter,Q96,Water Cycle Changes,Climate Change 2021 – The Physical Science Basis,WGI,10.1017/9781009157896.010
+Chapter,Q98,"Ocean, Cryosphere and Sea Level Change",Climate Change 2021 – The Physical Science Basis,WGI,10.1017/9781009157896.011
+Chapter,Q100,Linking Global to Regional Climate Change,Climate Change 2021 – The Physical Science Basis,WGI,10.1017/9781009157896.012
+Chapter,Q101,Weather and Climate Extreme Events in a Changing Climate,Climate Change 2021 – The Physical Science Basis,WGI,10.1017/9781009157896.013
+Chapter,Q103,Climate Change Information for Regional Impact and for Risk Assessment,Climate Change 2021 – The Physical Science Basis,WGI,10.1017/9781009157896.014
+Chapter,Q104,Atlas,Climate Change 2021 – The Physical Science Basis,WGI,10.1017/9781009157896.021
+Chapter,Q107,Summary for Policymakers,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.001
+Chapter,Q109,Technical Summary,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.002
+Chapter,Q111,Point of Departure and Key Concepts,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.003
+Chapter,Q112,Terrestrial and Freshwater Ecosystems and Their Services,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.004
+Chapter,Q114,Oceans and Coastal Ecosystems and Their Services,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.005
+Chapter,Q116,Water,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.006
+Chapter,Q117,"Food, Fibre and Other Ecosystem Products","Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.007
+Chapter,Q120,"Cities, Settlements and Key Infrastructure","Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.008
+Chapter,Q123,"Health, Wellbeing and the Changing Structure of Communities","Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.009
+Chapter,Q125,"Poverty, Livelihoods and Sustainable Development","Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.010
+Chapter,Q126,Africa,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.011
+Chapter,Q127,Asia,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.012
+Chapter,Q128,Australasia,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.013
+Chapter,Q129,Central and South America,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.014
+Chapter,Q130,Europe,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.015
+Chapter,Q131,North America,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.016
+Chapter,Q132,Small Islands,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.017
+Chapter,Q133,Key Risks across Sectors and Regions,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.025
+Chapter,Q135,Decision-Making Options for Managing Risk,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.026
+Chapter,Q136,Climate Resilient Development Pathways,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.027
+Chapter,Q140,Biodiversity Hotspots,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.018
+Chapter,Q141,Cities and Settlements by the Sea,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.019
+Chapter,Q142,"Deserts, Semiarid Areas and Desertification","Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.020
+Chapter,Q143,Mediterranean Region,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.021
+Chapter,Q145,Mountains,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.022
+Chapter,Q146,Polar Regions,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.023
+Chapter,Q149,Tropical Forests,"Climate Change 2022 – Impacts, Adaptation and Vulnerability",WGII,10.1017/9781009325844.024
+Chapter,Q151,Summary for Policymakers,Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.001
+Chapter,Q152,Technical Summary,Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.002
+Chapter,Q154,Introduction and Framing,Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.003
+Chapter,Q157,Emissions Trends and Drivers,Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.004
+Chapter,Q158,Mitigation Pathways Compatible with Long-term Goals,Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.005
+Chapter,Q160,Mitigation and Development Pathways in the Near to Mid-term,Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.006
+Chapter,Q164,"Demand, Services and Social Aspects of Mitigation",Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.007
+Chapter,Q168,Energy Systems,Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.008
+Chapter,Q170,"Agriculture, Forestry and Other Land Uses (AFOLU)",Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.009
+Chapter,Q172,Urban Systems and Other Settlements,Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.010
+Chapter,Q174,Buildings,Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.011
+Chapter,Q176,Transport,Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.012
+Chapter,Q178,Industry,Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.013
+Chapter,Q179,Cross-sectoral Perspectives,Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.014
+Chapter,Q181,National and Sub-national Policies and Institutions,Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.015
+Chapter,Q183,International Cooperation,Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.016
+Chapter,Q184,Investment and Finance,Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.017
+Chapter,Q186,"Innovation, Technology Development and Transfer",Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.018
+Chapter,Q188,Accelerating the Transition in the Context of Sustainable Development,Climate Change 2022 – Mitigation of Climate Change,WGIII,10.1017/9781009157926.019
+Chapter,Q190,Summary for Policymakers,"Synthesis Report. Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change",SYR,10.59327/IPCC/AR6-9789291691647.001
+Chapter,Q192,Longer Report,"Synthesis Report. Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change",SYR,10.59327/IPCC/AR6-9789291691647

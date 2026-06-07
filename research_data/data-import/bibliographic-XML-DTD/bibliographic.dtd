@@ -1,0 +1,92 @@
+<!-- ================================================================== -->
+<!-- IPCC AR6 Bibliographic References - Document Type Definition         -->
+<!--                                                                      -->
+<!-- Structures the IPCC AR6 bibliographic reference dataset for          -->
+<!-- Wikibase import.                                                     -->
+<!--                                                                      -->
+<!-- Reports covered:                                                     -->
+<!--   SR1.5  - Q10  - Special Report on Global Warming of 1.5 C         -->
+<!--   SRCCL  - Q35  - Special Report on Climate Change and Land          -->
+<!--   SROCC  - Q57  - Special Report on the Ocean and Cryosphere         -->
+<!--   SYR    - Q189 - Synthesis Report                                   -->
+<!--   WGI    - Q77  - Working Group I: The Physical Science Basis        -->
+<!--   WGII   - Q106 - Working Group II: Impacts, Adaptation etc.         -->
+<!--   WGIII  - Q150 - Working Group III: Mitigation of Climate Change    -->
+<!-- ================================================================== -->
+
+<!-- Root element: contains one entry per unique bibliographic reference. -->
+<!ELEMENT bibliographic-references (reference+)>
+
+<!--
+  reference  : One deduplicated entry per unique reference.
+  @id        : Stable record identifier in the form REF0001, REF0002, ...
+               Assigned by normalise_refs.py, sorted by citation key.
+-->
+<!ELEMENT reference (climatkg_ref_id, citation_key, authors, year, title,
+                     publication_type, source?, volume?, issue?, pages?,
+                     doi?, url?, citations)>
+<!ATTLIST reference
+    id  ID  #REQUIRED>
+
+<!-- Stable ClimateKG identifier (e.g. REF0001). -->
+<!ELEMENT climatkg_ref_id (#PCDATA)>
+
+<!-- Short citation key as used in IPCC documents (e.g. Smith2021). -->
+<!ELEMENT citation_key (#PCDATA)>
+
+<!-- Semicolon-separated list of author names (e.g. "Smith, J.; Jones, A."). -->
+<!ELEMENT authors (#PCDATA)>
+
+<!-- Four-digit publication year (e.g. 2021). -->
+<!ELEMENT year (#PCDATA)>
+
+<!-- Full title of the work. -->
+<!ELEMENT title (#PCDATA)>
+
+<!--
+  Publication type.
+  Expected values: article | book | book_chapter | report | thesis | other
+-->
+<!ELEMENT publication_type (#PCDATA)>
+
+<!-- Journal name, book title, or publisher (optional). -->
+<!ELEMENT source (#PCDATA)>
+
+<!-- Volume number (optional, articles/journals). -->
+<!ELEMENT volume (#PCDATA)>
+
+<!-- Issue number (optional, articles/journals). -->
+<!ELEMENT issue (#PCDATA)>
+
+<!-- Page range (optional, e.g. 123-145). -->
+<!ELEMENT pages (#PCDATA)>
+
+<!-- Bare DOI string without protocol prefix (optional, e.g. 10.1000/xyz). -->
+<!ELEMENT doi (#PCDATA)>
+
+<!-- Full URL of the resource (optional). -->
+<!ELEMENT url (#PCDATA)>
+
+<!--
+  citations  : The chapter(s) in which this reference is cited.
+               One <citation> element per citing chapter.
+-->
+<!ELEMENT citations (citation+)>
+
+<!--
+  citation      : A single chapter that cites this reference.
+  @chapter_qid  : Wikibase QID of the chapter item (e.g. Q190).
+  @report       : IPCC report code (e.g. WGI, WGII, SYR).
+  @chapter      : Human-readable chapter label (e.g. "Chapter 3").
+-->
+<!ELEMENT citation (source_url, date_accessed)>
+<!ATTLIST citation
+    chapter_qid  CDATA  #REQUIRED
+    report       CDATA  #REQUIRED
+    chapter      CDATA  #REQUIRED>
+
+<!-- Source URL used as the reference provenance statement. -->
+<!ELEMENT source_url (#PCDATA)>
+
+<!-- Date the source was accessed (e.g. "18 March 2026"). -->
+<!ELEMENT date_accessed (#PCDATA)>

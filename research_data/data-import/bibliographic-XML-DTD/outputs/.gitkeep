@@ -1,0 +1,2 @@
+# outputs directory — generated files are gitignored
+# references.xml and upload_log.json are produced here at runtime.
