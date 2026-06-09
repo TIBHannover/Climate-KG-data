@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.54">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Simon Worthington &amp; Laura Oldenbourg — Open&nbsp;Science&nbsp;Lab, TIB – Leibniz Information Centre for Science and Technology">
+<meta name="dcterms.date" content="2026-06-10">
+
+<title>ClimateKG — Surfacing&nbsp;Knowledge – Climate-KG Data Analysis</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Climate-KG Data Analysis</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research_data/data-vis/ar6-authors-distribution-analysis.html"> 
+<span class="menu-text">AR6 Authors Analysis</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research_data/data-vis/wikibase-inventory-dashboard.html"> 
+<span class="menu-text">Wikibase Inventory</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-documentation" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Data Documentation</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data-documentation">    
+        <li>
+    <a class="dropdown-item" href="./xml-html-documentation.html">
+ <span class="dropdown-text">XML/HTML Pipeline Overview</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header">Generated Data Pages</li>
+        <li>
+    <a class="dropdown-item" href="./data/authors-ar6.html">
+ <span class="dropdown-text">Authors Directory</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data/acronyms-ar6.html">
+ <span class="dropdown-text">Acronyms Index</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data/bibliographic-ar6.html">
+ <span class="dropdown-text">Bibliography</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data/corpus-ar6.html">
+ <span class="dropdown-text">Corpus Structure</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data/glossary-ar6.html">
+ <span class="dropdown-text">Glossary</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#about-climatekg" id="toc-about-climatekg" class="nav-link active" data-scroll-target="#about-climatekg">About ClimateKG</a></li>
+  <li><a href="#source-material-what-is-the-ipcc-report" id="toc-source-material-what-is-the-ipcc-report" class="nav-link" data-scroll-target="#source-material-what-is-the-ipcc-report">Source Material: What is the IPCC Report?</a></li>
+  <li><a href="#climatekg-project-deliverables" id="toc-climatekg-project-deliverables" class="nav-link" data-scroll-target="#climatekg-project-deliverables">ClimateKG Project Deliverables</a></li>
+  <li><a href="#problem-for-the-public-to-trust-climate-science-it-has-at-their-fingertips" id="toc-problem-for-the-public-to-trust-climate-science-it-has-at-their-fingertips" class="nav-link" data-scroll-target="#problem-for-the-public-to-trust-climate-science-it-has-at-their-fingertips">Problem: For the public to trust climate science it has at their fingertips</a></li>
+  <li><a href="#solution-apply-the-vision-of-the-semantic-web" id="toc-solution-apply-the-vision-of-the-semantic-web" class="nav-link" data-scroll-target="#solution-apply-the-vision-of-the-semantic-web">Solution: Apply the vision of the Semantic Web 🕸️</a></li>
+  <li><a href="#overview-of-work-packages" id="toc-overview-of-work-packages" class="nav-link" data-scroll-target="#overview-of-work-packages">Overview of work packages 📦</a></li>
+  <li><a href="#scoping-data-sources-data-modeling" id="toc-scoping-data-sources-data-modeling" class="nav-link" data-scroll-target="#scoping-data-sources-data-modeling">Scoping Data Sources &amp; Data Modeling</a></li>
+  <li><a href="#data-retrieval" id="toc-data-retrieval" class="nav-link" data-scroll-target="#data-retrieval">Data Retrieval 📥</a></li>
+  <li><a href="#collecting-supporting-data" id="toc-collecting-supporting-data" class="nav-link" data-scroll-target="#collecting-supporting-data">Collecting Supporting Data 📥</a></li>
+  <li><a href="#import-scrape-data---innovation-that-allows-for-corpus-text-and-data-import" id="toc-import-scrape-data---innovation-that-allows-for-corpus-text-and-data-import" class="nav-link" data-scroll-target="#import-scrape-data---innovation-that-allows-for-corpus-text-and-data-import">Import Scrape Data - Innovation that allows for Corpus text and data import</a></li>
+  <li><a href="#import-supporting-data" id="toc-import-supporting-data" class="nav-link" data-scroll-target="#import-supporting-data">Import Supporting Data</a></li>
+  <li><a href="#browsing-the-corpus-in-mediawiki" id="toc-browsing-the-corpus-in-mediawiki" class="nav-link" data-scroll-target="#browsing-the-corpus-in-mediawiki">Browsing the Corpus in MediaWiki 🔎</a></li>
+  <li><a href="#devops" id="toc-devops" class="nav-link" data-scroll-target="#devops">DevOps</a></li>
+  <li><a href="#data-analysis-visualisation" id="toc-data-analysis-visualisation" class="nav-link" data-scroll-target="#data-analysis-visualisation">Data Analysis &amp; Visualisation</a></li>
+  <li><a href="#output-option-css-paged-media" id="toc-output-option-css-paged-media" class="nav-link" data-scroll-target="#output-option-css-paged-media">Output Option: CSS Paged Media 📖</a></li>
+  <li><a href="#climatekg-next-steps" id="toc-climatekg-next-steps" class="nav-link" data-scroll-target="#climatekg-next-steps">ClimateKG Next Steps 🚀</a>
+  <ul class="collapse">
+  <li><a href="#planned-use" id="toc-planned-use" class="nav-link" data-scroll-target="#planned-use">Planned use:</a></li>
+  <li><a href="#goals" id="toc-goals" class="nav-link" data-scroll-target="#goals">Goals:</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title">ClimateKG — Surfacing&nbsp;Knowledge</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<p class="subtitle lead">A community knowledge graph: <br>Based on FAIR&nbsp;Data &amp; UNESCO Open&nbsp;Science Principles</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Simon Worthington &amp; Laura Oldenbourg — Open&nbsp;Science&nbsp;Lab, TIB – Leibniz Information Centre for Science and Technology </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 10, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="about-climatekg" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="about-climatekg">About ClimateKG</h2>
+<ul>
+<li>Climate Knowledge Graph (ClimateKG) is a yearlong R&amp;D project to create a knowledge&nbsp;graph of the <em>IPCC Sixth Assement Report (AR6)</em>.<br>
+</li>
+<li>The ClimateKG knowledge graph is built using Wikibase and MediaWiki.</li>
+<li>The goal is to be a resource for:
+<ul>
+<li>data science use, for</li>
+<li>citizen science activities, and to</li>
+<li>distribute climate science metadata to Wikidata.</li>
+</ul></li>
+</ul>
+<p>The project has been funded by <strong>TIB Innovation Fund</strong> and is made in cooperation with #semanticClimate community (India, Germany, UK, +).</p>
+<div style="text-align: center; margin-top: 20px;">
+<p><img src="images/tib-logo.png" title="TIB Logo" alt="TIB Logo" width="220"></p>
+</div>
+<hr>
+</section>
+<section id="source-material-what-is-the-ipcc-report" class="level2 smaller page-columns page-full">
+<h2 class="smaller anchored" data-anchor-id="source-material-what-is-the-ipcc-report">Source Material: What is the IPCC Report?</h2>
+<div style="text-align: center;">
+<p><img src="images/reports.jpg" title="IPCC Reports" alt="IPCC Reports" style="max-width: 400px; width: 100%;"></p>
+</div>
+<blockquote class="blockquote">
+<p>It is a survival guide for humanity. As it shows, the 1.5-degree limit is achievable. - <a href="https://media.un.org/avlibrary/en/asset/d302/d3022200#:~:text=In%20a%20video%20message%20to,1.5%2Ddegree%20limit%20is%20achievable">UN Secretary-General António Guterres</a> (2023)</p>
+</blockquote>
+<ul>
+<li>A multilateral panel of 195 nations that reviews the global scientific literature to map out climate scenarios for the next 100 years combining science, policy, and politics.</li>
+<li>AR6 ( <span class="math inline">\(\approx\)</span> 5-8 year cycle since 1988): 932 authors; 7 Reports; &gt;8 million words; 10,047 pages; 48,400 citations; 66,834 data sets; 2,136 images; 1,910 Acronyms; 920 Glossary items; 5 languages+ (partial).*</li>
+</ul>
+
+<div class="no-row-height column-margin column-container"><div class="margin-aside">
+<p>* Oldenbourg, Laura, and Simon Worthington. “IPCC AR6 Quantification Summary”. Climate Knowledge Graph, November 4, 2025. <a href="https://doi.org/10.5281/zenodo.17521936">10.5281/zenodo.17521936</a>.</p>
+</div></div></section>
+<section id="climatekg-project-deliverables" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="climatekg-project-deliverables">ClimateKG Project Deliverables</h2>
+<div style="text-align: center;">
+<p>Transform PDF and web corpus, and web databases into a knowledge graph with:</p>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto auto; gap: 20px; margin-top: 20px;">
+<div style="grid-column: 1; grid-row: 1; text-align: center;">
+<!-- Cell 1,1 - Add content here -->
+<p><a href="https://prod-climatekg.semanticclimate.org/wiki/IPCC:AR6">Full text</a> &amp; <a href="https://vivliostyle.vercel.app/#src=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/sample-chapter/chapter.json&amp;style=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/sample-chapter/css-neutral/styles.css">publishing</a> <img src="images/paged-media.png" title="Paged Media" alt="Paged Medias" style="max-width: 150px; width: 100%;"></p>
+</div>
+<div style="grid-column: 2; grid-row: 1; text-align: center;">
+<!-- Cell 1,2 - Add content here -->
+<p><a href="https://prod-climatekg.semanticclimate.org/wiki/Item:Q106">Metadata</a></p>
+<p><img src="images/metadata.jpg" title="Metadata" alt="Metadata" style="max-width: 150px; width: 100%;"></p>
+</div>
+<div style="grid-column: 3; grid-row: 1; text-align: center;">
+<!-- Cell 1,3 - Add content here -->
+<p><a href="https://prod-climatekg.semanticclimate.org/api.php">API</a> / <a href="https://prod-climatekg.semanticclimate.org/query/#%23defaultView%3AGraph%0ASELECT%20%3Fchapter%20%3FchapterLabel%20%3Frelated%20%3FrelatedLabel%0AWHERE%20%7B%0A%20%20%3Fchapter%20%3Chttps%3A%2F%2Fprod-climatekg.semanticclimate.org%2Fprop%2Fdirect%2FP3%3E%20%3Chttps%3A%2F%2Fprod-climatekg.semanticclimate.org%2Fentity%2FQ110%3E%20.%0A%20%20%3Fchapter%20%3Chttps%3A%2F%2Fprod-climatekg.semanticclimate.org%2Fprop%2Fdirect%2FP12%3E%20%3Frelated%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D">SPARQL Endpoint</a></p>
+<p><img src="images/sparql.jpg" title="SPARQL Endpoint" alt="SPARQL Endpoint" style="max-width: 150px; width: 100%;"></p>
+</div>
+<div style="grid-column: 1; grid-row: 2; text-align: center;">
+<!-- Cell 2,1 - Add content here -->
+<p>Data dump</p>
+</div>
+<div style="grid-column: 2; grid-row: 2; text-align: center;">
+<!-- Cell 2,2 - Add content here -->
+<p>Schemas / Ontologies: Datacite, OpenAlex, BFO, etc</p>
+</div>
+<div style="grid-column: 3; grid-row: 2; text-align: center;">
+<!-- Cell 2,3 - Add content here -->
+<p>Data workbench: JupyterLab / Quarto</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="problem-for-the-public-to-trust-climate-science-it-has-at-their-fingertips" class="level2 smaller page-columns page-full">
+<h2 class="smaller anchored" data-anchor-id="problem-for-the-public-to-trust-climate-science-it-has-at-their-fingertips">Problem: For the public to trust climate science it has at their fingertips</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><strong>Headline issues:</strong>
+<ul>
+<li>Search and SEO limited</li>
+<li>Not easy to reuse</li>
+<li>Formats of Web CMS HTML and PDF not suitable for data science</li>
+<li>Referenced materials not interlinked - so only manual tracking to find a named data set, etc</li>
+<li>Parts not easily available - Methodology, Supplementary material</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><strong>Examples:</strong>
+<ul>
+<li>Links only to top levels: Reports, Glossary website, Author listing website etc.</li>
+<li>Glossary terms have no links to reports</li>
+<li>Author lists have no link to chapters</li>
+<li>Figures listed on web pages with no DOIs</li>
+<li>Citations on websites and not research repositories</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="margin-aside">
+<p>Example IPCC sites: <a href="https://www.ipcc.ch/assessment-report/ar6/">Reports</a>; <a href="https://apps.ipcc.ch/report/authors/">Authors</a>; <a href="https://apps.ipcc.ch/glossary/">Glossary</a>; <a href="https://www.ipcc.ch/report/ar6/wg3/">Figures and Citations example WGIII</a>.</p>
+</div></div><hr>
+</section>
+<section id="solution-apply-the-vision-of-the-semantic-web" class="level2">
+<h2 class="anchored" data-anchor-id="solution-apply-the-vision-of-the-semantic-web">Solution: Apply the vision of the Semantic Web 🕸️</h2>
+<blockquote class="blockquote">
+<p>Link all of the parts and make machine readable — AKA a Knowledge Graph</p>
+</blockquote>
+<ul>
+<li><strong>Linked Data</strong>: Interlinked data with unique identifiers and standard formats</li>
+<li><strong>FAIR Data</strong>: Findable, Accessible, Interoperable, and Reusable</li>
+</ul>
+<hr>
+</section>
+<section id="overview-of-work-packages" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="overview-of-work-packages">Overview of work packages 📦</h2>
+<p><img src="images/workflow-overview-image.png" title="workflow" alt="workflow" width="70%"></p>
+<ul>
+<li><p>From <strong>Siloed Data</strong> to <strong>FAIR Data</strong></p></li>
+<li><p><strong>Finding</strong> the sources, <strong>retrieving</strong> the data, <strong>storing</strong> it, preparing different ways of <strong>outputting</strong> and <strong>visualizing</strong> it, and <strong>making it available for reuse</strong></p></li>
+</ul>
+<hr>
+</section>
+<section id="scoping-data-sources-data-modeling" class="level2 smaller page-columns page-full">
+<h2 class="smaller anchored" data-anchor-id="scoping-data-sources-data-modeling">Scoping Data Sources &amp; Data Modeling</h2>
+<ul>
+<li>In-scope and out-of-scope: Only the main text for AR6 has been currently imported, also citatations and data sets have not been linked.</li>
+<li>Data modelling:
+<ul>
+<li>Simple (KISS) approaches of Genome Bank and Protein Data Bank have been used to encourage community uptake.</li>
+<li>Method: Bottom up / Top down / and map to schemas</li>
+<li>Lit review of Wikibase KGs consulted - <a href="https://www.zotero.org/groups/2437020/semanticclimate/collections/IXBQXNLH/tags/kg%20litreview%20must%20read/collection">[Zotero collection]</a></li>
+</ul></li>
+</ul>
+
+<div class="no-row-height column-margin column-container"><div class="margin-aside">
+<p>Wikibase KG literature: Disability Wiki; EU Knowledge&nbsp;Graph; Enslaved.Org; Enslave Modular Ontology Modeling (MOMo); RaiseWikibase; Linking Historical Corpus Data and Annotations Using Wikibase (1737 Basque manuscript).</p>
+</div></div><hr>
+</section>
+<section id="data-retrieval" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="data-retrieval">Data Retrieval 📥</h2>
+<p><img src="images/scrape-system-image.png" title="workflow" alt="workflow" width="70%"></p>
+<p>• Building a <strong>semi-automated scraping system</strong> from Web to MediaWiki/Wikibase</p>
+<p>• Using the IPCC websites as a starting point, developing a method for scraping <strong>text</strong>, <strong>assets</strong>, and <strong>additional data</strong></p>
+<p>• Preparing the data for <strong>import into a MediaWiki/Wikibase instance</strong></p>
+<hr>
+</section>
+<section id="collecting-supporting-data" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="collecting-supporting-data">Collecting Supporting Data 📥</h2>
+<p><img src="images/supporting-data-image.png" title="workflow" alt="workflow" width="70%"></p>
+<p>• <strong>Additional data</strong> from <strong>various sources</strong>, e.g.&nbsp;IPCC data repositories, CrossRef, etc.</p>
+<p>• Preparing the data for <strong>import into Wikibase</strong></p>
+<hr>
+</section>
+<section id="import-scrape-data---innovation-that-allows-for-corpus-text-and-data-import" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="import-scrape-data---innovation-that-allows-for-corpus-text-and-data-import">Import Scrape Data - Innovation that allows for Corpus text and data import</h2>
+<p>This is the main innovation of the project - being able to semi-automatically webscrape a corpus and import text and images, and make a Linked Open Data corpus backbone as an Import to Wikibase and MediaWiki.</p>
+<p>Wikitext + CSV &gt; XML &gt; DTD &gt; Python (WikibaseIntegrator) &gt; Wikibase / MediaWiki</p>
+<p>Documentation: <a href="https://wiki.kewl.org/projects:ckgscrape">wiki.kewl.org/projects:ckgscrape</a></p>
+<p>Code: Mercurial Clone <code>hg clone https://hg.kewl.org/pub/ckg_s2mw</code></p>
+<p>Thank you to Darron M. Broad of Runstop for the software development work.</p>
+<hr>
+</section>
+<section id="import-supporting-data" class="level2 smaller page-columns page-full">
+<h2 class="smaller anchored" data-anchor-id="import-supporting-data">Import Supporting Data</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#f0f0f0', 'primaryTextColor':'#000', 'primaryBorderColor':'#000', 'lineColor':'#666', 'fontSize':'18px'}, 'flowchart': {'nodeSpacing': 20, 'rankSpacing': 25, 'padding': 35, 'htmlLabels': true}}}%%
+flowchart TD
+    A[CSV] --&gt; B[XML]
+    B --&gt; C[DTD]
+    C --&gt; D[Schemas]
+    D --&gt; E[Python&lt;br/&gt;WikibaseIntegrator]
+    E --&gt; F[Wikibase]
+    
+    style A min-width:150px
+    style B min-width:150px
+    style C min-width:150px
+    style D min-width:150px
+    style E min-width:250px
+    style F min-width:150px
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:70%;">
+<p><img src="images/xml2.png" title="xml" alt="xml" width="80%"></p>
+</div>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="margin-aside">
+<p>Data can be browsed as XML and XSLT transforms here: <a href="https://tibhannover.github.io/Climate-KG-data/xml-html-documentation.html">ClimateKG Data</a> (See menu item: Data Documentation)</p>
+</div></div><hr>
+</section>
+<section id="browsing-the-corpus-in-mediawiki" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="browsing-the-corpus-in-mediawiki">Browsing the Corpus in MediaWiki 🔎</h2>
+<p><img src="images/browse-clean-list.jpg" title="workflow" alt="workflow" width="70%"></p>
+<p>• <strong>Cleaning</strong> the chapter content directly in MediaWiki</p>
+<p>• <strong>Adding glossary and acronym content</strong> to MediaWiki</p>
+<p>• Building <strong>navigation and browsing templates</strong> for the corpus</p>
+<hr>
+</section>
+<section id="devops" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="devops">DevOps</h2>
+<p>A 4 stage MediaWiki/Wikibase deployment is in place with support from #semanticClimate - this will move to TIB hosting shortly once initial development resolved.</p>
+<pre><code>DATABASE/CONTENT FLOW (via sync scripts):
+┌──────────────┐                    ┌──────────────┐
+│   LOCAL      │◄───pull-from-dev───│     DEV      │  DEV = DB source of truth
+│ (workstation)│                    │ (178...88)   │  Content edited here
+└──────┬───────┘                    └──────┬───────┘
+       │                                   │
+       │ sync-local-to-test                │ sync-dev-to-test
+       │ (staging from local)              │ (standard promotion)
+       │                                   │
+       ↓                                   ↓
+   ┌──────────────┐                  ┌──────────────┐
+   │    TEST      │──────────────────│    TEST      │
+   │ (46...24)    │  (same target)   │ (46...24)    │
+   └──────────────┘                  └──────┬───────┘
+                                            │
+                                            │ sync-dev-to-prod  (or sync-test-to-prod)
+                                            │
+                                            ↓
+                                       ┌──────────────┐
+                                       │    PROD      │  Public instance
+                                       │ (178...174)  │
+                                       └──────────────┘</code></pre>
+<hr>
+</section>
+<section id="data-analysis-visualisation" class="level2 smaller page-columns page-full">
+<h2 class="smaller anchored" data-anchor-id="data-analysis-visualisation">Data Analysis &amp; Visualisation</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<section id="gender-equality" class="level3">
+<h3 class="anchored" data-anchor-id="gender-equality">Gender Equality</h3>
+<p><img src="images/overall-ar6-distribution.svg" title="distribution" alt="distribution" width="50%"> <img src="images/overall-ar6-distribution.svg" title="distribution" alt="distribution" width="50%"></p>
+</section>
+</div><div class="column" style="width:50%;">
+<section id="data-dashboard" class="level3">
+<h3 class="anchored" data-anchor-id="data-dashboard">Data Dashboard</h3>
+<p><img src="images/dashboard.png" title="Dashboard" alt="Dashboard" width="50%"> <img src="images/dashboard.png" title="Dashboard" alt="Dashboard" width="50%"></p>
+</section>
+</div>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="margin-aside">
+<p>Generated direct from Wikibase KG using Python, Notebooks, and Quarto: <a href="https://tibhannover.github.io/Climate-KG-data/">tibhannover.github.io/Climate-KG-data/</a></p>
+</div></div><hr>
+</section>
+<section id="output-option-css-paged-media" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="output-option-css-paged-media">Output Option: CSS Paged Media 📖</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img src="images/typeset-output-image.png" title="workflow" alt="workflow" width="70%"></p>
+</div><div class="column" style="width:40%;">
+<p><img src="images/paged-media.png" title="paged media" alt="paged media" width="70%"></p>
+</div>
+</div>
+<p>• One possible <strong>output option</strong>: using <strong>CSS Paged Media</strong> to typeset the corpus content into a <strong>print-ready format</strong></p>
+<hr>
+</section>
+<section id="climatekg-next-steps" class="level2 smaller page-columns page-full">
+<h2 class="smaller anchored" data-anchor-id="climatekg-next-steps">ClimateKG Next Steps 🚀</h2>
+<section id="planned-use" class="level3">
+<h3 class="anchored" data-anchor-id="planned-use">Planned use:</h3>
+<ul>
+<li>A resource for data science — to use and contribute</li>
+<li>Citizen science activities — Chapter annotation and enrichment</li>
+<li>Distribute to commons (Wikidata)</li>
+</ul>
+</section>
+<section id="goals" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="goals">Goals:</h3>
+<ul>
+<li>Corpus KG service — Computation Publishing Service (CPS)</li>
+<li>Work with IPCC and climate community</li>
+<li>Become a KG repository for <em>all</em> climate literature</li>
+</ul>
+<p><em>Thank you! Simon Worthington, Laura Oldenbourg, and team #semanticClimate — June ’26</em></p>
+
+
+
+<!-- -->
+
+<div class="no-row-height column-margin column-container"><div class="margin-aside">
+<p>Main &lt;/&gt; repo: <a href="https://github.com/TIBHannover/climate-knowledge-graph">github.com/TIBHannover/climate-knowledge-graph</a></p>
+</div></div></section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb2" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "ClimateKG — Surfacing&amp;nbsp;Knowledge"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle:</span><span class="co"> "A community knowledge graph: &lt;br/&gt;Based on FAIR&amp;nbsp;Data &amp; UNESCO Open&amp;nbsp;Science Principles"</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "Simon Worthington &amp; Laura Oldenbourg — Open&amp;nbsp;Science&amp;nbsp;Lab, TIB – Leibniz Information Centre for Science and Technology"</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 2026-06-10</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="an">footer:</span><span class="co"> "CC-BY-SA 4.0 License"</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="fu">## About ClimateKG {.smaller}</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Climate Knowledge Graph (ClimateKG) is a yearlong R&amp;D project to create a knowledge<span class="dv">&amp;nbsp;</span>graph of the *IPCC Sixth Assement Report (AR6)*.   </span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The ClimateKG knowledge graph is built using Wikibase and MediaWiki. </span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The goal is to be a resource for: </span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>data science use, for </span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>citizen science activities, and to </span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>distribute climate science metadata to Wikidata.</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>The project has been funded by **TIB Innovation Fund** and is made in cooperation with #semanticClimate community (India, Germany, UK, +).     </span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>::: {style="text-align: center; margin-top: 20px;"}</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>&lt;img src="images/tib-logo.png" title="TIB Logo" alt="TIB Logo" width="220"/&gt;</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="fu">## Source Material: What is the IPCC Report? {.smaller}</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>::: {style="text-align: center;"}</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>&lt;img src="images/reports.jpg" title="IPCC Reports" alt="IPCC Reports" style="max-width: 400px; width: 100%;"/&gt; </span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; It is a survival guide for humanity. As it shows, the 1.5-degree limit is achievable. - </span><span class="co">[</span><span class="ot">UN Secretary-General António Guterres</span><span class="co">](https://media.un.org/avlibrary/en/asset/d302/d3022200#:~:text=In%20a%20video%20message%20to,1.5%2Ddegree%20limit%20is%20achievable)</span><span class="at"> (2023)</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>A multilateral panel of 195 nations that reviews the global scientific literature to map out climate scenarios for the next 100 years combining science, policy, and politics.</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>AR6 ( $\approx$ 5-8 year cycle since 1988): 932 authors; 7 Reports; &gt;8 million words; 10,047 pages; 48,400 citations; 66,834 data sets; 2,136 images; 1,910 Acronyms; 920 Glossary items; 5 languages+ (partial).* </span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>::: aside</span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="sc">\*</span> Oldenbourg, Laura, and Simon Worthington. "IPCC AR6 Quantification Summary". Climate Knowledge Graph, November 4, 2025. <span class="co">[</span><span class="ot">10.5281/zenodo.17521936</span><span class="co">](https://doi.org/10.5281/zenodo.17521936)</span>.</span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a><span class="fu">## ClimateKG Project Deliverables{.smaller}</span></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>::: {style="text-align: center;"}</span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>Transform PDF and web corpus, and web databases into a knowledge graph with:</span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto auto; gap: 20px; margin-top: 20px;"}</span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>::: {style="grid-column: 1; grid-row: 1; text-align: center;"}</span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Cell 1,1 - Add content here --&gt;</span> <span class="co">[</span><span class="ot">Full text</span><span class="co">](https://prod-climatekg.semanticclimate.org/wiki/IPCC:AR6)</span> &amp; <span class="co">[</span><span class="ot">publishing</span><span class="co">](https://vivliostyle.vercel.app/#src=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/sample-chapter/chapter.json&amp;style=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/sample-chapter/css-neutral/styles.css)</span> </span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>&lt;img src="images/paged-media.png" title="Paged Media" alt="Paged Medias" style="max-width: 150px; width: 100%;"/&gt; </span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>::: {style="grid-column: 2; grid-row: 1; text-align: center;"}</span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Cell 1,2 - Add content here --&gt;[</span><span class="ot">Metadata</span><span class="co">](https://prod-climatekg.semanticclimate.org/wiki/Item:Q106)</span></span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a>&lt;img src="images/metadata.jpg" title="Metadata" alt="Metadata" style="max-width: 150px; width: 100%;"/&gt; </span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>::: {style="grid-column: 3; grid-row: 1; text-align: center;"}</span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Cell 1,3 - Add content here --&gt;[</span><span class="ot">API</span><span class="co">](https://prod-climatekg.semanticclimate.org/api.php)</span> / <span class="co">[</span><span class="ot">SPARQL Endpoint</span><span class="co">](https://prod-climatekg.semanticclimate.org/query/#%23defaultView%3AGraph%0ASELECT%20%3Fchapter%20%3FchapterLabel%20%3Frelated%20%3FrelatedLabel%0AWHERE%20%7B%0A%20%20%3Fchapter%20%3Chttps%3A%2F%2Fprod-climatekg.semanticclimate.org%2Fprop%2Fdirect%2FP3%3E%20%3Chttps%3A%2F%2Fprod-climatekg.semanticclimate.org%2Fentity%2FQ110%3E%20.%0A%20%20%3Fchapter%20%3Chttps%3A%2F%2Fprod-climatekg.semanticclimate.org%2Fprop%2Fdirect%2FP12%3E%20%3Frelated%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D)</span></span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>&lt;img src="images/sparql.jpg" title="SPARQL Endpoint" alt="SPARQL Endpoint" style="max-width: 150px; width: 100%;"/&gt; </span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>::: {style="grid-column: 1; grid-row: 2; text-align: center;"}</span>
+<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Cell 2,1 - Add content here --&gt;</span>Data dump</span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a>::: {style="grid-column: 2; grid-row: 2; text-align: center;"}</span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Cell 2,2 - Add content here --&gt;</span>Schemas / Ontologies: Datacite, OpenAlex, BFO, etc</span>
+<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a>::: {style="grid-column: 3; grid-row: 2; text-align: center;"}</span>
+<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Cell 2,3 - Add content here --&gt;</span>Data workbench: JupyterLab / Quarto</span>
+<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a>:::  </span>
+<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a><span class="fu">## Problem: For the public to trust climate science it has at their fingertips {.smaller}</span></span>
+<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a>::::: columns</span>
+<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
+<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Headline issues:**</span>
+<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Search and SEO limited</span>
+<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Not easy to reuse</span>
+<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Formats of Web CMS HTML and PDF not suitable for data science</span>
+<span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Referenced materials not interlinked - so only manual tracking to find a named data set, etc</span>
+<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Parts not easily available - Methodology, Supplementary material</span>
+<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-93"><a href="#cb2-93" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
+<span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Examples:**</span>
+<span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Links only to top levels: Reports, Glossary website, Author listing website etc.</span>
+<span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Glossary terms have no links to reports</span>
+<span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Author lists have no link to chapters</span>
+<span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Figures listed on web pages with no DOIs</span>
+<span id="cb2-99"><a href="#cb2-99" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Citations on websites and not research repositories</span>
+<span id="cb2-100"><a href="#cb2-100" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-101"><a href="#cb2-101" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-102"><a href="#cb2-102" aria-hidden="true" tabindex="-1"></a>:::::</span>
+<span id="cb2-103"><a href="#cb2-103" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-104"><a href="#cb2-104" aria-hidden="true" tabindex="-1"></a>::: aside</span>
+<span id="cb2-105"><a href="#cb2-105" aria-hidden="true" tabindex="-1"></a>Example IPCC sites: <span class="co">[</span><span class="ot">Reports</span><span class="co">](https://www.ipcc.ch/assessment-report/ar6/)</span>; <span class="co">[</span><span class="ot">Authors</span><span class="co">](https://apps.ipcc.ch/report/authors/)</span>; <span class="co">[</span><span class="ot">Glossary</span><span class="co">](https://apps.ipcc.ch/glossary/)</span>; <span class="co">[</span><span class="ot">Figures and Citations example WGIII</span><span class="co">](https://www.ipcc.ch/report/ar6/wg3/)</span>.</span>
+<span id="cb2-106"><a href="#cb2-106" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-107"><a href="#cb2-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-108"><a href="#cb2-108" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-109"><a href="#cb2-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-110"><a href="#cb2-110" aria-hidden="true" tabindex="-1"></a><span class="fu">## Solution: Apply the vision of the Semantic Web 🕸️ </span></span>
+<span id="cb2-111"><a href="#cb2-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-112"><a href="#cb2-112" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Link all of the parts and make machine readable — AKA a Knowledge Graph </span></span>
+<span id="cb2-113"><a href="#cb2-113" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-114"><a href="#cb2-114" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Linked Data**: Interlinked data with unique identifiers and standard formats</span>
+<span id="cb2-115"><a href="#cb2-115" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**FAIR Data**: Findable, Accessible, Interoperable, and Reusable</span>
+<span id="cb2-116"><a href="#cb2-116" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-117"><a href="#cb2-117" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-118"><a href="#cb2-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-119"><a href="#cb2-119" aria-hidden="true" tabindex="-1"></a><span class="fu">## Overview of work packages 📦 {.smaller}</span></span>
+<span id="cb2-120"><a href="#cb2-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-121"><a href="#cb2-121" aria-hidden="true" tabindex="-1"></a>&lt;img src="images/workflow-overview-image.png" title="workflow" alt="workflow" width="70%"/&gt;</span>
+<span id="cb2-122"><a href="#cb2-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-123"><a href="#cb2-123" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>From **Siloed Data** to **FAIR Data**</span>
+<span id="cb2-124"><a href="#cb2-124" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-125"><a href="#cb2-125" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Finding** the sources, **retrieving** the data, **storing** it, preparing different ways of **outputting** and **visualizing** it, and **making it available for reuse**</span>
+<span id="cb2-126"><a href="#cb2-126" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-127"><a href="#cb2-127" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-128"><a href="#cb2-128" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-129"><a href="#cb2-129" aria-hidden="true" tabindex="-1"></a><span class="fu">## Scoping Data Sources &amp; Data Modeling  {.smaller}</span></span>
+<span id="cb2-130"><a href="#cb2-130" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-131"><a href="#cb2-131" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>In-scope and out-of-scope: Only the main text for AR6 has been currently imported, also citatations and data sets have not been linked.</span>
+<span id="cb2-132"><a href="#cb2-132" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Data modelling:</span>
+<span id="cb2-133"><a href="#cb2-133" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Simple (KISS) approaches of Genome Bank and Protein Data Bank have been used to encourage community uptake.</span>
+<span id="cb2-134"><a href="#cb2-134" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Method: Bottom up / Top down / and map to schemas</span>
+<span id="cb2-135"><a href="#cb2-135" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>Lit review of Wikibase KGs consulted - [<span class="co">[</span><span class="ot">Zotero collection</span><span class="co">]</span>](https://www.zotero.org/groups/2437020/semanticclimate/collections/IXBQXNLH/tags/kg%20litreview%20must%20read/collection) </span>
+<span id="cb2-136"><a href="#cb2-136" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-137"><a href="#cb2-137" aria-hidden="true" tabindex="-1"></a>::: aside</span>
+<span id="cb2-138"><a href="#cb2-138" aria-hidden="true" tabindex="-1"></a>Wikibase KG literature: Disability Wiki; EU Knowledge&nbsp;Graph; Enslaved.Org; Enslave Modular Ontology Modeling (MOMo); RaiseWikibase; Linking Historical Corpus Data and Annotations Using Wikibase (1737 Basque manuscript).    </span>
+<span id="cb2-139"><a href="#cb2-139" aria-hidden="true" tabindex="-1"></a>:::  </span>
+<span id="cb2-140"><a href="#cb2-140" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-141"><a href="#cb2-141" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-142"><a href="#cb2-142" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-143"><a href="#cb2-143" aria-hidden="true" tabindex="-1"></a><span class="fu">## Data Retrieval 📥 {.smaller}</span></span>
+<span id="cb2-144"><a href="#cb2-144" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-145"><a href="#cb2-145" aria-hidden="true" tabindex="-1"></a>&lt;img src="images/scrape-system-image.png" title="workflow" alt="workflow" width="70%"/&gt;</span>
+<span id="cb2-146"><a href="#cb2-146" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-147"><a href="#cb2-147" aria-hidden="true" tabindex="-1"></a>• Building a **semi-automated scraping system** from Web to MediaWiki/Wikibase</span>
+<span id="cb2-148"><a href="#cb2-148" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-149"><a href="#cb2-149" aria-hidden="true" tabindex="-1"></a>• Using the IPCC websites as a starting point, developing a method for scraping **text**, **assets**, and **additional data**</span>
+<span id="cb2-150"><a href="#cb2-150" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-151"><a href="#cb2-151" aria-hidden="true" tabindex="-1"></a>• Preparing the data for **import into a MediaWiki/Wikibase instance**</span>
+<span id="cb2-152"><a href="#cb2-152" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-153"><a href="#cb2-153" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-154"><a href="#cb2-154" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-155"><a href="#cb2-155" aria-hidden="true" tabindex="-1"></a><span class="fu">## Collecting Supporting Data 📥 {.smaller}</span></span>
+<span id="cb2-156"><a href="#cb2-156" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-157"><a href="#cb2-157" aria-hidden="true" tabindex="-1"></a>&lt;img src="images/supporting-data-image.png" title="workflow" alt="workflow" width="70%"/&gt;</span>
+<span id="cb2-158"><a href="#cb2-158" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-159"><a href="#cb2-159" aria-hidden="true" tabindex="-1"></a>• **Additional data** from **various sources**, e.g. IPCC data repositories, CrossRef, etc.</span>
+<span id="cb2-160"><a href="#cb2-160" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-161"><a href="#cb2-161" aria-hidden="true" tabindex="-1"></a>• Preparing the data for **import into Wikibase**</span>
+<span id="cb2-162"><a href="#cb2-162" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-163"><a href="#cb2-163" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-164"><a href="#cb2-164" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-165"><a href="#cb2-165" aria-hidden="true" tabindex="-1"></a><span class="fu">## Import Scrape Data - Innovation that allows for Corpus text and data import {.smaller}</span></span>
+<span id="cb2-166"><a href="#cb2-166" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-167"><a href="#cb2-167" aria-hidden="true" tabindex="-1"></a>This is the main innovation of the project - being able to semi-automatically webscrape a corpus and import text and images, and make a Linked Open Data corpus backbone as an Import to Wikibase and MediaWiki.</span>
+<span id="cb2-168"><a href="#cb2-168" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-169"><a href="#cb2-169" aria-hidden="true" tabindex="-1"></a>Wikitext + CSV &gt; XML &gt; DTD &gt; Python (WikibaseIntegrator) &gt; Wikibase / MediaWiki</span>
+<span id="cb2-170"><a href="#cb2-170" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-171"><a href="#cb2-171" aria-hidden="true" tabindex="-1"></a>Documentation: <span class="co">[</span><span class="ot">wiki.kewl.org/projects:ckgscrape</span><span class="co">](https://wiki.kewl.org/projects:ckgscrape)</span> </span>
+<span id="cb2-172"><a href="#cb2-172" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-173"><a href="#cb2-173" aria-hidden="true" tabindex="-1"></a>Code: Mercurial Clone <span class="in">`hg clone https://hg.kewl.org/pub/ckg_s2mw`</span></span>
+<span id="cb2-174"><a href="#cb2-174" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-175"><a href="#cb2-175" aria-hidden="true" tabindex="-1"></a>Thank you to Darron M. Broad of Runstop for the software development work.</span>
+<span id="cb2-176"><a href="#cb2-176" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-177"><a href="#cb2-177" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-178"><a href="#cb2-178" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-179"><a href="#cb2-179" aria-hidden="true" tabindex="-1"></a><span class="fu">## Import Supporting Data  {.smaller}</span></span>
+<span id="cb2-180"><a href="#cb2-180" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-181"><a href="#cb2-181" aria-hidden="true" tabindex="-1"></a>::::: columns</span>
+<span id="cb2-182"><a href="#cb2-182" aria-hidden="true" tabindex="-1"></a>::: {.column width="30%"}</span>
+<span id="cb2-185"><a href="#cb2-185" aria-hidden="true" tabindex="-1"></a><span class="in">```{mermaid}</span></span>
+<span id="cb2-186"><a href="#cb2-186" aria-hidden="true" tabindex="-1"></a><span class="in">%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#f0f0f0', 'primaryTextColor':'#000', 'primaryBorderColor':'#000', 'lineColor':'#666', 'fontSize':'18px'}, 'flowchart': {'nodeSpacing': 20, 'rankSpacing': 25, 'padding': 35, 'htmlLabels': true}}}%%</span></span>
+<span id="cb2-187"><a href="#cb2-187" aria-hidden="true" tabindex="-1"></a><span class="in">flowchart TD</span></span>
+<span id="cb2-188"><a href="#cb2-188" aria-hidden="true" tabindex="-1"></a><span class="in">    A[CSV] --&gt; B[XML]</span></span>
+<span id="cb2-189"><a href="#cb2-189" aria-hidden="true" tabindex="-1"></a><span class="in">    B --&gt; C[DTD]</span></span>
+<span id="cb2-190"><a href="#cb2-190" aria-hidden="true" tabindex="-1"></a><span class="in">    C --&gt; D[Schemas]</span></span>
+<span id="cb2-191"><a href="#cb2-191" aria-hidden="true" tabindex="-1"></a><span class="in">    D --&gt; E[Python&lt;br/&gt;WikibaseIntegrator]</span></span>
+<span id="cb2-192"><a href="#cb2-192" aria-hidden="true" tabindex="-1"></a><span class="in">    E --&gt; F[Wikibase]</span></span>
+<span id="cb2-193"><a href="#cb2-193" aria-hidden="true" tabindex="-1"></a><span class="in">    </span></span>
+<span id="cb2-194"><a href="#cb2-194" aria-hidden="true" tabindex="-1"></a><span class="in">    style A min-width:150px</span></span>
+<span id="cb2-195"><a href="#cb2-195" aria-hidden="true" tabindex="-1"></a><span class="in">    style B min-width:150px</span></span>
+<span id="cb2-196"><a href="#cb2-196" aria-hidden="true" tabindex="-1"></a><span class="in">    style C min-width:150px</span></span>
+<span id="cb2-197"><a href="#cb2-197" aria-hidden="true" tabindex="-1"></a><span class="in">    style D min-width:150px</span></span>
+<span id="cb2-198"><a href="#cb2-198" aria-hidden="true" tabindex="-1"></a><span class="in">    style E min-width:250px</span></span>
+<span id="cb2-199"><a href="#cb2-199" aria-hidden="true" tabindex="-1"></a><span class="in">    style F min-width:150px</span></span>
+<span id="cb2-200"><a href="#cb2-200" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb2-201"><a href="#cb2-201" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-202"><a href="#cb2-202" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-203"><a href="#cb2-203" aria-hidden="true" tabindex="-1"></a>::: {.column width="70%"}</span>
+<span id="cb2-204"><a href="#cb2-204" aria-hidden="true" tabindex="-1"></a>&lt;img src="images/xml2.png" title="xml" alt="xml" width="80%"/&gt;</span>
+<span id="cb2-205"><a href="#cb2-205" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-206"><a href="#cb2-206" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-207"><a href="#cb2-207" aria-hidden="true" tabindex="-1"></a>::::: </span>
+<span id="cb2-208"><a href="#cb2-208" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-209"><a href="#cb2-209" aria-hidden="true" tabindex="-1"></a>::: aside</span>
+<span id="cb2-210"><a href="#cb2-210" aria-hidden="true" tabindex="-1"></a>Data can be browsed as XML and XSLT transforms here: <span class="co">[</span><span class="ot">ClimateKG Data</span><span class="co">](https://tibhannover.github.io/Climate-KG-data/xml-html-documentation.html)</span> (See menu item: Data Documentation)   </span>
+<span id="cb2-211"><a href="#cb2-211" aria-hidden="true" tabindex="-1"></a>:::  </span>
+<span id="cb2-212"><a href="#cb2-212" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-213"><a href="#cb2-213" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-214"><a href="#cb2-214" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-215"><a href="#cb2-215" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-216"><a href="#cb2-216" aria-hidden="true" tabindex="-1"></a><span class="fu">## Browsing the Corpus in MediaWiki 🔎 {.smaller}</span></span>
+<span id="cb2-217"><a href="#cb2-217" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-218"><a href="#cb2-218" aria-hidden="true" tabindex="-1"></a>&lt;img src="images/browse-clean-list.jpg" title="workflow" alt="workflow" width="70%"/&gt;</span>
+<span id="cb2-219"><a href="#cb2-219" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-220"><a href="#cb2-220" aria-hidden="true" tabindex="-1"></a>• **Cleaning** the chapter content directly in MediaWiki</span>
+<span id="cb2-221"><a href="#cb2-221" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-222"><a href="#cb2-222" aria-hidden="true" tabindex="-1"></a>• **Adding glossary and acronym content** to MediaWiki</span>
+<span id="cb2-223"><a href="#cb2-223" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-224"><a href="#cb2-224" aria-hidden="true" tabindex="-1"></a>• Building **navigation and browsing templates** for the corpus</span>
+<span id="cb2-225"><a href="#cb2-225" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-226"><a href="#cb2-226" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-227"><a href="#cb2-227" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-228"><a href="#cb2-228" aria-hidden="true" tabindex="-1"></a><span class="fu">## DevOps {.smaller}</span></span>
+<span id="cb2-229"><a href="#cb2-229" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-230"><a href="#cb2-230" aria-hidden="true" tabindex="-1"></a>A 4 stage MediaWiki/Wikibase deployment is in place with support from #semanticClimate - this will move to TIB hosting shortly once initial development resolved.</span>
+<span id="cb2-231"><a href="#cb2-231" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-232"><a href="#cb2-232" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb2-233"><a href="#cb2-233" aria-hidden="true" tabindex="-1"></a><span class="in">DATABASE/CONTENT FLOW (via sync scripts):</span></span>
+<span id="cb2-234"><a href="#cb2-234" aria-hidden="true" tabindex="-1"></a><span class="in">┌──────────────┐                    ┌──────────────┐</span></span>
+<span id="cb2-235"><a href="#cb2-235" aria-hidden="true" tabindex="-1"></a><span class="in">│   LOCAL      │◄───pull-from-dev───│     DEV      │  DEV = DB source of truth</span></span>
+<span id="cb2-236"><a href="#cb2-236" aria-hidden="true" tabindex="-1"></a><span class="in">│ (workstation)│                    │ (178...88)   │  Content edited here</span></span>
+<span id="cb2-237"><a href="#cb2-237" aria-hidden="true" tabindex="-1"></a><span class="in">└──────┬───────┘                    └──────┬───────┘</span></span>
+<span id="cb2-238"><a href="#cb2-238" aria-hidden="true" tabindex="-1"></a><span class="in">       │                                   │</span></span>
+<span id="cb2-239"><a href="#cb2-239" aria-hidden="true" tabindex="-1"></a><span class="in">       │ sync-local-to-test                │ sync-dev-to-test</span></span>
+<span id="cb2-240"><a href="#cb2-240" aria-hidden="true" tabindex="-1"></a><span class="in">       │ (staging from local)              │ (standard promotion)</span></span>
+<span id="cb2-241"><a href="#cb2-241" aria-hidden="true" tabindex="-1"></a><span class="in">       │                                   │</span></span>
+<span id="cb2-242"><a href="#cb2-242" aria-hidden="true" tabindex="-1"></a><span class="in">       ↓                                   ↓</span></span>
+<span id="cb2-243"><a href="#cb2-243" aria-hidden="true" tabindex="-1"></a><span class="in">   ┌──────────────┐                  ┌──────────────┐</span></span>
+<span id="cb2-244"><a href="#cb2-244" aria-hidden="true" tabindex="-1"></a><span class="in">   │    TEST      │──────────────────│    TEST      │</span></span>
+<span id="cb2-245"><a href="#cb2-245" aria-hidden="true" tabindex="-1"></a><span class="in">   │ (46...24)    │  (same target)   │ (46...24)    │</span></span>
+<span id="cb2-246"><a href="#cb2-246" aria-hidden="true" tabindex="-1"></a><span class="in">   └──────────────┘                  └──────┬───────┘</span></span>
+<span id="cb2-247"><a href="#cb2-247" aria-hidden="true" tabindex="-1"></a><span class="in">                                            │</span></span>
+<span id="cb2-248"><a href="#cb2-248" aria-hidden="true" tabindex="-1"></a><span class="in">                                            │ sync-dev-to-prod  (or sync-test-to-prod)</span></span>
+<span id="cb2-249"><a href="#cb2-249" aria-hidden="true" tabindex="-1"></a><span class="in">                                            │</span></span>
+<span id="cb2-250"><a href="#cb2-250" aria-hidden="true" tabindex="-1"></a><span class="in">                                            ↓</span></span>
+<span id="cb2-251"><a href="#cb2-251" aria-hidden="true" tabindex="-1"></a><span class="in">                                       ┌──────────────┐</span></span>
+<span id="cb2-252"><a href="#cb2-252" aria-hidden="true" tabindex="-1"></a><span class="in">                                       │    PROD      │  Public instance</span></span>
+<span id="cb2-253"><a href="#cb2-253" aria-hidden="true" tabindex="-1"></a><span class="in">                                       │ (178...174)  │</span></span>
+<span id="cb2-254"><a href="#cb2-254" aria-hidden="true" tabindex="-1"></a><span class="in">                                       └──────────────┘</span></span>
+<span id="cb2-255"><a href="#cb2-255" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb2-256"><a href="#cb2-256" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-257"><a href="#cb2-257" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-258"><a href="#cb2-258" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-259"><a href="#cb2-259" aria-hidden="true" tabindex="-1"></a><span class="fu">## Data Analysis &amp; Visualisation {.smaller}</span></span>
+<span id="cb2-260"><a href="#cb2-260" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-261"><a href="#cb2-261" aria-hidden="true" tabindex="-1"></a>::::: columns</span>
+<span id="cb2-262"><a href="#cb2-262" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
+<span id="cb2-263"><a href="#cb2-263" aria-hidden="true" tabindex="-1"></a><span class="fu">### Gender Equality</span></span>
+<span id="cb2-264"><a href="#cb2-264" aria-hidden="true" tabindex="-1"></a>&lt;img src="images/overall-ar6-distribution.svg" title="distribution" alt="distribution" width="50%"/&gt;</span>
+<span id="cb2-265"><a href="#cb2-265" aria-hidden="true" tabindex="-1"></a>&lt;img src="images/overall-ar6-distribution.svg" title="distribution" alt="distribution" width="50%"/&gt;</span>
+<span id="cb2-266"><a href="#cb2-266" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-267"><a href="#cb2-267" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-268"><a href="#cb2-268" aria-hidden="true" tabindex="-1"></a>::: {.column width="50%"}</span>
+<span id="cb2-269"><a href="#cb2-269" aria-hidden="true" tabindex="-1"></a><span class="fu">### Data Dashboard</span></span>
+<span id="cb2-270"><a href="#cb2-270" aria-hidden="true" tabindex="-1"></a>&lt;img src="images/dashboard.png" title="Dashboard" alt="Dashboard" width="50%"/&gt;</span>
+<span id="cb2-271"><a href="#cb2-271" aria-hidden="true" tabindex="-1"></a>&lt;img src="images/dashboard.png" title="Dashboard" alt="Dashboard" width="50%"/&gt;</span>
+<span id="cb2-272"><a href="#cb2-272" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-273"><a href="#cb2-273" aria-hidden="true" tabindex="-1"></a>:::::</span>
+<span id="cb2-274"><a href="#cb2-274" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-275"><a href="#cb2-275" aria-hidden="true" tabindex="-1"></a>::: aside</span>
+<span id="cb2-276"><a href="#cb2-276" aria-hidden="true" tabindex="-1"></a>Generated direct from Wikibase KG using Python, Notebooks, and Quarto: <span class="co">[</span><span class="ot">tibhannover.github.io/Climate-KG-data/</span><span class="co">](https://tibhannover.github.io/Climate-KG-data/)</span></span>
+<span id="cb2-277"><a href="#cb2-277" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-278"><a href="#cb2-278" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-279"><a href="#cb2-279" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-280"><a href="#cb2-280" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-281"><a href="#cb2-281" aria-hidden="true" tabindex="-1"></a><span class="fu">## Output Option: CSS Paged Media 📖 {.smaller}</span></span>
+<span id="cb2-282"><a href="#cb2-282" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-283"><a href="#cb2-283" aria-hidden="true" tabindex="-1"></a>::::: columns</span>
+<span id="cb2-284"><a href="#cb2-284" aria-hidden="true" tabindex="-1"></a>::: {.column width="60%"}</span>
+<span id="cb2-285"><a href="#cb2-285" aria-hidden="true" tabindex="-1"></a>&lt;img src="images/typeset-output-image.png" title="workflow" alt="workflow" width="70%"/&gt;</span>
+<span id="cb2-286"><a href="#cb2-286" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-287"><a href="#cb2-287" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-288"><a href="#cb2-288" aria-hidden="true" tabindex="-1"></a>::: {.column width="40%"}</span>
+<span id="cb2-289"><a href="#cb2-289" aria-hidden="true" tabindex="-1"></a>&lt;img src="images/paged-media.png" title="paged media" alt="paged media" width="70%"/&gt;</span>
+<span id="cb2-290"><a href="#cb2-290" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-291"><a href="#cb2-291" aria-hidden="true" tabindex="-1"></a>:::::</span>
+<span id="cb2-292"><a href="#cb2-292" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-293"><a href="#cb2-293" aria-hidden="true" tabindex="-1"></a>• One possible **output option**: using **CSS Paged Media** to typeset the corpus content into a **print-ready format**</span>
+<span id="cb2-294"><a href="#cb2-294" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-295"><a href="#cb2-295" aria-hidden="true" tabindex="-1"></a>--- </span>
+<span id="cb2-296"><a href="#cb2-296" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-297"><a href="#cb2-297" aria-hidden="true" tabindex="-1"></a><span class="fu">## ClimateKG Next Steps 🚀 {.smaller}</span></span>
+<span id="cb2-298"><a href="#cb2-298" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-299"><a href="#cb2-299" aria-hidden="true" tabindex="-1"></a><span class="fu">### Planned use: </span></span>
+<span id="cb2-300"><a href="#cb2-300" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-301"><a href="#cb2-301" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>A resource for data science — to use and contribute</span>
+<span id="cb2-302"><a href="#cb2-302" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Citizen science activities — Chapter annotation and enrichment </span>
+<span id="cb2-303"><a href="#cb2-303" aria-hidden="true" tabindex="-1"></a><span class="ss">-  </span>Distribute to commons (Wikidata)  </span>
+<span id="cb2-304"><a href="#cb2-304" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-305"><a href="#cb2-305" aria-hidden="true" tabindex="-1"></a><span class="fu">### Goals:</span></span>
+<span id="cb2-306"><a href="#cb2-306" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-307"><a href="#cb2-307" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Corpus KG service — Computation Publishing Service (CPS)</span>
+<span id="cb2-308"><a href="#cb2-308" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Work with IPCC and climate community</span>
+<span id="cb2-309"><a href="#cb2-309" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Become a KG repository for *all* climate literature</span>
+<span id="cb2-310"><a href="#cb2-310" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-311"><a href="#cb2-311" aria-hidden="true" tabindex="-1"></a>*Thank you! Simon Worthington, Laura Oldenbourg, and team #semanticClimate — June '26* </span>
+<span id="cb2-312"><a href="#cb2-312" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-313"><a href="#cb2-313" aria-hidden="true" tabindex="-1"></a>::: aside</span>
+<span id="cb2-314"><a href="#cb2-314" aria-hidden="true" tabindex="-1"></a>Main &lt;/&gt; repo: <span class="co">[</span><span class="ot">github.com/TIBHannover/climate-knowledge-graph</span><span class="co">](https://github.com/TIBHannover/climate-knowledge-graph)</span></span>
+<span id="cb2-315"><a href="#cb2-315" aria-hidden="true" tabindex="-1"></a>:::</span>
+</code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
