@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>IPCC AR6 Gender Distribution – Climate-KG Data Analysis</title>
+<title>IPCC AR6 Top 10 Global South Authors – Climate-KG Data Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -96,12 +96,16 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../research_data/data-vis/gender-distribution-simple.html" aria-current="page"> 
+    <a class="nav-link" href="../../research_data/data-vis/gender-distribution-simple.html"> 
 <span class="menu-text">AR6 Gender Distribution</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research_data/data-vis/authors-top-ten.html"> 
+    <a class="nav-link active" href="../../research_data/data-vis/authors-top-ten.html" aria-current="page"> 
 <span class="menu-text">Top 10 Global South Authors</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research_data/data-vis/kg-stats-dashboard.html"> 
+<span class="menu-text">KG Inventory Dashboard</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-documentation" role="link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -152,12 +156,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ipcc-ar6-gender-distribution" id="toc-ipcc-ar6-gender-distribution" class="nav-link active" data-scroll-target="#ipcc-ar6-gender-distribution">IPCC AR6 Gender Distribution</a>
+  <li><a href="#ipcc-ar6-top-10-global-south-authors" id="toc-ipcc-ar6-top-10-global-south-authors" class="nav-link active" data-scroll-target="#ipcc-ar6-top-10-global-south-authors">IPCC AR6 Top 10 Global South Authors</a>
   <ul class="collapse">
   <li><a href="#configuration" id="toc-configuration" class="nav-link" data-scroll-target="#configuration">Configuration</a></li>
   <li><a href="#check-sparql-endpoint-availability" id="toc-check-sparql-endpoint-availability" class="nav-link" data-scroll-target="#check-sparql-endpoint-availability">Check SPARQL Endpoint Availability</a></li>
-  <li><a href="#query-author-data-from-wikibase" id="toc-query-author-data-from-wikibase" class="nav-link" data-scroll-target="#query-author-data-from-wikibase">Query Author Data from Wikibase</a></li>
-  <li><a href="#process-gender-data" id="toc-process-gender-data" class="nav-link" data-scroll-target="#process-gender-data">Process Gender Data</a></li>
+  <li><a href="#query-and-process-data" id="toc-query-and-process-data" class="nav-link" data-scroll-target="#query-and-process-data">Query and Process Data</a></li>
+  <li><a href="#map-and-chapter-sitelinks" id="toc-map-and-chapter-sitelinks" class="nav-link" data-scroll-target="#map-and-chapter-sitelinks">Map and Chapter Sitelinks</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -167,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">IPCC AR6 Gender Distribution</h1>
+<h1 class="title">IPCC AR6 Top 10 Global South Authors</h1>
 </div>
 
 
@@ -184,27 +188,25 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="ipcc-ar6-gender-distribution" class="level1">
-<h1>IPCC AR6 Gender Distribution</h1>
-<p>A simple visualization showing the gender distribution of all authors in the IPCC AR6 Assessment Report.</p>
-<p><strong>Instructions:</strong> 1. Update the SPARQL_ENDPOINT variable below with your production endpoint 2. Run all cells in this notebook to generate the chart 3. The output will be saved in the notebook 4. Quarto will render the stored output without re-executing</p>
-<p><strong>Data Source:</strong> SPARQL endpoint (Wikibase)<br>
-<strong>Visualization:</strong> Single Plotly bar chart</p>
+<section id="ipcc-ar6-top-10-global-south-authors" class="level1">
+<h1>IPCC AR6 Top 10 Global South Authors</h1>
+<p>Interactive map showing the top 10 IPCC AR6 authors who are <strong>resident in the Global South</strong>, ranked by number of chapters contributed to. Each author’s chapter contributions link directly to their Wikibase items.</p>
+<p><strong>Instructions:</strong> 1. Update the <code>WIKI_BASE_URL</code> and <code>SPARQL_ENDPOINT</code> variables for your environment 2. Run all cells to generate the map and table 3. Quarto will render the stored outputs without re-executing</p>
+<p><strong>Data Source:</strong> Wikibase SPARQL endpoint + <code>authors-ar6.csv</code><br>
+<strong>Visualisation:</strong> Plotly geographic map + chapter sitelinks table</p>
 <section id="configuration" class="level2">
 <h2 class="anchored" data-anchor-id="configuration">Configuration</h2>
 <p>Update <code>WIKI_BASE_URL</code> and <code>SPARQL_ENDPOINT</code> to match your environment:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 23%">
-<col style="width: 27%">
-<col style="width: 18%">
-<col style="width: 30%">
+<col style="width: 28%">
+<col style="width: 33%">
+<col style="width: 37%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Environment</th>
 <th>Wiki Base URL</th>
-<th>Query UI</th>
 <th>SPARQL Endpoint</th>
 </tr>
 </thead>
@@ -212,95 +214,146 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td><strong>LOCAL</strong></td>
 <td><code>http://localhost:8080</code></td>
-<td><code>http://localhost:8081</code></td>
 <td><code>http://localhost:9999/bigdata/namespace/wdq/sparql</code></td>
 </tr>
 <tr class="even">
 <td><strong>DEV</strong></td>
 <td><code>https://dev-climatekg.semanticclimate.org</code></td>
-<td><code>https://dev-climatekg.semanticclimate.org/query/</code></td>
 <td><code>https://dev-climatekg.semanticclimate.org/query/proxy/sparql</code></td>
 </tr>
 <tr class="odd">
 <td><strong>TEST</strong></td>
 <td><code>https://test-climatekg.semanticclimate.org</code></td>
-<td><code>https://test-climatekg.semanticclimate.org/query/</code></td>
 <td><code>https://test-climatekg.semanticclimate.org/query/proxy/sparql</code></td>
 </tr>
 <tr class="even">
 <td><strong>PROD</strong></td>
 <td><code>https://prod-climatekg.semanticclimate.org</code></td>
-<td><code>https://prod-climatekg.semanticclimate.org/query/</code></td>
 <td><code>https://prod-climatekg.semanticclimate.org/query/proxy/sparql</code></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Note:</strong> The SPARQL query prefixes (<code>wdt:</code>, <code>wd:</code>) are built from <code>WIKI_BASE_URL</code> automatically.</p>
 </section>
 <section id="check-sparql-endpoint-availability" class="level2">
 <h2 class="anchored" data-anchor-id="check-sparql-endpoint-availability">Check SPARQL Endpoint Availability</h2>
-<p><strong>Troubleshooting if connection fails:</strong></p>
-<ol type="1">
-<li><strong>Is the WDQS container running?</strong>
-<ul>
-<li><code>docker compose ps</code> — all 5 containers should show <code>healthy</code> or <code>running</code></li>
-<li><code>docker compose up -d</code> to start the stack</li>
-</ul></li>
-<li><strong>Correct LOCAL URLs:</strong>
-<ul>
-<li>Wiki: <code>http://localhost:8080</code></li>
-<li>Query UI (web interface): <code>http://localhost:8081</code></li>
-<li>SPARQL endpoint (direct access): <code>http://localhost:9999/bigdata/namespace/wdq/sparql</code></li>
-</ul></li>
-<li><strong>Test the endpoint in your browser:</strong>
-<ul>
-<li>Open http://localhost:9999/bigdata/namespace/wdq/sparql</li>
-</ul></li>
-</ol>
+<p><strong>Troubleshooting:</strong> - <code>docker compose ps</code> — confirm all containers are running - LOCAL SPARQL: <code>http://localhost:9999/bigdata/namespace/wdq/sparql</code></p>
 </section>
-<section id="query-author-data-from-wikibase" class="level2">
-<h2 class="anchored" data-anchor-id="query-author-data-from-wikibase">Query Author Data from Wikibase</h2>
-<div id="a74cdfef" class="cell" data-execution_count="28">
+<section id="query-and-process-data" class="level2">
+<h2 class="anchored" data-anchor-id="query-and-process-data">Query and Process Data</h2>
+<div id="51a153fb" class="cell" data-execution_count="4">
 <div class="cell-output cell-output-stdout">
-<pre><code>Querying Wikibase for author data...
-Using Wiki base: http://localhost:8080
-Using SPARQL endpoint: http://localhost:9999/bigdata/namespace/wdq/sparql
-Properties: P1 (instance of), P23 (gender), P20 (ClimateKG Author ID)
+<pre><code>Wikibase author entities: 932
+CSV rows loaded:          1,164
+Global South authors (resident): 351
 
-Raw SPARQL results:            1,864
-  — with ClimateKG UID:        1,864
-  — without ClimateKG UID:     0
-After dedup by UID:            932 unique authors
-  — duplicates removed:        932
-  — with gender set:           932
-
-Raw gender values (pre-dedup):
-gender
-M    1270
-F     594
-
-Gender values (unique authors):
-gender
-M    635
-F    297</code></pre>
+Top 10 by chapter contributions:
+   1. Amjad Abdulla                  Maldives                  4 chapters
+   2. Fatima Denton                  Ghana                     4 chapters
+   3. Aditi Mukherji                 Kenya                     4 chapters
+   4. Aromar Revi                    India                     4 chapters
+   5. Joyashree Roy                  India                     4 chapters
+   6. Paulina Aldunce                Chile                     3 chapters
+   7. Gabriel Blanco                 Argentina                 3 chapters
+   8. Dipak Dasgupta                 India                     3 chapters
+   9. Aïda Diongue-Niang             Senegal                   3 chapters
+  10. Rodel Lasco                    Philippines               3 chapters</code></pre>
 </div>
 </div>
 </section>
-<section id="process-gender-data" class="level2">
-<h2 class="anchored" data-anchor-id="process-gender-data">Process Gender Data</h2>
-<div id="e1cd259d" class="cell" data-execution_count="29">
-<div class="cell-output cell-output-stdout">
-<pre><code>Gender Distribution (unique authors by ClimateKG Author ID):
-=============================================
-Gender  Count  Percentage
-Female    297        31.9
-  Male    635        68.1
-
-Total unique authors: 932</code></pre>
+<section id="map-and-chapter-sitelinks" class="level2">
+<h2 class="anchored" data-anchor-id="map-and-chapter-sitelinks">Map and Chapter Sitelinks</h2>
+<div id="84d201e2" class="cell" data-execution_count="5">
+<div class="cell-output cell-output-display">
+<div style="height:520px; width:100%;">                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.6.0.min.js" integrity="sha256-QaOVwtVY0T02VaHrr6pnoHLCwayMJp4O5n4YyaE3rJk=" crossorigin="anonymous"></script>                <div id="688c8d04-677f-4224-9b8c-e10afad75a5d" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("688c8d04-677f-4224-9b8c-e10afad75a5d")) {                    Plotly.newPlot(                        "688c8d04-677f-4224-9b8c-e10afad75a5d",                        [{"customdata":[["Maldives",4,"Maldives",1],["Ghana",4,"Ghana",2],["Kenya",4,"Kenya",3],["India",4,"India",4],["India",4,"India",5],["Chile",3,"Chile",6],["Argentina",3,"Argentina",7],["India",3,"India",8],["Senegal",3,"Senegal",9],["Philippines",3,"Philippines",10]],"geo":"geo","hovertemplate":"\u003cb\u003e%{hovertext}\u003c\u002fb\u003e\u003cbr\u003e\u003cbr\u003echapter_count=%{marker.color}\u003cbr\u003ecountry=%{customdata[0]}\u003cbr\u003erank=%{customdata[3]}\u003cextra\u003e\u003c\u002fextra\u003e","hovertext":["Amjad Abdulla","Fatima Denton","Aditi Mukherji","Aromar Revi","Joyashree Roy","Paulina Aldunce","Gabriel Blanco","Dipak Dasgupta","Aïda Diongue-Niang","Rodel Lasco"],"legendgroup":"","locationmode":"country names","locations":["Maldives","Ghana","Kenya","India","India","Chile","Argentina","India","Senegal","Philippines"],"marker":{"color":{"dtype":"i1","bdata":"BAQEBAQDAwMDAw=="},"coloraxis":"coloraxis","size":{"dtype":"i1","bdata":"BAQEBAQDAwMDAw=="},"sizemode":"area","sizeref":0.0032653061224489797,"symbol":"circle"},"mode":"markers","name":"","showlegend":false,"type":"scattergeo"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"geo":{"domain":{"x":[0.0,1.0],"y":[0.0,1.0]},"projection":{"type":"natural earth"},"center":{},"showframe":false,"showcoastlines":true,"coastlinecolor":"#aaaaaa","showland":true,"landcolor":"#f5f5f0","showocean":true,"oceancolor":"#e8f0f8"},"coloraxis":{"colorbar":{"title":{"text":"Chapters"}},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"autocolorscale":false},"legend":{"tracegroupgap":0,"itemsizing":"constant"},"title":{"text":"Top 10 IPCC AR6 Authors Resident in the Global South"},"margin":{"r":0,"t":50,"l":0,"b":0},"height":520},                        {"responsive": true}                    )                };            </script>        </div>
 </div>
 <div class="cell-output cell-output-display">
-<div style="height:500px; width:100%;">                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.6.0.min.js" integrity="sha256-QaOVwtVY0T02VaHrr6pnoHLCwayMJp4O5n4YyaE3rJk=" crossorigin="anonymous"></script>                <div id="ca80f3f2-3613-4dbb-abdf-1dd5deebab8b" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("ca80f3f2-3613-4dbb-abdf-1dd5deebab8b")) {                    Plotly.newPlot(                        "ca80f3f2-3613-4dbb-abdf-1dd5deebab8b",                        [{"hovertemplate":"Gender=%{x}\u003cbr\u003eCount=%{text}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Female","marker":{"color":"#A23B72","pattern":{"shape":""}},"name":"Female","orientation":"v","showlegend":true,"text":{"dtype":"f8","bdata":"AAAAAACQckA="},"textposition":"outside","x":["Female"],"xaxis":"x","y":{"dtype":"i2","bdata":"KQE="},"yaxis":"y","type":"bar","customdata":{"dtype":"f8","bdata":"ZmZmZmbmP0BmZmZmZgZRQA=="},"texttemplate":"%{text}\u003cbr\u003e(%{customdata:.1f}%)"},{"hovertemplate":"Gender=%{x}\u003cbr\u003eCount=%{text}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Male","marker":{"color":"#2E86AB","pattern":{"shape":""}},"name":"Male","orientation":"v","showlegend":true,"text":{"dtype":"f8","bdata":"AAAAAADYg0A="},"textposition":"outside","x":["Male"],"xaxis":"x","y":{"dtype":"i2","bdata":"ewI="},"yaxis":"y","type":"bar","customdata":{"dtype":"f8","bdata":"ZmZmZmbmP0BmZmZmZgZRQA=="},"texttemplate":"%{text}\u003cbr\u003e(%{customdata:.1f}%)"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Gender"},"categoryorder":"array","categoryarray":["Female","Male"]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Number of Authors"},"range":[0,730.25]},"legend":{"title":{"text":"Gender"},"tracegroupgap":0},"title":{"text":"IPCC AR6 Authors: Gender Distribution"},"barmode":"relative","font":{"size":12},"height":500,"showlegend":false},                        {"responsive": true}                    )                };            </script>        </div>
+
+<h3 style="margin-top:1.5em" class="anchored">Chapter Contributions with Wikibase Sitelinks</h3>
+
+<table class="caption-top table table-sm table-striped small" data-quarto-postprocess="true">
+<thead>
+<tr class="header" style="background:#2E86AB; color:white">
+<th data-quarto-table-cell-role="th" style="text-align: center; padding: 8px;">#</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; padding: 8px;">Author</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; padding: 8px;">Country of Residence</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; padding: 8px;">Chapters</th>
+<th data-quarto-table-cell-role="th" style="text-align: left; padding: 8px;">Chapter Sitelinks (Wikibase)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd" style="background:#ffffff; vertical-align:top">
+<td style="text-align: center; padding: 8px; font-weight: bold;">1</td>
+<td style="padding: 8px">Amjad Abdulla</td>
+<td style="padding: 8px">Maldives</td>
+<td style="text-align: center; padding: 8px;">4</td>
+<td style="padding: 8px; font-size: 12px"><a href="http://localhost:8080/wiki/Item:Q184" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">Chapter 15: Investment and finance</a><a href="http://localhost:8080/wiki/Item:Q30" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">Chapter 4: Strengthening and implementing the global response to the t…</a><a href="http://localhost:8080/wiki/Item:Q54" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">Chapter 6: Interlinkages between desertification, land degradation, fo…</a><a href="http://localhost:8080/wiki/Item:Q74" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">Chapter 6: Extremes, Abrupt Changes and Managing Risks</a></td>
+</tr>
+<tr class="even" style="background:#f9f9f9; vertical-align:top">
+<td style="text-align: center; padding: 8px; font-weight: bold;">2</td>
+<td style="padding: 8px">Fatima Denton</td>
+<td style="padding: 8px">Ghana</td>
+<td style="text-align: center; padding: 8px;">4</td>
+<td style="padding: 8px; font-size: 12px"><a href="http://localhost:8080/wiki/Item:Q188" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">Chapter 17: Accelerating the transition in the context of sustainable …</a><a href="http://localhost:8080/wiki/Item:Q190" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">SPM</a><a href="http://localhost:8080/wiki/Item:Q192" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">LR</a><a href="http://localhost:8080/wiki/Item:Q44" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">Chapter 1: Framing and Context</a></td>
+</tr>
+<tr class="odd" style="background:#ffffff; vertical-align:top">
+<td style="text-align: center; padding: 8px; font-weight: bold;">3</td>
+<td style="padding: 8px">Aditi Mukherji</td>
+<td style="padding: 8px">Kenya</td>
+<td style="text-align: center; padding: 8px;">4</td>
+<td style="padding: 8px; font-size: 12px"><a href="http://localhost:8080/wiki/Item:Q116" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">Chapter 4: Water</a><a href="http://localhost:8080/wiki/Item:Q190" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">SPM</a><a href="http://localhost:8080/wiki/Item:Q192" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">LR</a><a href="http://localhost:8080/wiki/Item:Q67" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">Chapter 2: High Mountain Areas</a></td>
+</tr>
+<tr class="even" style="background:#f9f9f9; vertical-align:top">
+<td style="text-align: center; padding: 8px; font-weight: bold;">4</td>
+<td style="padding: 8px">Aromar Revi</td>
+<td style="padding: 8px">India</td>
+<td style="text-align: center; padding: 8px;">4</td>
+<td style="padding: 8px; font-size: 12px"><a href="http://localhost:8080/wiki/Item:Q136" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">Chapter 18: Climate resilient development pathways</a><a href="http://localhost:8080/wiki/Item:Q190" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">SPM</a><a href="http://localhost:8080/wiki/Item:Q192" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">LR</a><a href="http://localhost:8080/wiki/Item:Q30" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">Chapter 4: Strengthening and implementing the global response to the t…</a></td>
+</tr>
+<tr class="odd" style="background:#ffffff; vertical-align:top">
+<td style="text-align: center; padding: 8px; font-weight: bold;">5</td>
+<td style="padding: 8px">Joyashree Roy</td>
+<td style="padding: 8px">India</td>
+<td style="text-align: center; padding: 8px;">4</td>
+<td style="padding: 8px; font-size: 12px"><a href="http://localhost:8080/wiki/Item:Q164" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">Chapter 5: Demand, services and social aspects of mitigation</a><a href="http://localhost:8080/wiki/Item:Q190" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">SPM</a><a href="http://localhost:8080/wiki/Item:Q192" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">LR</a><a href="http://localhost:8080/wiki/Item:Q33" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">Chapter 5: Sustainable development, poverty eradication, and reducing …</a></td>
+</tr>
+<tr class="even" style="background:#f9f9f9; vertical-align:top">
+<td style="text-align: center; padding: 8px; font-weight: bold;">6</td>
+<td style="padding: 8px">Paulina Aldunce</td>
+<td style="padding: 8px">Chile</td>
+<td style="text-align: center; padding: 8px;">3</td>
+<td style="padding: 8px; font-size: 12px"><a href="http://localhost:8080/wiki/Item:Q123" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">Chapter 7: Health, wellbeing and the changing structure of communities</a><a href="http://localhost:8080/wiki/Item:Q190" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">SPM</a><a href="http://localhost:8080/wiki/Item:Q192" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">LR</a></td>
+</tr>
+<tr class="odd" style="background:#ffffff; vertical-align:top">
+<td style="text-align: center; padding: 8px; font-weight: bold;">7</td>
+<td style="padding: 8px">Gabriel Blanco</td>
+<td style="padding: 8px">Argentina</td>
+<td style="text-align: center; padding: 8px;">3</td>
+<td style="padding: 8px; font-size: 12px"><a href="http://localhost:8080/wiki/Item:Q186" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">Chapter 16: Innovation, technology development and transfer</a><a href="http://localhost:8080/wiki/Item:Q190" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">SPM</a><a href="http://localhost:8080/wiki/Item:Q192" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">LR</a></td>
+</tr>
+<tr class="even" style="background:#f9f9f9; vertical-align:top">
+<td style="text-align: center; padding: 8px; font-weight: bold;">8</td>
+<td style="padding: 8px">Dipak Dasgupta</td>
+<td style="padding: 8px">India</td>
+<td style="text-align: center; padding: 8px;">3</td>
+<td style="padding: 8px; font-size: 12px"><a href="http://localhost:8080/wiki/Item:Q184" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">Chapter 15: Investment and finance</a><a href="http://localhost:8080/wiki/Item:Q190" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">SPM</a><a href="http://localhost:8080/wiki/Item:Q192" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">LR</a></td>
+</tr>
+<tr class="odd" style="background:#ffffff; vertical-align:top">
+<td style="text-align: center; padding: 8px; font-weight: bold;">9</td>
+<td style="padding: 8px">Aïda Diongue-Niang</td>
+<td style="padding: 8px">Senegal</td>
+<td style="text-align: center; padding: 8px;">3</td>
+<td style="padding: 8px; font-size: 12px"><a href="http://localhost:8080/wiki/Item:Q190" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">SPM</a><a href="http://localhost:8080/wiki/Item:Q192" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">LR</a><a href="http://localhost:8080/wiki/Item:Q83" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">Chapter 1: Framing, context, methods</a></td>
+</tr>
+<tr class="even" style="background:#f9f9f9; vertical-align:top">
+<td style="text-align: center; padding: 8px; font-weight: bold;">10</td>
+<td style="padding: 8px">Rodel Lasco</td>
+<td style="padding: 8px">Philippines</td>
+<td style="text-align: center; padding: 8px;">3</td>
+<td style="padding: 8px; font-size: 12px"><a href="http://localhost:8080/wiki/Item:Q117" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">Chapter 5: Food, fibre, and other ecosystem products</a><a href="http://localhost:8080/wiki/Item:Q190" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">SPM</a><a href="http://localhost:8080/wiki/Item:Q192" target="_blank" style="display:block; margin:2px 0; color:#2E86AB">LR</a></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 

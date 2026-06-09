@@ -19,6 +19,8 @@ website:
         file: research_data/data-vis/gender-distribution-simple.ipynb
       - text: "Top 10 Global South Authors"
         file: research_data/data-vis/authors-top-ten.ipynb
+      - text: "KG Inventory Dashboard"
+        file: research_data/data-vis/kg-stats-dashboard.ipynb
       # - text: "AR6 Authors Analysis"
       #   file: research_data/data-vis/ar6-authors-distribution-analysis.ipynb
       # - text: "Wikibase Inventory"
